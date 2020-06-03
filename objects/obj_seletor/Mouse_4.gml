@@ -22,5 +22,17 @@ case 3:{
 	} else show_message("Está fase ainda não está disponivel");
 	break; 
 }
+case 4:{
+	if(global.Fase_Destravada == 4) {
+		show_message("Fase 4")
+	} else show_message("Está fase ainda não está disponivel");
+	break; 
+}
+case 5:{
+	if(global.Fase_Destravada == 5) {
+		show_message("Fase 5")
+	} else show_message("Está fase ainda não está disponivel");
+	break; 
+}
 
 }

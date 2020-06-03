@@ -13,6 +13,16 @@ case 3:{
 	image_index = 2;
 	break;
 }
+case 4:{ 
+	image_index = 3;
+	break;
+}
+	
+case 5:{ 
+	image_index = 4;
+	break;
+}
+	
 	
 
 }
