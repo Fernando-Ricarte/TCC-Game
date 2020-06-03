@@ -7,3 +7,4 @@ xx = x;
 yy = y;
 altura = 64;
 ativo = false;
+alpha = 1;
