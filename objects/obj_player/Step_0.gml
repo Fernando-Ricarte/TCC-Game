@@ -1,7 +1,8 @@
- /// @description Insert description here
+   /// @description Insert description here
 // You can write your code in this editor
 //movimentação pra direita
 if(keyboard_check(ord("D"))){
+	sprite_index = spr_running;
 	x+=spd;
 	image_xscale = 1;
 }
@@ -10,6 +11,7 @@ if(keyboard_check(ord("D"))){
 
 //movimentação pra esquerda
 if(keyboard_check(ord("A"))){
+	sprite_index = spr_running;
 	x-=spd;
 	image_xscale = -1;
 }
@@ -18,6 +20,7 @@ if(keyboard_check(ord("A"))){
 
 //comando do pulo
 if(keyboard_check(vk_space)){
+	sprite_index = spr_jump;
 	if(!place_free(x,y+1)){
 		pulo = true;
 	}
