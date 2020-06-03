@@ -8,5 +8,7 @@ gravid = 0.4;
 fallspd = 2;
 
 pulo = false;
+pulando = false;
+
 jumpheight = 128;
 jumpFrame = 0;

@@ -1,28 +1,39 @@
    /// @description Insert description here
 // You can write your code in this editor
 //movimentação pra direita
+
 if(keyboard_check(ord("D"))){
-	sprite_index = spr_running;
 	x+=spd;
 	image_xscale = 1;
+	
+	//só solta animação de correndo se não estiver pulando
+	if(!pulando){
+		sprite_index = spr_running;
+	}
 }
 	 
 
 
 //movimentação pra esquerda
 if(keyboard_check(ord("A"))){
-	sprite_index = spr_running;
 	x-=spd;
 	image_xscale = -1;
+	
+	//só solta animação de correndo se não estiver pulando
+	if(!pulando){
+		sprite_index = spr_running;
+	}
 }
 	
-
+if(pulando){
+	sprite_index = spr_jump;
+}
 
 //comando do pulo
 if(keyboard_check(vk_space)){
-	sprite_index = spr_jump;
 	if(!place_free(x,y+1)){
 		pulo = true;
+		pulando = true;
 	}
 
 }
@@ -51,7 +62,8 @@ if (pulo == false){
 		y+=fallspd;
 		fallspd+=gravid;
 	}else{
-	fallspd = 2;  
+	fallspd = 2;
+	pulando = false;
 	while(place_free(x,y+1)){
 		y++;
 	}
