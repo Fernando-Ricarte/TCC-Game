@@ -266,7 +266,7 @@
             "Key": "61e5d7c6-744e-4871-9e58-4eb3c6912acd",
             "Value": {
                 "id": "e2327d2b-407a-4c82-a1eb-c87fffbd0122",
-                "resourcePath": "tilesets\\tileset0\\tileset0.yy",
+                "resourcePath": "tilesets\\tileset_add\\tileset_add.yy",
                 "resourceType": "GMTileSet"
             }
         },
@@ -431,6 +431,14 @@
             }
         },
         {
+            "Key": "93832a14-5f86-4989-a10e-9f19f6cf1859",
+            "Value": {
+                "id": "58ad0ca8-e951-495a-ae50-42f924e93bad",
+                "resourcePath": "sprites\\sprite_terra\\sprite_terra.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
             "Value": {
                 "id": "a82c377a-1524-4bfd-937e-2222dd7e5874",
@@ -540,6 +548,14 @@
                 "id": "1153e6ff-57b9-481b-8a5c-a7efd702bf55",
                 "resourcePath": "rooms\\Menu_Principal\\Menu_Principal.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "e2020297-45cc-41fe-a33c-a6f6fba237a6",
+            "Value": {
+                "id": "52ee857c-8711-4fcf-86a3-1dee91c51fd8",
+                "resourcePath": "tilesets\\tileset1\\tileset1.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
