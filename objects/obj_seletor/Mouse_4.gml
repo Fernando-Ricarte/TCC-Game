@@ -10,8 +10,8 @@ case 1:{
 }
 
 case 2:{
-	if(global.Fase_Destravada == 2) {
-		show_message("Fase 2")
+	if(global.Fase_Destravada == 1) {
+		room_goto(Fase02)
 	} else show_message("Está fase ainda não está disponivel");
 	break;
 }
