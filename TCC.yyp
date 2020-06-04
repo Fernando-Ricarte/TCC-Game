@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "4b65d727-53b0-4648-8712-a5c79f58a248",
+            "Value": {
+                "id": "0c1c67fb-53f2-42b5-bde6-4db700a323c1",
+                "resourcePath": "sounds\\Teste\\Teste.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "4ef09046-885c-40be-9a7f-be44aaf2d4d8",
             "Value": {
                 "id": "1b669eb9-103e-45b7-a407-06daac5a6afc",
@@ -364,14 +372,6 @@
                 "id": "e1d8c39a-6301-4455-ab14-0d809c151c23",
                 "resourcePath": "options\\windowsuap\\options_windowsuap.yy",
                 "resourceType": "GMWindowsUAPOptions"
-            }
-        },
-        {
-            "Key": "7e22756c-b240-4054-9022-572ffb653216",
-            "Value": {
-                "id": "ee5d4b2d-467e-4ca5-bf0a-4b3bb06fb4e9",
-                "resourcePath": "sprites\\spr_niveis\\spr_niveis.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
