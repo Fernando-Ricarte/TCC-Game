@@ -647,6 +647,14 @@
             }
         },
         {
+            "Key": "edee569c-a8a7-4ff3-aa44-d4a19e848a9d",
+            "Value": {
+                "id": "9e811ebb-1d07-4109-80db-33573091c0c2",
+                "resourcePath": "sounds\\shuriken_shoot\\shuriken_shoot.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "f14b7239-5a02-4186-bf99-55476c74fd55",
             "Value": {
                 "id": "46732a00-974a-418b-80e7-cb3ec51730d6",
