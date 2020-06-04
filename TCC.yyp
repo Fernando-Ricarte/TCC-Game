@@ -423,6 +423,14 @@
             }
         },
         {
+            "Key": "8ca6bf39-f058-45de-89b7-e5af6a8c35aa",
+            "Value": {
+                "id": "6499344f-517e-4a09-b2ae-338d235546fc",
+                "resourcePath": "objects\\obj_chaolama\\obj_chaolama.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "913a150a-9f39-478a-b7d0-4ebc7247d472",
             "Value": {
                 "id": "92ccdd85-a115-421f-a5da-1c2d0f62be5a",
@@ -444,14 +452,6 @@
                 "id": "546154b4-c083-4109-a141-963011040b0e",
                 "resourcePath": "options\\tvos\\options_tvos.yy",
                 "resourceType": "GMtvOSOptions"
-            }
-        },
-        {
-            "Key": "93832a14-5f86-4989-a10e-9f19f6cf1859",
-            "Value": {
-                "id": "58ad0ca8-e951-495a-ae50-42f924e93bad",
-                "resourcePath": "sprites\\sprite_terra\\sprite_terra.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -495,6 +495,14 @@
             }
         },
         {
+            "Key": "aa8915e3-465d-4e88-bc04-d5a72ec85ff1",
+            "Value": {
+                "id": "16ef4195-3641-4441-9567-54ef17e6b66c",
+                "resourcePath": "sprites\\sprite_lama\\sprite_lama.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ab7bcd5e-a459-4033-8bf7-1726c21c988d",
             "Value": {
                 "id": "b1f3d33c-c452-4305-9ce6-34091936bbac",
@@ -532,6 +540,14 @@
                 "id": "acf2fb33-4165-45b0-9723-0fcfb7164c6a",
                 "resourcePath": "sprites\\sprite_grama\\sprite_grama.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b8fa0418-1ee5-44b1-b8e3-300eb7c701e3",
+            "Value": {
+                "id": "4aac5962-9ca5-43bd-9724-0ef064a4be05",
+                "resourcePath": "tilesets\\tileset2\\tileset2.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -692,6 +708,14 @@
                 "id": "efd439c4-f66d-4e35-b2da-df1b3ec6a9f4",
                 "resourcePath": "objects\\obj_User_Interface\\obj_User_Interface.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "feb03af7-72d4-498c-b50e-36e574780541",
+            "Value": {
+                "id": "93d7daf3-0010-4e44-84a4-f1bc820ba788",
+                "resourcePath": "sprites\\spr_chaolama\\spr_chaolama.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
