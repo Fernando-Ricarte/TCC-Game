@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "39af50b3-28ce-4048-b843-a01f86998ba3",
+            "Value": {
+                "id": "500dbbde-c2b4-4431-9200-93c79af2eea5",
+                "resourcePath": "sounds\\soundFase2\\soundFase2.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "3a5af38c-757d-41ae-98c0-5d4b09e14e6a",
             "Value": {
                 "id": "ac81cb87-e786-4b43-a092-7f5a8f1e2e4e",
