@@ -1,6 +1,6 @@
-/// @description Insert description here
+ /// @description Insert description here
 // You can write your code in this editor
-var hp = obj_player.hp;
+var hp = global.hp;
 var xx = 20;
 var yy = 20;
 var ww = xx + ((hp/100) * 150);
@@ -10,6 +10,7 @@ var hh = yy + 15;
     
 draw_set_color(c_red);
 draw_rectangle(xx,yy,ww2,hh,0);
+
 
 draw_set_color(c_lime);
 draw_rectangle(xx,yy,ww,hh,0);

@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "2f642a3c-3198-43f8-855e-8369e351b4ec",
+            "Value": {
+                "id": "f466665d-6f22-449d-880b-92ad71374d12",
+                "resourcePath": "sprites\\spr_health_bar\\spr_health_bar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "329d01cf-8117-4628-afe7-1f20be4e4cf8",
             "Value": {
                 "id": "f8958cb3-25f0-49b1-b301-47297f36e776",
@@ -343,6 +351,14 @@
             }
         },
         {
+            "Key": "5a56cb8b-35d4-4f2a-9120-b88976ebae2f",
+            "Value": {
+                "id": "6b356fe6-cd47-4726-b99a-5d157b5c7122",
+                "resourcePath": "sprites\\ui_big_pieces\\ui_big_pieces.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5e21af30-c133-49c6-a516-f91ea89110a9",
             "Value": {
                 "id": "460603b6-ba81-4e46-9d15-f7ecfcad60d5",
@@ -387,6 +403,14 @@
             "Value": {
                 "id": "e60fee15-b55e-4a06-a248-763609a11523",
                 "resourcePath": "views\\697490a7-e0ac-4a18-8ead-866600e03f4a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7016d21c-ca65-452b-ad0f-a4d1cd37a6b7",
+            "Value": {
+                "id": "48e3eb9c-2f26-45b3-a94b-50b15c9b1229",
+                "resourcePath": "views\\7016d21c-ca65-452b-ad0f-a4d1cd37a6b7.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -631,6 +655,14 @@
             }
         },
         {
+            "Key": "b80bc70f-c241-4a6c-898b-a33e5bdbb088",
+            "Value": {
+                "id": "f1ca756e-bcc0-499e-be32-8a1d77931f44",
+                "resourcePath": "objects\\obj_hp_bar\\obj_hp_bar.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b8fa0418-1ee5-44b1-b8e3-300eb7c701e3",
             "Value": {
                 "id": "4aac5962-9ca5-43bd-9724-0ef064a4be05",
@@ -740,6 +772,14 @@
                 "id": "29af7c8a-a263-473d-be9d-f3615f991b49",
                 "resourcePath": "options\\android\\options_android.yy",
                 "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
+            "Key": "e485527c-b4e1-40b9-b627-56209f337b68",
+            "Value": {
+                "id": "f7060885-c9e6-4d5e-bb2b-fec7cfdcd9b0",
+                "resourcePath": "sprites\\spr_health\\spr_health.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

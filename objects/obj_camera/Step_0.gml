@@ -1,4 +1,4 @@
-/// @description Camera seguir o jogador
+ /// @description Camera seguir o jogador
 
 
 if(instance_exists(follow))

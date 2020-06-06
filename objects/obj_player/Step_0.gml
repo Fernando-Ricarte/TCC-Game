@@ -69,3 +69,10 @@ if (pulo == false){
 	}
 	}
 }
+
+//morte
+if(global.hp <= 0){
+ show_message("Você morreu!");
+ room_restart();
+
+}
