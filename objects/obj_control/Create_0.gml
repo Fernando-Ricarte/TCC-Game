@@ -3,13 +3,14 @@
 
 scr_init_inventory();
 
-scr_gain_item(item.apple, 3);
-scr_gain_item(item.staff, 1);
-scr_gain_item(item.sword, 2);
-global.inventory[# 5, 0] = item.health_potion;
+// método que adiciona itens ao inventario do personagem
+scr_gain_item(item.cajado_amarelo, 5);
+scr_gain_item(item.cajado_azul, 2);
+scr_gain_item(item.sword, 1);
+scr_gain_item(item.cajado_floresta, 6);
+scr_gain_item(item.cajado_amarelo, 2);
+
 scr_slot_modify_amount(5, 2, true);
-
-
 
 /// @description Creates the inventory slots.
 

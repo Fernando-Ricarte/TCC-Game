@@ -8,6 +8,10 @@ enum item
 	sword,
 	health_potion,
 	staff,
+	cajado_verde,
+	cajado_azul,
+	cajado_amarelo,
+	cajado_floresta,
 	total
 	}
 
@@ -18,7 +22,8 @@ enum item_stat
  type,
  damage,
  health_gain,
-	total
+ sprite,
+ total
  }
 
 enum item_type
@@ -29,13 +34,30 @@ enum item_type
  }
 
 global.inventory = ds_grid_create(10, 2);
+
 ds_grid_clear(global.inventory, 0);
 //Create a ds grid item.total wide, and item_stat.total tall
 global.item_index = ds_grid_create(item.total, item_stat.total);
 ds_grid_clear(global.item_index, 0); //Set every position to 0
 global.mouse_slot = ds_grid_create(1, 2);
 
-scr_add_food(item.apple, "Apple", "Pretty basic. In every RPG.",  10);
-scr_add_food(item.health_potion, "Health Potion", "It's red. Like normal.", 25);
-scr_add_weapon(item.sword, "Sword", "A sword to banish evil!",  3);
-scr_add_weapon(item.staff, "Staff", "A magic staff, pulsing with power.", 5);
+
+
+/// adicionando os itens no banco de dados do jogo
+
+scr_add_food(item.apple, "Apple", "Pretty basic. In every RPG.",  10, "spr_shuriken");
+
+scr_add_food(item.health_potion, "Health Potion", "It's red. Like normal.", 25, "spr_shuriken");
+
+scr_add_weapon(item.cajado_verde, "Cajado Verde", "A magic staff, pulsing with power.", 15, "cajado_verde");
+
+scr_add_weapon(item.cajado_azul, "Cajado Azul", "A magic staff, pulsing with power.", 15, "cajado_azul");
+
+scr_add_weapon(item.cajado_amarelo, "Cajado Amarelo", "A magic staff, pulsing with power.", 15, "cajado_amarelo");
+
+scr_add_weapon(item.cajado_floresta, "Cajado Floresta", "A magic staff, pulsing with power.", 15, "cajado_floresta");
+
+scr_add_weapon(item.sword, "espada comum", "A magic staff, pulsing with power.", 5, "spr_espada_comum");
+
+
+

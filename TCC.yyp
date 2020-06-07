@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "2df1e264-4b8a-43c0-a352-245769b433a3",
+            "Value": {
+                "id": "8301e9fe-6ef8-4ce0-9d38-0afde447c2ea",
+                "resourcePath": "sprites\\spr_wood_block\\spr_wood_block.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2e40eda9-a114-40ad-943a-c386c16276c5",
             "Value": {
                 "id": "a42b1218-c751-4540-9e3a-0cfe82be9030",
@@ -207,10 +215,10 @@
             }
         },
         {
-            "Key": "344a61ab-7219-442b-a9af-9807a80549b7",
+            "Key": "3379f1c7-15a8-4106-81eb-89cc7ccadaa2",
             "Value": {
-                "id": "85d5bd08-50c9-4574-b813-e38ec9044f77",
-                "resourcePath": "sprites\\spr_item\\spr_item.yy",
+                "id": "8da00a0f-412a-4fc7-9892-ba695e43ae4c",
+                "resourcePath": "sprites\\spr_casa\\spr_casa.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -251,6 +259,14 @@
             "Value": {
                 "id": "58bd3f2f-7723-4c5e-a958-0767f875da5e",
                 "resourcePath": "sprites\\spr_slot\\spr_slot.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3afd7875-09d2-48f9-a85e-77cd0ab624fd",
+            "Value": {
+                "id": "51d714ed-97ff-450a-8313-873e7ede2a95",
+                "resourcePath": "sprites\\cajado_azul\\cajado_azul.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -351,11 +367,35 @@
             }
         },
         {
+            "Key": "57fd5920-753b-4c83-8c94-e79c2006cc88",
+            "Value": {
+                "id": "d2036a20-d210-417a-b8a0-c9b3b9245050",
+                "resourcePath": "views\\57fd5920-753b-4c83-8c94-e79c2006cc88.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "594b4931-3395-4e99-942c-580e36d190ac",
+            "Value": {
+                "id": "1f5bba77-c3b5-4e25-a661-442d7e925410",
+                "resourcePath": "objects\\obj_wall_invisible\\obj_wall_invisible.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5a56cb8b-35d4-4f2a-9120-b88976ebae2f",
             "Value": {
                 "id": "6b356fe6-cd47-4726-b99a-5d157b5c7122",
                 "resourcePath": "sprites\\ui_big_pieces\\ui_big_pieces.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5dfd6693-b66d-4673-a8ae-1d1f36c915d7",
+            "Value": {
+                "id": "f586dcf2-2485-4d9e-84f1-289704de2841",
+                "resourcePath": "objects\\obj_terra\\obj_terra.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -380,6 +420,30 @@
                 "id": "8de3fea9-7876-432f-8faa-a0eaaf8bac36",
                 "resourcePath": "views\\629960c6-d669-44e1-ae41-5a1038babb93.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "64499c08-c501-4b6b-88b8-6cb7d9bc8953",
+            "Value": {
+                "id": "e99f4450-bec7-488c-931c-01454ad4915e",
+                "resourcePath": "sprites\\cajado_verde\\cajado_verde.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "675146aa-3143-494d-8e60-ab156026cb66",
+            "Value": {
+                "id": "2aa62fa8-722e-4131-bd3d-c370789c9241",
+                "resourcePath": "objects\\obj_casa\\obj_casa.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "67e128ef-96a9-4c4c-84a3-a41a0ed35b6b",
+            "Value": {
+                "id": "525a193d-09cd-4bf1-b95b-d097707220f6",
+                "resourcePath": "sprites\\cajado_amarelo\\cajado_amarelo.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -511,6 +575,14 @@
             }
         },
         {
+            "Key": "89f853e7-8b75-4adb-a0f8-9e965cc18537",
+            "Value": {
+                "id": "a5c27bd1-5a1a-498a-a255-0013c272e605",
+                "resourcePath": "objects\\obj_bloco_wood\\obj_bloco_wood.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8a4c034c-5ffe-493c-b3c9-a790cd9cf9b4",
             "Value": {
                 "id": "dd748427-6eaf-47ef-831a-71334616356d",
@@ -567,11 +639,27 @@
             }
         },
         {
+            "Key": "94d46935-b417-477e-a285-bcc638f1c618",
+            "Value": {
+                "id": "1c2b23c3-153e-45b1-bf10-c1515eb63db6",
+                "resourcePath": "sprites\\spr_dirty_block\\spr_dirty_block.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9b10ce86-b264-49d7-ae4d-bf35185f14bd",
             "Value": {
                 "id": "53188a8c-c024-4d6f-8c8f-5955886c9b2b",
                 "resourcePath": "views\\9b10ce86-b264-49d7-ae4d-bf35185f14bd.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9b512552-b080-4d2f-ab86-55160536076b",
+            "Value": {
+                "id": "680e39f4-420a-4a0a-b8bc-80f9a809811c",
+                "resourcePath": "sprites\\cajado_floresta\\cajado_floresta.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -668,6 +756,14 @@
                 "id": "4aac5962-9ca5-43bd-9724-0ef064a4be05",
                 "resourcePath": "tilesets\\tileset2\\tileset2.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "b9bb2d2c-d901-4f1a-97aa-90c02374f49f",
+            "Value": {
+                "id": "7350199b-7b89-4200-b1a1-c28e58cfb17a",
+                "resourcePath": "sprites\\spr_espada_comum\\spr_espada_comum.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

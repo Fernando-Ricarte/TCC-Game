@@ -14,7 +14,7 @@ if (mouse_check_button_pressed(mb_left)) && (fdelay < 0){
 	fdelay = 5;	
 	/*var obj = instance_create_depth(x,y,-10,obj_shoot);*/
 	
-	with(instance_create_layer(x,y,"Blocos",obj_shoot)){
+	with(instance_create_layer(x,y,"Interativos",obj_shoot)){
 		speed = 25;
 		direction = other.image_angle + random_range(-3,3 );
 		image_angle = direction;	
