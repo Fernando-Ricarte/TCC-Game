@@ -60,8 +60,11 @@ switch(estado)
 {
 	case state.parado:
 	
-	velh = 0;
-	velv = 0;
+	// gravidade
+	if(!chao)
+	{
+		velv += grav;
+	}
 	
 	// saindo do estado
 	if(left || right || jump)
