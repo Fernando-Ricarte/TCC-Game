@@ -59,5 +59,6 @@ scr_add_weapon(item.cajado_floresta, "Cajado Floresta", "A magic staff, pulsing 
 
 scr_add_weapon(item.sword, "espada comum", "A magic staff, pulsing with power.", 5, "spr_espada_comum");
 
+scr_add_weapon(item.none, "", "", 0, "spr_none");
 
 

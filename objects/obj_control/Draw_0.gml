@@ -7,7 +7,6 @@ with (obj_slot)
 	
 	/// vai no "Banco de dados e puxa pelo id atual, a sprite certa"
 	var sprite = ds_grid_get(global.item_index, iid, item_stat.sprite);
-	
 	var sprt = asset_get_index(sprite);
 
 	//Draw stuff
