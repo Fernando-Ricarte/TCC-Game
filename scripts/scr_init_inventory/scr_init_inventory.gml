@@ -61,4 +61,7 @@ scr_add_weapon(item.sword, "espada comum", "A magic staff, pulsing with power.",
 
 scr_add_weapon(item.none, "", "", 0, "spr_none");
 
+scr_gain_item(item.cajado_amarelo, 1);
+scr_gain_item(item.cajado_azul, 1);
+
 
