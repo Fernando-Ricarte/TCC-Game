@@ -104,22 +104,27 @@ if(!chao)
 	temp += 1 / 64;
 }else{
 	temp = 0;
-	fall = false;
-}
-
-if(temp = 2){
-	fall = true;	
 }
 
 
 // --------- animações -------------------//
 
 if(estado == state.movendo){
-	sprite_index = spr_running;
+	
+	if(temp > 0){
+		pulando = true;
+	}
+	else if (temp == 0)
+	{
+		pulando = false;
+		sprite_index = spr_running;
+	}
+	
 	if(left)
 	{
 		image_xscale = -1;
-	}else
+	}
+	if(right)
 	{
 		image_xscale = 1;
 	}
@@ -127,7 +132,32 @@ if(estado == state.movendo){
 
 if(estado == state.parado){
 	sprite_index = spr_placeholder;
+	
+	if(temp > 0){
+		pulando = true;
+	}
+	else if (temp == 0)
+	{
+		pulando = false;
+	}
+	
+	if(left)
+	{
+		image_xscale = -1;
+	}
+	if(right)
+	{
+		image_xscale = 1;
+	}
 }
+
+
+if(pulando)
+{
+	sprite_index = spr_jump;	
+}
+
+
 
 
 //if(keyboard_check(ord("D"))){

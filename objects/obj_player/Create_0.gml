@@ -8,7 +8,7 @@ global.hp = 100;
 //fallspd = 2;
 
 //pulo = false;
-//pulando = false;
+pulando = false;
 
 //jumpheight = 128;
 //jumpFrame = 0;
