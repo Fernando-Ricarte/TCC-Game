@@ -1,7 +1,3 @@
-   /// @description Insert description here
-// You can write your code in this editor
-
-
 // chacando se o personagem esta no chao
 chao = place_meeting(x, y + 1, obj_chao);
 
@@ -35,14 +31,6 @@ if(chao)
 {
 	acel = acel_ar;
 }
-
-// não estou no chao !!
-//if(!chao)
-//{
-//	velv += grav;
-//}
-
-
 
 // limitando as velocidades
 velv = clamp(velv, -max_velv, max_velv);
@@ -127,6 +115,11 @@ if(estado == state.movendo){
 	if(right)
 	{
 		image_xscale = 1;
+	}
+	
+	if(right && left)
+	{
+		estado = state.parado;	
 	}
 }
 
