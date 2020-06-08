@@ -1,6 +1,6 @@
   /// @description Insert description here
 // You can write your code in this editor
-x = obj_player .x;
+x = obj_player.x;
 y = obj_player.y;
 
 image_angle = point_direction(x,y,mouse_x,mouse_y);
@@ -14,7 +14,7 @@ if (mouse_check_button_pressed(mb_left)) && (fdelay < 0){
 	fdelay = 5;	
 	/*var obj = instance_create_depth(x,y,-10,obj_shoot);*/
 	
-	with(instance_create_layer(x,y,"Interativos",obj_shoot)){
+	with(instance_create_layer(x,y,"player",obj_shoot)){
 		speed = 25;
 		direction = other.image_angle + random_range(-3,3 );
 		image_angle = direction;	
