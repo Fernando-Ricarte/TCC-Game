@@ -100,7 +100,7 @@ if(!chao)
 if(estado == state.movendo){
 	
 	if(temp > 0){
-		pulando = false;
+		pulando = true;
 	}
 	else if (temp == 0)
 	{
