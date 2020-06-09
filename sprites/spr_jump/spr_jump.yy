@@ -188,11 +188,7 @@
     ],
     "origin": 4,
     "originLocked": false,
-<<<<<<< HEAD
-    "playbackSpeed": 10,
-=======
     "playbackSpeed": 7,
->>>>>>> cc8606a9bd1c326790f7e79c892355fcb3d3c4b3
     "playbackSpeedType": 0,
     "premultiplyAlpha": false,
     "sepmasks": false,
