@@ -100,7 +100,7 @@ if(!chao)
 if(estado == state.movendo){
 	
 	if(temp > 0){
-		pulando = true;
+		pulando = false;
 	}
 	else if (temp == 0)
 	{
@@ -110,11 +110,11 @@ if(estado == state.movendo){
 	
 	if(left)
 	{
-		image_xscale = -1;
+		image_xscale = -3;
 	}
 	if(right)
 	{
-		image_xscale = 1;
+		image_xscale = 3;
 	}
 	
 	if(right && left)
