@@ -1,4 +1,4 @@
-// chacando se o personagem esta no chao
+ // chacando se o personagem esta no chao
 chao = place_meeting(x, y + 1, obj_chao);
 
 
@@ -124,7 +124,7 @@ if(estado == state.movendo){
 }
 
 if(estado == state.parado){
-	sprite_index = spr_placeholder;
+	sprite_index = spr_idle;
 	
 	if(temp > 0){
 		pulando = true;
@@ -191,7 +191,7 @@ if(pulando)
 
 ////pulo
 //if(pulo){
-//	if(jumpFrame < jumpheight){
+//	if(jumpFrame < jumpheight){ 
 		
 //		if(place_free(x,y-spdjump)){
 //			jumpFrame += spdjump;
