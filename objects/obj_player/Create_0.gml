@@ -48,7 +48,7 @@ estado = state.parado;
 
 temp = 0;
 
-fall = false;
+//fall = false;
 
 
 // ---------- limite para o pulo -------//

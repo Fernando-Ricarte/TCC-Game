@@ -8,7 +8,7 @@
     "VTile": false,
     "bbox_bottom": 31,
     "bbox_left": 0,
-    "bbox_right": 31,
+    "bbox_right": 32,
     "bbox_top": 0,
     "bboxmode": 0,
     "colkind": 0,
@@ -55,7 +55,7 @@
         }
     ],
     "origin": 9,
-    "originLocked": false,
+    "originLocked": true,
     "playbackSpeed": 3,
     "playbackSpeedType": 0,
     "premultiplyAlpha": false,
@@ -64,7 +64,7 @@
     "swfPrecision": 2.525,
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "type": 0,
-    "width": 32,
-    "xorig": 16,
-    "yorig": 14
+    "width": 33,
+    "xorig": 15,
+    "yorig": 31
 }

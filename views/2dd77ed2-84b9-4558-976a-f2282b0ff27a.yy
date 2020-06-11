@@ -6,6 +6,7 @@
     "children": [
         "5e21af30-c133-49c6-a516-f91ea89110a9",
         "2f642a3c-3198-43f8-855e-8369e351b4ec",
+        "48b6ed59-6d0e-4b51-a2e7-3e98e5b4ff5d",
         "e485527c-b4e1-40b9-b627-56209f337b68"
     ],
     "filterType": "GMSprite",
