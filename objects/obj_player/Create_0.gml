@@ -52,5 +52,5 @@ temp = 0;
 
 
 // ---------- limite para o pulo -------//
-limite_pulo = 6;
+limite_pulo = 8;
 timer_pulo = limite_pulo;

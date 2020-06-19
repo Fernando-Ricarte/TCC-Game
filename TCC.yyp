@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0604ccf6-2c5a-4223-8e56-dd876031d62f",
+            "Value": {
+                "id": "ece762e1-d6d0-44eb-8d05-39ad56a22569",
+                "resourcePath": "objects\\obj_grama\\obj_grama.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0614d0c3-b37a-49b2-91b3-ecfa9fb16cb2",
             "Value": {
                 "id": "151bd3ee-d2ca-41be-a9fb-7f9309d8bab4",
@@ -687,6 +695,14 @@
             }
         },
         {
+            "Key": "734440d8-3b99-4625-825b-f429b196943c",
+            "Value": {
+                "id": "6c588894-884d-4f39-a504-f9b308bd717e",
+                "resourcePath": "rooms\\Fase02\\Fase02.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "754297d9-358d-468e-a7fa-52b3e3070c74",
             "Value": {
                 "id": "8b27293f-ffde-4968-ace0-1ff5872451df",
@@ -1135,14 +1151,6 @@
             }
         },
         {
-            "Key": "db0653dc-c9ef-4cb7-a640-d94f97b8255b",
-            "Value": {
-                "id": "166ae451-bc87-4545-83a1-99b97a625386",
-                "resourcePath": "rooms\\Fase02\\Fase02.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "dd329b59-9f98-4e3c-bf49-20295e322e8c",
             "Value": {
                 "id": "40a37884-1a3e-4430-896a-42624be9e707",
@@ -1164,6 +1172,14 @@
                 "id": "1153e6ff-57b9-481b-8a5c-a7efd702bf55",
                 "resourcePath": "rooms\\Menu_Principal\\Menu_Principal.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "e0d7bb47-94df-438b-9979-c3b00d07b25a",
+            "Value": {
+                "id": "a7219510-db9f-44cf-8ca2-c38480009be0",
+                "resourcePath": "tilesets\\tile_jungle\\tile_jungle.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
