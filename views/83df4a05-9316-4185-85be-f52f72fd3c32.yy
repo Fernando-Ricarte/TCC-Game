@@ -5,7 +5,8 @@
     "name": "83df4a05-9316-4185-85be-f52f72fd3c32",
     "children": [
         "3bca05f7-1c64-46af-a79a-d78fe6af0cec",
-        "702f282e-d682-488b-bd8a-5869a27b49ce"
+        "702f282e-d682-488b-bd8a-5869a27b49ce",
+        "c8afc367-d7b8-4669-9bdb-1c2f12b7bd9a"
     ],
     "filterType": "GMObject",
     "folderName": "Inimigos",
