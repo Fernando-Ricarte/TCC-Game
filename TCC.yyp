@@ -807,6 +807,14 @@
             }
         },
         {
+            "Key": "872bffb6-bd1a-49b5-a4f2-5f47438d086b",
+            "Value": {
+                "id": "13889684-866e-4d48-a20e-cc07b435373b",
+                "resourcePath": "sprites\\spr_noinhaAttack\\spr_noinhaAttack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "88cd6db6-b07f-44ad-bbb1-255e2829aaf7",
             "Value": {
                 "id": "86a0bd6f-8056-4066-bca7-7ff01f47166a",
@@ -879,6 +887,14 @@
             }
         },
         {
+            "Key": "9a05f0dd-f740-4f2e-9682-6d834772b544",
+            "Value": {
+                "id": "78914075-f999-4171-ae3e-bb050f12ac33",
+                "resourcePath": "sprites\\spr_noinhaRun\\spr_noinhaRun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9a72e16e-11bc-4b07-8e55-7323752cf8e0",
             "Value": {
                 "id": "043faae2-cfae-4cd8-b5b3-5921c20add6a",
@@ -932,6 +948,14 @@
                 "id": "a82c377a-1524-4bfd-937e-2222dd7e5874",
                 "resourcePath": "options\\amazonfire\\options_amazonfire.yy",
                 "resourceType": "GMAmazonFireOptions"
+            }
+        },
+        {
+            "Key": "a2fca055-99f8-42d9-a364-4cc40aec914c",
+            "Value": {
+                "id": "23c7d868-acc5-4ec8-ad39-aa98626360e1",
+                "resourcePath": "views\\a2fca055-99f8-42d9-a364-4cc40aec914c.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1146,7 +1170,7 @@
             "Key": "d8d77a79-be9c-42b7-9de2-1d8943ebe006",
             "Value": {
                 "id": "e66fe68f-5806-45f8-aa36-9e087d261fa6",
-                "resourcePath": "sprites\\spr_noinha\\spr_noinha.yy",
+                "resourcePath": "sprites\\spr_noinhaIdle\\spr_noinhaIdle.yy",
                 "resourceType": "GMSprite"
             }
         },
