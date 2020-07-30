@@ -1,4 +1,4 @@
-#region VERIFICAÇÃO DE VIDA 
+ #region VERIFICAÇÃO DE VIDA 
  
 // se a variavel global.life que a a vida do player estiver = 6 
 // ira aparecer o spr_life correspondente

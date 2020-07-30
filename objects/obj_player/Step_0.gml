@@ -223,7 +223,6 @@ if(pulando)
 
 //morte
 if(global.hp <= 0){
- show_message("Você morreu!");
- room_restart();
-
+ room_restart(); 
+ 
 }

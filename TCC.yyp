@@ -935,6 +935,14 @@
             }
         },
         {
+            "Key": "9c52defa-2a9f-4927-b36e-e890548924d1",
+            "Value": {
+                "id": "46bf5b7e-5856-4bcd-97e2-71ac994227e9",
+                "resourcePath": "sounds\\snd_facada_hit\\snd_facada_hit.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "9f8ac69c-7f12-4b71-91fa-1f1f95eb50bd",
             "Value": {
                 "id": "05e0d2df-1626-491d-a0a1-6ad6d4901e23",

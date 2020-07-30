@@ -1,5 +1,5 @@
 global.hp = 100;
-
+hit_play = true;
 // -------------- iniciando vars do curso -------//
 grav = .3;
 acel_chao = .1;
