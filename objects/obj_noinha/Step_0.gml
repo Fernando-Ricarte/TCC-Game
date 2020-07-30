@@ -154,4 +154,9 @@ velh = seguir*4;
 
 }
 
+//morte 
+if(global.enemyhp <= 0){
+	instance_destroy();
+	audio_play_sound(snd_solado,0,false);
+}
 

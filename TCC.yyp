@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "33302acb-fb4f-4e95-a724-7b30dec4e51f",
+            "Value": {
+                "id": "fa17748d-d115-4394-9400-9883f3055b49",
+                "resourcePath": "sounds\\snd_solado\\snd_solado.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "3379f1c7-15a8-4106-81eb-89cc7ccadaa2",
             "Value": {
                 "id": "8da00a0f-412a-4fc7-9892-ba695e43ae4c",
@@ -404,6 +412,14 @@
                 "id": "64d5f35d-110c-44aa-af73-5948184ab3fb",
                 "resourcePath": "sprites\\fundo_ultimo\\fundo_ultimo.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "42ede41e-e023-476b-856e-00af38906529",
+            "Value": {
+                "id": "d876f038-e114-4752-973b-3c167c992bf4",
+                "resourcePath": "views\\42ede41e-e023-476b-856e-00af38906529.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -863,6 +879,14 @@
             }
         },
         {
+            "Key": "92a9272f-672e-4a5a-8ba2-31f235eae855",
+            "Value": {
+                "id": "806097d0-6aea-4181-95f5-9920094e1d0f",
+                "resourcePath": "sounds\\snd_noinha_hit\\snd_noinha_hit.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "932ff14e-eb92-4abf-a544-873127f4c0b6",
             "Value": {
                 "id": "570e79ec-c5cf-4d16-b58d-0dec4b0b0710",
@@ -1263,6 +1287,14 @@
             }
         },
         {
+            "Key": "e59ad65c-c26d-4ea1-8db8-007857c31667",
+            "Value": {
+                "id": "e2725f77-480f-4b93-a576-1e1e18f274db",
+                "resourcePath": "views\\e59ad65c-c26d-4ea1-8db8-007857c31667.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "e7bac989-f589-4926-bbf1-12e0bda2e934",
             "Value": {
                 "id": "0535ca17-b0f5-405f-8440-f01127f7af8a",
@@ -1340,6 +1372,14 @@
                 "id": "77bf0e5e-87f9-4b99-bbb0-0244f3f077ce",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f7b03a46-c972-493c-a908-e8eade969564",
+            "Value": {
+                "id": "c53074cb-f713-4352-b0b6-bd1d23436464",
+                "resourcePath": "views\\f7b03a46-c972-493c-a908-e8eade969564.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

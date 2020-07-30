@@ -223,6 +223,5 @@ if(pulando)
 
 //morte
 if(global.hp <= 0){
- room_restart(); 
- 
+ room_restart();   
 }
