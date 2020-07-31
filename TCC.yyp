@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "2332b440-0943-41a6-8d73-18a1f0c0cddb",
+            "Value": {
+                "id": "717ff4e6-ec12-45ea-8368-247343a03077",
+                "resourcePath": "views\\2332b440-0943-41a6-8d73-18a1f0c0cddb.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "2535a132-5c8e-4d76-87b6-2a98e21247f9",
             "Value": {
                 "id": "1f70feac-ab3a-4d99-968b-6bcfd8038375",
@@ -260,6 +268,14 @@
                 "id": "24eeca11-2348-49b8-a7c2-83cb361ca717",
                 "resourcePath": "views\\2a12aae6-57c0-46bf-9642-d20a5fc66067.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2ac43bc0-9e71-4020-bd60-8991d7dec8c2",
+            "Value": {
+                "id": "f75cdb60-4cde-4473-993d-9abfe5a89abc",
+                "resourcePath": "sprites\\spr_toddynho\\spr_toddynho.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -567,6 +583,14 @@
             }
         },
         {
+            "Key": "5c3d61fb-06a9-42bf-8c24-cfbef8415abb",
+            "Value": {
+                "id": "e0ba511b-8569-42d2-93c2-0a54120a40d6",
+                "resourcePath": "objects\\obj_toddy\\obj_toddy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5c77b87d-af81-4543-807d-9d5133047790",
             "Value": {
                 "id": "a8e03774-b52e-49d3-9671-11e1c85383af",
@@ -799,6 +823,14 @@
             }
         },
         {
+            "Key": "82c96408-7d4e-435f-985d-d7398f09750f",
+            "Value": {
+                "id": "6f1136c8-593a-4ea9-8b4b-b330e36f45dc",
+                "resourcePath": "views\\82c96408-7d4e-435f-985d-d7398f09750f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "83df4a05-9316-4185-85be-f52f72fd3c32",
             "Value": {
                 "id": "a958f761-1af8-4045-b370-06cd58b671cb",
@@ -900,6 +932,14 @@
                 "id": "92ccdd85-a115-421f-a5da-1c2d0f62be5a",
                 "resourcePath": "sprites\\spr_chao1\\spr_chao1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9239fa70-37bb-4618-bcd9-46d61cf62c5f",
+            "Value": {
+                "id": "9bf526aa-1a5e-437f-8785-ff7e3bcca3a5",
+                "resourcePath": "sounds\\snd_pickup\\snd_pickup.yy",
+                "resourceType": "GMSound"
             }
         },
         {
