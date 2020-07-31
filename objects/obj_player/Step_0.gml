@@ -17,6 +17,14 @@ right = keyboard_check(ord("D"));
 left = keyboard_check(ord("A"));
 jump = keyboard_check(vk_space);
 
+// tira o bug de animação quando aperta os dois botões ao msm tempo
+if(right && left)
+{
+	right = false;
+	left = false;
+}
+
+
 // aplicando velocidade horizontal/ gravidade vertical
 velh = (right - left) * max_velh;
 
@@ -43,7 +51,6 @@ if(!jump && !right && !left && velv == 0 && velh == 0)
 
 
 /// STATE MACHINE ///
-
 switch(estado)
 {
 	case state.parado:
@@ -86,7 +93,6 @@ switch(estado)
 }
 
 // verfifcando quanto tempo esta no ar -----//
-
 if(!chao)
 {
 	temp += 1 / 64;
