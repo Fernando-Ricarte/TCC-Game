@@ -11,14 +11,14 @@ case 1:{
 
 case 2:{
 	if(global.Fase_Destravada == 1) {
-		room_goto(Fase02)
+		room_goto(Fase02);
 	} else show_message("Está fase ainda não está disponivel");
 	break;
 }
 
 case 3:{
-	if(global.Fase_Destravada == 3) {
-		show_message("Fase 3")
+	if(global.Fase_Destravada == 1) {
+		room_goto(Fase03);
 	} else show_message("Está fase ainda não está disponivel");
 	break; 
 }

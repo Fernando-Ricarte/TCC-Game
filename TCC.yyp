@@ -111,14 +111,6 @@
             }
         },
         {
-            "Key": "14491761-8328-4f76-b9a4-4e1887392fb4",
-            "Value": {
-                "id": "ea56be9b-27ae-4eb2-891b-8b58f3f4aafb",
-                "resourcePath": "objects\\obj_camera02\\obj_camera02.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "16b04d8d-36ef-4699-8636-a3c257dc60ed",
             "Value": {
                 "id": "a42d6538-b57b-4a4e-8d30-29bd263ac8bd",
@@ -396,14 +388,6 @@
                 "id": "51d714ed-97ff-450a-8313-873e7ede2a95",
                 "resourcePath": "sprites\\cajado_azul\\cajado_azul.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "3bca05f7-1c64-46af-a79a-d78fe6af0cec",
-            "Value": {
-                "id": "d78f15b0-11b2-4669-b2d7-d8a8290279ba",
-                "resourcePath": "objects\\obj_aurivam\\obj_aurivam.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -1556,14 +1540,6 @@
                 "id": "93d7daf3-0010-4e44-84a4-f1bc820ba788",
                 "resourcePath": "sprites\\spr_chaolama\\spr_chaolama.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "fee68421-3a27-4c4b-ab40-5595c4615f48",
-            "Value": {
-                "id": "68624af3-decc-4a97-803d-201d351092fe",
-                "resourcePath": "objects\\obj_player02\\obj_player02.yy",
-                "resourceType": "GMObject"
             }
         },
         {
