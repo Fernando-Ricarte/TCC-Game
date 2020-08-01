@@ -2,7 +2,7 @@
 {
     "name": "Seletor_De_Fases",
     "id": "7b76e465-5bbc-44ef-93da-5f7370f9affa",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

@@ -1,4 +1,4 @@
-  // chacando se o personagem esta no chao
+   // chacando se o personagem esta no chao
 chao = place_meeting(x, y + 1, obj_chao);
 
 
@@ -229,5 +229,6 @@ if(pulando)
 
 //morte
 if(global.hp <= 0){
+ show_message("Você morreu!!!");   
  room_restart();   
 }
