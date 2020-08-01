@@ -17,10 +17,12 @@ scr_slot_modify_amount(5, 2, true);
 for (var i = 0; i < ds_grid_width(global.inventory); i++)
  {
 	var w = sprite_get_width(spr_slot);
-	var pos_x = i * w + 50;
+	var pos_x = i * w + (w * 4);
 	var pos_y = camera_get_view_height(view_camera[0]);
 	
+	pos_y = pos_y / pos_y;
 	
+	pos_y = pos_y + 30;
 	
 	var s = instance_create_layer(pos_x, 50, "inventory", obj_slot);
 	
