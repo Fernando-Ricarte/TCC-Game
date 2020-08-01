@@ -46,7 +46,8 @@
         "4f60eaba-d140-420b-86bd-87dfa3d5e6f5",
         "e58a4b32-c050-43eb-8b8d-f9031fa4168e",
         "41039ded-081c-4f3a-a821-b0db7612bb44",
-        "ef7d4dc5-21cb-4f93-89d5-c73ae232b7dc"
+        "ef7d4dc5-21cb-4f93-89d5-c73ae232b7dc",
+        "461eaa31-0947-4d02-b959-a04aa4636a1a"
     ],
     "IsDnD": false,
     "layers": [
@@ -57,7 +58,7 @@
             "depth": 0,
             "grid_x": 62,
             "grid_y": 62,
-            "hierarchyFrozen": true,
+            "hierarchyFrozen": false,
             "hierarchyVisible": true,
             "inheritLayerDepth": false,
             "inheritLayerSettings": false,
@@ -69,13 +70,14 @@
 {"name": "inst_1EDCA127","id": "1031d5ff-c6a8-45e1-bf54-067511c2801a","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_1EDCA127","objId": "29738314-28ca-4b8b-9612-221cddead770","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1.025362,"mvc": "1.1","x": 189,"y": 260},
 {"name": "inst_1E6BA3D6","id": "6ced759e-85be-44ad-9016-a1cc97dccb31","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_1E6BA3D6","objId": "b80bc70f-c241-4a6c-898b-a33e5bdbb088","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 5,"y": 8},
 {"name": "inst_3CDDB59E","id": "e58a4b32-c050-43eb-8b8d-f9031fa4168e","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3CDDB59E","objId": "9b3ec64a-eb0a-4408-adcb-29c7cf72421f","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 248,"y": 248},
-{"name": "inst_5FA0737D","id": "41039ded-081c-4f3a-a821-b0db7612bb44","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_5FA0737D","objId": "a8863b8c-2123-4a01-af5b-68efc3501d7f","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 0,"y": 0}
+{"name": "inst_5FA0737D","id": "41039ded-081c-4f3a-a821-b0db7612bb44","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_5FA0737D","objId": "a8863b8c-2123-4a01-af5b-68efc3501d7f","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 0,"y": 0},
+{"name": "inst_C29C9BC","id": "461eaa31-0947-4d02-b959-a04aa4636a1a","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_C29C9BC","objId": "f72aa681-0008-4dfd-8233-c99ffa31facc","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 620,"y": 62}
             ],
             "layers": [
 
             ],
             "m_parentID": "00000000-0000-0000-0000-000000000000",
-            "m_serialiseFrozen": true,
+            "m_serialiseFrozen": false,
             "modelName": "GMRInstanceLayer",
             "mvc": "1.0",
             "userdefined_depth": false,
