@@ -20,7 +20,7 @@ for (var i = 0; i < ds_grid_width(global.inventory); i++)
 	var pos_x = i * w + 50;
 	var pos_y = camera_get_view_height(view_camera[0]);
 	
-	pos_y = pos_y / 1.2;
+	
 	
 	var s = instance_create_layer(pos_x, 50, "inventory", obj_slot);
 	
