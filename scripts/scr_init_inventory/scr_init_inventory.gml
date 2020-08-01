@@ -12,6 +12,7 @@ enum item
 	cajado_azul,
 	cajado_amarelo,
 	cajado_floresta,
+	toddy,
 	total
 	}
 
@@ -59,9 +60,11 @@ scr_add_weapon(item.cajado_floresta, "Cajado Floresta", "A magic staff, pulsing 
 
 scr_add_weapon(item.sword, "espada comum", "A magic staff, pulsing with power.", 5, "spr_espada_comum");
 
+scr_add_food(item.toddy, "Toddynho kkkk", "toddy", 10, "spr_toddynho");
+
 scr_add_weapon(item.none, "", "", 0, "spr_none");
 
 scr_gain_item(item.cajado_amarelo, 1);
 scr_gain_item(item.cajado_azul, 1);
 
-
+scr_gain_item(item.toddy, 1);
