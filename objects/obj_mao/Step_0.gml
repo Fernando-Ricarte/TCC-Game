@@ -39,6 +39,7 @@ if(tempo_click > 0.15)
 if(clickou)
 {
 	sprite_index = spr_click;
+	//script_execute(src_lansa_blood);
 	
 }else
 // senão deixa o mouse com o sprite spr_mao padrao
