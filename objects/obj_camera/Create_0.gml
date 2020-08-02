@@ -1,4 +1,4 @@
-/// @description Variaveis da camera
+  /// @description Variaveis da camera
 
 
 cam = view_camera[0];
