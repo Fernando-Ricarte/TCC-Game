@@ -1,4 +1,4 @@
-global.enemyhp = 100;
+enemyhp = 100;
 hit_play = true;
 // -------------- iniciando vars do curso -------//
 grav = .3;
