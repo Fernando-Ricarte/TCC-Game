@@ -423,6 +423,14 @@
             }
         },
         {
+            "Key": "3fcc0963-7b9f-438c-9415-c55d9bba9bd1",
+            "Value": {
+                "id": "902fe79a-ac60-4b1f-912b-fff61b596412",
+                "resourcePath": "tilesets\\tile_parede_etec\\tile_parede_etec.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "41b42bf6-5d0e-4206-bfbf-aab42f9f4ded",
             "Value": {
                 "id": "5d809cff-c9cb-4e5f-8533-b96bfab08875",
@@ -1251,6 +1259,14 @@
             "Value": {
                 "id": "a9266e6b-42d6-442a-8d11-5117f2a917b4",
                 "resourcePath": "sprites\\spr_arbustos\\spr_arbustos.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ae3f7596-e781-4f59-afb4-5c99051a892f",
+            "Value": {
+                "id": "500d4514-15dc-414f-99ca-8d5137512c39",
+                "resourcePath": "sprites\\spr_parede_etec\\spr_parede_etec.yy",
                 "resourceType": "GMSprite"
             }
         },

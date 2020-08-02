@@ -8,7 +8,8 @@
         "3355d616-c20e-4358-8435-ca94cbbb6052",
         "29870ab2-593a-4f54-bea7-fdae9b9ca2f5",
         "e1ebbcde-dca5-46c2-b9a1-acd8a5f4f4c5",
-        "60bb6655-15e7-4814-9a36-4e68b7cdec24"
+        "60bb6655-15e7-4814-9a36-4e68b7cdec24",
+        "ae3f7596-e781-4f59-afb4-5c99051a892f"
     ],
     "filterType": "GMSprite",
     "folderName": "monumentos",
