@@ -210,7 +210,7 @@
             "Key": "2300a92e-3116-4332-bd63-1d2163c10103",
             "Value": {
                 "id": "6454e8bf-7110-43c7-95f5-d07acc73d672",
-                "resourcePath": "objects\\object36\\object36.yy",
+                "resourcePath": "objects\\obj_tela\\obj_tela.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1354,7 +1354,7 @@
             "Key": "b73f3399-116f-4420-98bd-688dd0975c43",
             "Value": {
                 "id": "cde44fe2-6313-4745-9bb0-e194cc527d95",
-                "resourcePath": "sprites\\sprite69\\sprite69.yy",
+                "resourcePath": "sprites\\spr_tela\\spr_tela.yy",
                 "resourceType": "GMSprite"
             }
         },
