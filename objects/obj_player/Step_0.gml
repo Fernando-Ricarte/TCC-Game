@@ -153,10 +153,46 @@ if(estado == state.parado){
 
 if(pulando)
 {
-	sprite_index = spr_jump;	
+	sprite_index = spr_jump;
 }
 
 
+// verifica se o player esta no chão e se apertou a barra de espaço
+if(chao && jump){
+	
+	// cria o array contendo os audios de grito
+	var gritos = [];
+	gritos[0] = pulo_1;
+	gritos[1] = pulo_2;
+	
+	//if(!audio_is_playing(grito_a_fazer)){
+	//	audio_play_sound(grito_a_fazer, 0, false);
+	//}
+	
+	var toca = true;
+	
+	// percorre o array
+	for(i = 0; i < array_length_1d(gritos); i++)
+	{
+		var gritoatual = gritos[i];
+		
+		// verifica se esta sendo tocado algum audio de pulo
+		if(audio_is_playing(gritoatual))
+		{
+			// se sim, então não pode gritar denovo
+			toca = false;
+		}
+	}
+	
+	// se não tiver nenhum audio de grito sendo tocado ele entra no if
+	if(toca)
+	{	
+		// gera um grito aleatorio
+		pos_grito = irandom_range(0, 1);
+		grito_a_fazer = gritos[pos_grito];
+		audio_play_sound(grito_a_fazer, 0, false);
+	}
+}
 
 
 //if(keyboard_check(ord("D"))){

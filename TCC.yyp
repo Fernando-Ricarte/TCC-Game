@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "09e0d768-918f-4e45-b234-58a734f539f7",
+            "Value": {
+                "id": "6460dbd8-b6ef-49ab-a955-18346d04ca82",
+                "resourcePath": "sounds\\pulo_2\\pulo_2.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "0a07cc0b-c830-4f51-b0b6-7cb2eecc698d",
             "Value": {
                 "id": "a6f5e15b-c449-48b9-beef-e4658c074363",
@@ -316,6 +324,14 @@
                 "id": "f466665d-6f22-449d-880b-92ad71374d12",
                 "resourcePath": "sprites\\spr_health_bar\\spr_health_bar.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "30e888f4-e5d5-432a-b2bf-9dd9b1ddb417",
+            "Value": {
+                "id": "6d3b65fd-78c1-4f88-9442-79aec70fb848",
+                "resourcePath": "sounds\\pulo_1\\pulo_1.yy",
+                "resourceType": "GMSound"
             }
         },
         {

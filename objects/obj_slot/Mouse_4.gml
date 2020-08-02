@@ -11,5 +11,15 @@ var healt_points = global.item_index[# iid, item_stat.health_gain];
 
 if(type_item == item_type.food)
 {
-	global.hp += healt_points;
+	if(global.hp < 100){
+		var soma_previa = global.hp + healt_points;
+		if(soma_previa <= 100)
+		{
+			global.hp += healt_points;
+		}else{
+			global.hp = 100;
+		}
+		
+	}
+	
 }
