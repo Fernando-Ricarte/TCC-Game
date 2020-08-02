@@ -11,7 +11,10 @@
         "babada6a-a6d4-4bcf-9978-2236824bd8f6",
         "9c69d227-beae-4208-92cb-139e079621c7",
         "d4f8ae2e-214e-42b0-9fcf-43701ca46a52",
-        "91075502-01a4-42b5-990c-850d5db64c05"
+        "91075502-01a4-42b5-990c-850d5db64c05",
+        "76e0ef7d-f537-499d-9c6f-6d0d352e63c1",
+        "7c27bbeb-64c6-48d4-8e1b-0ed04ed05295",
+        "71b2ffd8-66f2-4ab1-b63c-be497591feee"
     ],
     "filterType": "GMTileSet",
     "folderName": "Terrenos",

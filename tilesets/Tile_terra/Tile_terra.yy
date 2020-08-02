@@ -2,7 +2,7 @@
     "id": "a84aaf73-f681-4623-8266-c95fdfcdd8bc",
     "modelName": "GMTileSet",
     "mvc": "1.11",
-    "name": "Tile_terra",
+    "name": "tile_terra",
     "auto_tile_sets": [
         
     ],
