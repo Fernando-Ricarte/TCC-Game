@@ -15,7 +15,6 @@ if(place_meeting(x + velh, y, obj_chao))
 x += velh;
 
 
-
 // colisão vertical
 if(place_meeting(x, y + velv, obj_chao))
 {

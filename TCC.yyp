@@ -967,6 +967,14 @@
             }
         },
         {
+            "Key": "897615d9-8adf-4fed-a1e8-c924791b5862",
+            "Value": {
+                "id": "b4882533-da14-4f47-b6b4-f2f492af5749",
+                "resourcePath": "sprites\\spr_fall2\\spr_fall2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "89f853e7-8b75-4adb-a0f8-9e965cc18537",
             "Value": {
                 "id": "a5c27bd1-5a1a-498a-a255-0013c272e605",

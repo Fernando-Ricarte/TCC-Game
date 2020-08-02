@@ -1,6 +1,5 @@
-   // chacando se o personagem esta no chao
+// chacando se o personagem esta no chao
 chao = place_meeting(x, y + 1, obj_chao);
-
 
 // limite do pulo
 if (chao)
@@ -150,10 +149,22 @@ if(estado == state.parado){
 	}
 }
 
-
+// lança a animação de pulo se esta no ar por meno de 0.4 segundos senão ele
+// poem a sprite de fall
 if(pulando)
 {
-	sprite_index = spr_jump;
+	if(temp > 0.4)
+	{
+		sprite_index = spr_fall2;
+	}else{
+		sprite_index = spr_jump;	
+	}
+}
+
+
+if(chao_antes && !chao && !jump)
+{
+	sprite_index = spr_fall2;
 }
 
 
