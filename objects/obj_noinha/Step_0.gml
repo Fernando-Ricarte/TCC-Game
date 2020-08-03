@@ -108,6 +108,24 @@ switch(estado){
 			estado = stateNoinha.seguindo;	
 		}else{
 			
+			if(var_lado == 1){
+				x_scale = 1;
+				chao_pre = 40;
+				x += 4;
+			}
+			if(var_lado == -1){
+				x_scale = -1;
+				chao_pre = -40;
+				x -= 4;
+			}
+			
+			sprite_index = spr_noinhaRun;
+			image_xscale = x_scale;
+			chao_previsao2 = place_meeting(x+chao_pre, y + 1, obj_chao);
+			
+			if(!chao_previsao2){
+				var_lado = var_lado * -1;
+			}
 			
 		}
 		break;

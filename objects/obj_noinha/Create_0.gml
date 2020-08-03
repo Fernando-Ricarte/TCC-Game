@@ -17,7 +17,7 @@ max_velv = 6;
 max_velh = 6;
 timerParado = 0;
 // ------------------- variaveis de controle --------//
-
+var_lado = 1;
 chao = false;
 andar_mais = true;
 
