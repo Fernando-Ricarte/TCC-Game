@@ -1407,6 +1407,14 @@
             }
         },
         {
+            "Key": "bc497ba1-7c66-48e2-bcf1-5bb6b69e9da7",
+            "Value": {
+                "id": "3e38dfb9-7e9c-4d67-a3bc-905f4d512f25",
+                "resourcePath": "sprites\\spr_porta_aberta\\spr_porta_aberta.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bd03143f-8b91-4959-a73a-536dd0d7e28b",
             "Value": {
                 "id": "1fdffc11-53ba-4f4e-886f-0393f27d1195",
