@@ -10,8 +10,6 @@ if(place_meeting(x + velh, y, obj_chao))
 }
 x += velh;
 
-
-
 // colisão vertical
 if(place_meeting(x, y + velv, obj_chao))
 {
@@ -24,10 +22,8 @@ if(place_meeting(x, y + velv, obj_chao))
 }
 y += velv;
 
-
-  // chacando se o personagem esta no chao
+// chacando se o personagem esta no chao
 chao = place_meeting(x, y + 1, obj_chao);
-
 
 right = 0;
 left = 0;
@@ -35,64 +31,18 @@ left = 0;
 // aplicando velocidade horizontal/ gravidade vertical
 velh = (right - left) * max_velh;
 
-
 // configurando movimentações da movimentação
 avanco_h = (right - left) * max_velh;
-
-if(chao)
-{
-	acel = acel_chao;
-}else
-{
-	acel = acel_ar;
-}
 
 // limitando as velocidades
 velv = clamp(velv, -max_velv, max_velv);
 
+velh = lerp(velh, avanco_h, acel);
 
-if(!right && !left && velv == 0 && velh == 0)
+// gravidade
+if(!chao)
 {
-	estado = stateNoinha.parado;
-}
-
-
-/// STATE MACHINE ///
-
-switch(estado)
-{
-	case stateNoinha.parado:
-	
-	// gravidade
-	if(!chao)
-	{
-		velv += grav;
-	}
-	
-	// saindo do estado
-	if(left || right)
-	{
-		estado = stateNoinha.movendo;
-	}
-	
-		break;
-	case stateNoinha.movendo:
-	
-	
-	// aplicando a movimentação?
-	 velh = lerp(velh, avanco_h, acel);
-	
-	// gravidade
-	if(!chao)
-	{
-		velv += grav;
-	}
-	
-	
-		break;
-	case stateNoinha.dash:
-	
-		break;
+	velv += grav;
 }
 
 // verfifcando quanto tempo esta no ar -----//
@@ -105,58 +55,67 @@ if(!chao)
 }
 
 
+// verifica se o player esta perto, se sim ele muda o estado para seguindo
+if (distance_to_object(obj_player) < distance && distance_to_object(obj_player) > 10)
+{
+	estado = stateNoinha.seguindo;	
+}
+
 // --------- animações -------------------//
 
-if(estado == stateNoinha.movendo){
+switch(estado){
+	case stateNoinha.seguindo:
+			
+			pos_x_player = obj_player.x;
+			if(pos_x_player > x){
+				direcao = 40;
+			}else{
+				direcao = -40;
+			}
+			
+			chao_previsao = place_meeting(x+direcao, y + 1, obj_chao);
+			
+			if(chao_previsao){
+				sprite_index = spr_noinhaRun;
+				seguir = sign(obj_player.x - x);
+				image_xscale = seguir;
+				velh = seguir*4;
+			}else{
+				estado = stateNoinha.parado;
+				sprite_index = spr_noinhaIdle;
+			}
+		
+		break;
+	case stateNoinha.parado:
 	
-	if(temp == 0)
-	{
-		pulando = false;
-		sprite_index = spr_noinhaRun;
-	}
+			// verifica quanto tempo o npc esta parado
+			timerParado += 1 / 64;
+			// passou 1 segundo que o npc está parado
+			if(timerParado > 1){
+					estado = stateNoinha.peranbulando;
+					timerParado = 0;
+			}else{
+				sprite_index = spr_noinhaIdle;	
+			}
+		
+		break;
+		
+	case stateNoinha.peranbulando:
 	
-	if(left)
-	{
-		image_xscale = -3;
-	}
-	if(right)
-	{
-		image_xscale = 3;
-	}
-	
-	if(right && left)
-	{
-		estado = stateNoinha.parado;	
-	}
+		// verifica se o player esta perto, se sim ele muda o estado para seguindo
+		if (distance_to_object(obj_player) < distance && distance_to_object(obj_player) > 10)
+		{
+			estado = stateNoinha.seguindo;	
+		}else{
+			
+			
+		}
+		break;
 }
 
-if(estado == stateNoinha.parado){
-	sprite_index = spr_noinhaIdle;
-	
-	
-	if(left)
-	{
-		image_xscale = -1;
-	}
-	if(right)
-	{
-		image_xscale = 1;
-	}
-}
-
-
-if distance_to_object(obj_player) < distance
-{
-sprite_index = spr_noinhaRun;
-seguir = sign(obj_player.x - x);
-image_xscale = seguir;
-velh = seguir*4;
-
-}
 
 //morte 
 if(enemyhp <= 0){
 	instance_destroy();
 	audio_play_sound(snd_solado,0,false);
 }
-

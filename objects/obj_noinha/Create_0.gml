@@ -15,22 +15,22 @@ velh = 0;
 
 max_velv = 6;
 max_velh = 6;
-
+timerParado = 0;
 // ------------------- variaveis de controle --------//
 
 chao = false;
-
+andar_mais = true;
 
 // ------------- STATE MACHINE ----------------------//
 
 enum stateNoinha
 {
 	parado,
-	movendo,
-	dash
+	seguindo,
+	peranbulando
 }
 
-estado = stateNoinha.parado;
+estado = stateNoinha.peranbulando;
 
 //  ---------- temmporizador pulo --------- //
 
