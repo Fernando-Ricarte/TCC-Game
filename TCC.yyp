@@ -1781,6 +1781,14 @@
                 "resourcePath": "views\\ff908fe7-aa9d-40a4-ae1b-bf681733a401.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "ff98a6a5-8b89-4839-b3d5-dc59809a158a",
+            "Value": {
+                "id": "b3427811-8d01-4e1c-86f2-0b3884c5738a",
+                "resourcePath": "sprites\\sprite72\\sprite72.yy",
+                "resourceType": "GMSprite"
+            }
         }
     ],
     "script_order": [
