@@ -10,10 +10,11 @@
         "db5b5e61-762d-4b00-ad06-97a5573bb80a",
         "fa9c0f5e-221e-4646-a3e1-4261b06fb14f",
         "c1166866-eb0c-4e31-b754-bdcef923091f",
-        "ae1ff0fc-efbf-4383-9078-ab1eec1491b6"
+        "ae1ff0fc-efbf-4383-9078-ab1eec1491b6",
+        "7ee6d56e-7d99-4c9e-bece-639bab38f332"
     ],
     "filterType": "GMSprite",
-    "folderName": "SpritesTiles",
+    "folderName": "SprTilesDecoração",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
