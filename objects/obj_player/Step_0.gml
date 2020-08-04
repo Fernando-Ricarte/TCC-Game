@@ -16,6 +16,14 @@ right = keyboard_check(ord("D"));
 left = keyboard_check(ord("A"));
 jump = keyboard_check(vk_space);
 
+// chacando se o personagem esta colado na parede
+parede_d = place_meeting(x+1, y, obj_chao);
+parede_e = place_meeting(x-1, y, obj_chao);
+
+if(parede_d || parede_e){
+	jump = false;
+}
+
 // tira o bug de animação quando aperta os dois botões ao msm tempo
 if(right && left)
 {
@@ -153,7 +161,7 @@ if(estado == state.parado){
 // poem a sprite de fall
 if(pulando)
 {
-	if(temp > 0.4)
+	if(temp > 0.5)
 	{
 		sprite_index = spr_fall2;
 	}else{

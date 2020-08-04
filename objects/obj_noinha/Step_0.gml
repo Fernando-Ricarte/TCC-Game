@@ -54,11 +54,26 @@ if(!chao)
 	temp = 0;
 }
 
+y_player = obj_player.y;
+			
+if(y_player > y-40 && y_player < y+40){
+	pode_seguir = true;
+}else{
+	pode_seguir = false;	
+}
+
+pode_mover = true;
+
+if(obj_player.y == y && obj_player.x > x){
+	pode_mover = false;
+}else if(obj_player.y == y && obj_player.x < x){
+	pode_mover = false;	
+}
 
 // verifica se o player esta perto, se sim ele muda o estado para seguindo
-if (distance_to_object(obj_player) < distance && distance_to_object(obj_player) > 10)
+if (distance_to_object(obj_player) < distance && distance_to_object(obj_player) > 10 && pode_seguir && pode_mover)
 {
-	estado = stateNoinha.seguindo;	
+	estado = stateNoinha.seguindo;
 }
 
 // --------- animações -------------------//
@@ -69,17 +84,26 @@ switch(estado){
 			pos_x_player = obj_player.x;
 			if(pos_x_player > x){
 				direcao = 40;
+				perto = 2;
 			}else{
 				direcao = -40;
+				perto = -2;
 			}
 			
 			chao_previsao = place_meeting(x+direcao, y + 1, obj_chao);
+			chega_perto_demais = place_meeting(x+perto, y, obj_player);
 			
 			if(chao_previsao){
-				sprite_index = spr_noinhaRun;
-				seguir = sign(obj_player.x - x);
-				image_xscale = seguir;
-				velh = seguir*4;
+				if(!chega_perto_demais){
+					
+					sprite_index = spr_noinhaRun;
+					seguir = sign(obj_player.x - x);
+					image_xscale = seguir;
+					velh = seguir*4;
+					
+				}else{
+					sprite_index = spr_noinhaIdle;
+				}
 			}else{
 				estado = stateNoinha.parado;
 				sprite_index = spr_noinhaIdle;
@@ -103,11 +127,29 @@ switch(estado){
 	case stateNoinha.peranbulando:
 	
 		// verifica se o player esta perto, se sim ele muda o estado para seguindo
-		if (distance_to_object(obj_player) < distance && distance_to_object(obj_player) > 10)
+		if (distance_to_object(obj_player) < distance && distance_to_object(obj_player) > 10 && pode_seguir && pode_mover)
 		{
 			estado = stateNoinha.seguindo;	
 		}else{
 			
+			if(var_lado == 1){
+				x_scale = 1;
+				chao_pre = 40;
+				x += 4;
+			}
+			if(var_lado == -1){
+				x_scale = -1;
+				chao_pre = -40;
+				x -= 4;
+			}
+			
+			sprite_index = spr_noinhaRun;
+			image_xscale = x_scale;
+			chao_previsao2 = place_meeting(x+chao_pre, y + 1, obj_chao);
+			
+			if(!chao_previsao2){
+				var_lado = var_lado * -1;
+			}
 			
 		}
 		break;
