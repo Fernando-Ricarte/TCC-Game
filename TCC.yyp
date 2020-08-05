@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "0db296db-b01e-40be-962e-28bec7ea11d3",
+            "Value": {
+                "id": "d366ce87-919d-4f56-949e-7a0c817d2c1d",
+                "resourcePath": "scripts\\adiciona_diversos\\adiciona_diversos.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "10156d6a-e69c-477b-bcce-e9274ed194b8",
             "Value": {
                 "id": "6e09bf3d-59dd-4f1c-848f-b45575316c15",
@@ -396,6 +404,14 @@
                 "id": "8da00a0f-412a-4fc7-9892-ba695e43ae4c",
                 "resourcePath": "sprites\\spr_casa\\spr_casa.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "354849cb-40f1-4bbe-b839-a50ba0847f0a",
+            "Value": {
+                "id": "f2746c4f-2630-416f-b500-feddb5503e28",
+                "resourcePath": "fonts\\font_textbox\\font_textbox.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -815,6 +831,14 @@
             }
         },
         {
+            "Key": "6c7390df-4c44-4307-aa77-aa4e8db4e4cc",
+            "Value": {
+                "id": "68ca0104-4c83-4751-a60f-eb340f223679",
+                "resourcePath": "views\\6c7390df-4c44-4307-aa77-aa4e8db4e4cc.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "6cb59427-beaa-4a31-9048-59882d8f73c1",
             "Value": {
                 "id": "b8e5ccb0-0e0f-4d27-9ad9-ebfeca36b4c5",
@@ -1043,6 +1067,14 @@
             "Value": {
                 "id": "6b879d4a-c4ed-4b1c-a02a-3b1528187749",
                 "resourcePath": "sprites\\spr_level_select\\spr_level_select.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "86f3554d-7728-4df4-8a0e-2c3070cfd5bc",
+            "Value": {
+                "id": "c8601f7a-54e4-41f0-aace-dcc23e1d7dd4",
+                "resourcePath": "sprites\\textbox1\\textbox1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1905,7 +1937,8 @@
         "3692d373-b9c5-4d90-86be-051c62b68960",
         "511069ac-308a-4062-a2db-d0b3077e5697",
         "8ad549ff-2a46-470d-ad4e-d62204a66a49",
-        "e3e6f3ec-80d1-4880-a3b0-958129ce77b0"
+        "e3e6f3ec-80d1-4880-a3b0-958129ce77b0",
+        "0db296db-b01e-40be-962e-28bec7ea11d3"
     ],
     "tutorial": ""
 }

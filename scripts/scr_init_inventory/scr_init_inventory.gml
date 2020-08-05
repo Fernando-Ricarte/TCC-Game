@@ -6,15 +6,11 @@ enum item
 	none,
 	apple,
 	sword,
-	health_potion,
-	staff,
-	cajado_verde,
-	cajado_azul,
-	cajado_amarelo,
-	cajado_floresta,
 	toddy,
+	bolinho,
+	notebook,
 	total
-	}
+}
 
 enum item_stat
  {
@@ -31,7 +27,8 @@ enum item_type
  {
  none,
  weapon,
- food
+ food,
+ diversos
  }
 
 global.inventory = ds_grid_create(10, 2);
@@ -42,29 +39,15 @@ global.item_index = ds_grid_create(item.total, item_stat.total);
 ds_grid_clear(global.item_index, 0); //Set every position to 0
 global.mouse_slot = ds_grid_create(1, 2);
 
-
-
 /// adicionando os itens no banco de dados do jogo
-
-scr_add_food(item.apple, "Apple", "Pretty basic. In every RPG.",  10, "spr_shuriken");
-
-scr_add_food(item.health_potion, "Health Potion", "It's red. Like normal.", 25, "spr_shuriken");
-
-scr_add_weapon(item.cajado_verde, "Cajado Verde", "A magic staff, pulsing with power.", 15, "cajado_verde");
-
-scr_add_weapon(item.cajado_azul, "Cajado Azul", "A magic staff, pulsing with power.", 15, "cajado_azul");
-
-scr_add_weapon(item.cajado_amarelo, "Cajado Amarelo", "A magic staff, pulsing with power.", 15, "cajado_amarelo");
-
-scr_add_weapon(item.cajado_floresta, "Cajado Floresta", "A magic staff, pulsing with power.", 15, "cajado_floresta");
-
-scr_add_weapon(item.sword, "espada comum", "A magic staff, pulsing with power.", 5, "spr_espada_comum");
-
-scr_add_food(item.toddy, "Toddynho kkkk", "toddy", 10, "spr_toddynho");
-
+scr_add_food(item.toddy, "Toddynho", "Achocolatado da ETEC, o melhor", 10, "spr_toddynho");
+scr_add_food(item.bolinho, "Bolinho da ETEC", "Muito gostoso! se não estiver mofado, é claro...", 15, "spr_bolinho");
+scr_add_weapon(item.sword , "Espada Comum", "Uma espada capaz de infligir danos a inimigos", 10, "spr_espada_comum");
+adiciona_diversos(item.notebook, "Note Gamer 12GB", "Capaz de rodar qualquer programa, menos Android Studio é claro...", "spr_notebook");
 scr_add_weapon(item.none, "", "", 0, "spr_none");
 
-scr_gain_item(item.cajado_amarelo, 1);
-scr_gain_item(item.cajado_azul, 1);
-
+// adicionando item ao player
 scr_gain_item(item.toddy, 1);
+scr_gain_item(item.notebook, 1);
+scr_gain_item(item.sword, 1);
+scr_gain_item(item.bolinho, 1);
