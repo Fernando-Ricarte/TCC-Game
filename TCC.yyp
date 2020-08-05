@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "1503b19a-4090-4dba-a4c1-b29c3e2280f0",
+            "Value": {
+                "id": "42af7198-4baf-41da-b8b4-68822fcefb79",
+                "resourcePath": "sprites\\spr_nakamura\\spr_nakamura.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "158a9e11-843e-45c8-83da-0af9035985f4",
             "Value": {
                 "id": "2fcc6e84-9c3b-4012-9a83-5046b5786e55",
@@ -1532,6 +1540,14 @@
                 "id": "7350199b-7b89-4200-b1a1-c28e58cfb17a",
                 "resourcePath": "sprites\\spr_espada_comum\\spr_espada_comum.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b9fa8c88-6e72-4b15-9d55-08a211c7e25f",
+            "Value": {
+                "id": "3e446507-d60f-4f6b-9093-ade551505694",
+                "resourcePath": "tilesets\\tileset_pixacao\\tileset_pixacao.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
