@@ -214,6 +214,7 @@ if(chao && jump){
 }
 
 
+
 //if(keyboard_check(ord("D"))){
 //	x+=spd;
 //	image_xscale = 1;
