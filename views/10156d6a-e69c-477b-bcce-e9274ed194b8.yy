@@ -11,7 +11,7 @@
         "67e128ef-96a9-4c4c-84a3-a41a0ed35b6b",
         "9b512552-b080-4d2f-ab86-55160536076b",
         "9bcb3545-c5f0-4772-82d5-a35d20337684",
-        "206e77f1-9db3-4e22-a24b-2cd01ea5807c"
+        "4514584f-4738-45cc-92a3-0312af14f9fa"
     ],
     "filterType": "GMSprite",
     "folderName": "Armas",
