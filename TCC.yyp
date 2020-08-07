@@ -1119,6 +1119,14 @@
             }
         },
         {
+            "Key": "86449f3c-3dcf-41b6-a682-6f7aa5670703",
+            "Value": {
+                "id": "a5c5e35b-2b43-40d3-b187-e9d99be47d7b",
+                "resourcePath": "objects\\obj_shuriken\\obj_shuriken.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "86cc689c-35a5-4e4d-8f5e-b00cb69f4484",
             "Value": {
                 "id": "6b879d4a-c4ed-4b1c-a02a-3b1528187749",
@@ -1359,11 +1367,27 @@
             }
         },
         {
+            "Key": "9db69ceb-3e9c-4471-a391-57f582a2fe3b",
+            "Value": {
+                "id": "eef61fea-e062-4172-b9c0-d6670becf8b3",
+                "resourcePath": "scripts\\scr_diminuir_qtd\\scr_diminuir_qtd.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "9f8ac69c-7f12-4b71-91fa-1f1f95eb50bd",
             "Value": {
                 "id": "05e0d2df-1626-491d-a0a1-6ad6d4901e23",
                 "resourcePath": "fonts\\fnt_UI\\fnt_UI.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "9fbd87a8-b13b-4c72-8572-839caeb9d231",
+            "Value": {
+                "id": "35253f21-d837-4097-bb31-5b461e8af15f",
+                "resourcePath": "sprites\\spr_shuriken_item\\spr_shuriken_item.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2035,7 +2059,8 @@
         "0db296db-b01e-40be-962e-28bec7ea11d3",
         "81140a0b-3794-4409-a5c5-4de333ebbfb8",
         "403ab4b7-c215-4ede-972d-2380b8842ade",
-        "808f9474-d5b7-47b4-a3e1-4d8c0d5724db"
+        "808f9474-d5b7-47b4-a3e1-4d8c0d5724db",
+        "9db69ceb-3e9c-4471-a391-57f582a2fe3b"
     ],
     "tutorial": ""
 }
