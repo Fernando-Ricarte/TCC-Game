@@ -64,9 +64,9 @@ if(y_player > y-40 && y_player < y+40){
 
 pode_mover = true;
 
-if(obj_player.y == y && obj_player.x > x){
+if(obj_player.x == x && obj_player.y > y){
 	pode_mover = false;
-}else if(obj_player.y == y && obj_player.x < x){
+}else if(obj_player.x == x && obj_player.y < y){
 	pode_mover = false;	
 }
 
@@ -74,11 +74,6 @@ if(obj_player.y == y && obj_player.x > x){
 if (distance_to_object(obj_player) < distance && distance_to_object(obj_player) > 10 && pode_seguir && pode_mover)
 {
 	estado = stateNoinha.seguindo;
-}
-
-//Verifica o quão perto está do player para realizar o ataque
-if (distance_to_object(obj_player) < 10){
-	estado = stateNoinha.atacando
 }
 
 // --------- animações -------------------//
@@ -105,6 +100,11 @@ switch(estado){
 					seguir = sign(obj_player.x - x);
 					image_xscale = seguir;
 					velh = seguir*4;
+					
+					//Verifica o quão perto está do player para realizar o ataque
+					if (distance_to_object(obj_player) < 10){
+						estado = stateNoinha.atacando
+					}
 					
 				}else{
 					sprite_index = spr_noinhaIdle;
@@ -161,7 +161,14 @@ switch(estado){
 		
 		case stateNoinha.atacando:
 		
-		sprite_index = spr_noinhaAttack;
+			sprite_index = spr_noinhaAttack;
+			
+			//Verifica o quão perto está do player para realizar o ataque
+			if (distance_to_object(obj_player) < 10){
+				estado = stateNoinha.atacando
+			}else{
+				estado = stateNoinha.peranbulando;
+			}
 		
 		break;
 }
