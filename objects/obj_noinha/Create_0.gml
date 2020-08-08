@@ -27,7 +27,8 @@ enum stateNoinha
 {
 	parado,
 	seguindo,
-	peranbulando
+	peranbulando,
+	atacando
 }
 
 estado = stateNoinha.peranbulando;

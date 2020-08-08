@@ -76,6 +76,11 @@ if (distance_to_object(obj_player) < distance && distance_to_object(obj_player) 
 	estado = stateNoinha.seguindo;
 }
 
+//Verifica o quão perto está do player para realizar o ataque
+if (distance_to_object(obj_player) < 10){
+	estado = stateNoinha.atacando
+}
+
 // --------- animações -------------------//
 
 switch(estado){
@@ -152,6 +157,12 @@ switch(estado){
 			}
 			
 		}
+		break;
+		
+		case stateNoinha.atacando:
+		
+		sprite_index = spr_noinhaAttack;
+		
 		break;
 }
 

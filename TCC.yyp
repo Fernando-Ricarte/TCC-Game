@@ -1999,6 +1999,14 @@
             }
         },
         {
+            "Key": "fd8dd80a-d4df-4c36-a81b-69adeb867a3e",
+            "Value": {
+                "id": "2f122d14-7e36-408c-9ab3-3e9134946bbe",
+                "resourcePath": "sprites\\spriteall\\spriteall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "feb03af7-72d4-498c-b50e-36e574780541",
             "Value": {
                 "id": "93d7daf3-0010-4e44-84a4-f1bc820ba788",
