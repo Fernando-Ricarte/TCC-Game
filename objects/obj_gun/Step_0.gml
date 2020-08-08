@@ -8,11 +8,23 @@ image_angle = point_direction(x,y,mouse_x,mouse_y);
 
 fdelay = fdelay -1;
 recoil = max(0,recoil - 1);
+tem_lancavel = false;
 
-if (mouse_check_button_pressed(mb_left)) && (fdelay < 0){
+for (var i = 0; i < ds_grid_width(global.inventory); i++)
+{
+	var iid = global.inventory[# i, 0];
+	var nome_item = global.item_index[# iid, item_stat.name];
 	
-	recoil = 4;
-	fdelay = 5;	
+	if(iid == item.shuriken){
+		tem_lancavel = true;
+		id_lancavel = iid;
+	}
+}
+
+if ( tem_lancavel && mouse_check_button_pressed( mb_left ) ) && ( fdelay < 0 ){
+	
+	recoil = 14;
+	fdelay = 10;	
 	/*var obj = instance_create_depth(x,y,-10,obj_shoot);*/
 	
 	with(instance_create_layer(x,y,"player",obj_shoot)){
@@ -20,9 +32,9 @@ if (mouse_check_button_pressed(mb_left)) && (fdelay < 0){
 		direction = other.image_angle + random_range(-3,3 );
 		image_angle = direction;	
 		audio_play_sound(shuriken_shoot,0,false);
-	
 	}
   
+	scr_diminuir_qtd(id_lancavel);
 }
 
 //calculo do recoil a cada tiro
