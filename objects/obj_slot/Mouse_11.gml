@@ -3,4 +3,6 @@
 
 mouse_encima = false;
 
-mostrar_text = false;
+if(object_exists(obj_textbox)){
+	instance_destroy(obj_textbox);
+}
