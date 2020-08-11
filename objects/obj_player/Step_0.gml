@@ -20,7 +20,7 @@ jump = keyboard_check(vk_space);
 parede_d = place_meeting(x+1, y, obj_chao);
 parede_e = place_meeting(x-1, y, obj_chao);
 
-if(parede_d || parede_e){
+if(parede_d || parede_e && chao){
 	jump = false;
 }
 
