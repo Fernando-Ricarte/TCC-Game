@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "objShootBoss",
     "eventList": [
-        
+        {
+            "id": "022f1801-49db-4152-b210-8c95d5aac68b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "21b99618-63be-47ce-b09b-7293afcc1bc2",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "bc479400-2a93-4a2a-89ed-9c413c56ffff"
+        },
+        {
+            "id": "2a4e0c24-2a2c-439d-9ba8-be276a4f64c1",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "f297c2b4-88c7-4314-899f-2702e9fc9a3b",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "bc479400-2a93-4a2a-89ed-9c413c56ffff"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

@@ -3,7 +3,7 @@
 // 
 //
 
-hp = 100;// vida do boss
+global.hpboss = 100;// vida do boss
 spd = 2; // velocidade
 vspeed = 0; // velocidade vertical
 image_angle = 0;
