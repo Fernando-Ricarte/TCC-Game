@@ -799,6 +799,14 @@
             }
         },
         {
+            "Key": "622d2aee-3942-43a1-b5e8-78e3a1979878",
+            "Value": {
+                "id": "dd124684-418c-4e33-8fd2-c8a610b3d485",
+                "resourcePath": "views\\622d2aee-3942-43a1-b5e8-78e3a1979878.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "624e3d11-4693-4d35-aa07-3892e23dda8e",
             "Value": {
                 "id": "e0118ff4-3e00-44ac-8c4f-5838eae3523a",
@@ -1663,6 +1671,14 @@
             }
         },
         {
+            "Key": "bc4afc2f-fa76-4d33-9f5a-b0701357d2da",
+            "Value": {
+                "id": "de5ad2c9-66aa-4978-bb54-4fc99205021c",
+                "resourcePath": "sprites\\spr_errorIdle\\spr_errorIdle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bd03143f-8b91-4959-a73a-536dd0d7e28b",
             "Value": {
                 "id": "1fdffc11-53ba-4f4e-886f-0393f27d1195",
@@ -1740,6 +1756,22 @@
                 "id": "e212d28e-3c6c-47c6-b031-d6e2051e942b",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cd82f5b8-cb71-4973-b713-11efebd9bb24",
+            "Value": {
+                "id": "0c61611e-91a8-4aa9-96c2-a61fdabe8288",
+                "resourcePath": "sprites\\spr_errorRun\\spr_errorRun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cd95ca81-9169-4b12-b059-43ff42c1c66c",
+            "Value": {
+                "id": "7dfc3ddb-bf29-44d8-8259-0ed11b547ed0",
+                "resourcePath": "sprites\\spr_errorAttack\\spr_errorAttack.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2068,6 +2100,14 @@
                 "id": "93d7daf3-0010-4e44-84a4-f1bc820ba788",
                 "resourcePath": "sprites\\spr_chaolama\\spr_chaolama.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "feb25124-b415-49b9-8146-8e918e41413d",
+            "Value": {
+                "id": "0d8bd988-485e-4705-8e6b-aa82352f88c5",
+                "resourcePath": "objects\\obj_error\\obj_error.yy",
+                "resourceType": "GMObject"
             }
         },
         {
