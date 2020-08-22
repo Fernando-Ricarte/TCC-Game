@@ -164,7 +164,7 @@ switch(estado){
 			sprite_index = spr_errorAttack;
 			
 			//Verifica o quão perto está do player para realizar o ataque
-			if (distance_to_object(obj_player) < 10){
+			if (distance_to_object(obj_player) < 5){
 				estado = stateError.atacando
 			}else{
 				estado = stateError.peranbulando;
