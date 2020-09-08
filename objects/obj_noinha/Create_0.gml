@@ -36,3 +36,7 @@ estado = stateNoinha.peranbulando;
 //  ---------- temmporizador pulo --------- //
 
 temp = 0;
+
+hit = 0;
+bater = true;
+timer_hit = 6;

@@ -335,6 +335,14 @@
             }
         },
         {
+            "Key": "29885c3b-e4af-4a19-ab30-f4e15a80e0f6",
+            "Value": {
+                "id": "55bdb0bd-bb4e-431a-b877-957f53461963",
+                "resourcePath": "objects\\hit_box_noia\\hit_box_noia.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2a12aae6-57c0-46bf-9642-d20a5fc66067",
             "Value": {
                 "id": "24eeca11-2348-49b8-a7c2-83cb361ca717",
@@ -1423,6 +1431,14 @@
             }
         },
         {
+            "Key": "9fd45237-fb97-408a-b84e-0853edbe1e3c",
+            "Value": {
+                "id": "8ebff430-2ef5-4e75-b516-a60c55bb372a",
+                "resourcePath": "sprites\\spr_noia_hitbox\\spr_noia_hitbox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
             "Value": {
                 "id": "a82c377a-1524-4bfd-937e-2222dd7e5874",
@@ -1812,6 +1828,14 @@
                 "id": "e66fe68f-5806-45f8-aa36-9e087d261fa6",
                 "resourcePath": "sprites\\spr_noinhaIdle\\spr_noinhaIdle.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d9c778a6-fffd-45da-9bbf-e66da422151a",
+            "Value": {
+                "id": "8c1ae226-f64b-4c60-96a0-d863c89c4be9",
+                "resourcePath": "views\\d9c778a6-fffd-45da-9bbf-e66da422151a.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

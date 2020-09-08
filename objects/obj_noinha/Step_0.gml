@@ -163,6 +163,31 @@ switch(estado){
 		
 			sprite_index = spr_noinhaAttack;
 			
+			if(image_index >= 2 && image_index <= 3)
+			{
+				
+				if( bater ){
+					with(instance_create_layer( x, y, "cursor", hit_box_noia))
+					{
+						image_xscale = other.image_xscale;
+					
+						with(instance_place( x, y, obj_player ))
+						{
+							audio_play_sound(snd_facada_hit, 10, false);
+							global.hp--;
+						}
+					}
+					bater = false;
+					timer_hit = 0;
+				}else{
+					timer_hit += 1;
+					
+					if(timer_hit > 5){
+						bater = true;
+					}
+				}
+			}
+			
 			//Verifica o quão perto está do player para realizar o ataque
 			if (distance_to_object(obj_player) < 10){
 				estado = stateNoinha.atacando

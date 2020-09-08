@@ -6,7 +6,8 @@
     "children": [
         "d8d77a79-be9c-42b7-9de2-1d8943ebe006",
         "9a05f0dd-f740-4f2e-9682-6d834772b544",
-        "872bffb6-bd1a-49b5-a4f2-5f47438d086b"
+        "872bffb6-bd1a-49b5-a4f2-5f47438d086b",
+        "9fd45237-fb97-408a-b84e-0853edbe1e3c"
     ],
     "filterType": "GMSprite",
     "folderName": "spr_noinha",
