@@ -14,13 +14,20 @@ if(mouse_encima){
 		//draw_sprite(textbox1, 0, x, y+45);
 		if(object_exists(obj_textbox)){
 			instance_destroy(obj_textbox);
-			instance_create_layer(x-50, y+80, "player" ,obj_textbox);
+			instance_create_layer(x-50, y+80, "inventory" ,obj_textbox);
 		}else{
-			instance_create_layer(x-50, y+80, "player" ,obj_textbox);
+			instance_create_layer(x-50, y+80, "inventory" ,obj_textbox);
 		}
 		
-		draw_set_font(font_textbox);
-		draw_set_color(c_lime);
-		draw_text(obj_textbox.x-60, obj_textbox.y, nome_item);
+		draw_text(obj_textbox.x-50, obj_textbox.y, nome_item);
+		
+		//if(object_exists(obj_textbox)){
+		//	with(obj_textbox){
+		//		draw_set_font(font_textbox);
+		//		draw_set_color(c_lime);
+		//		//draw_text(obj_textbox.x-50, obj_textbox.y, nome_item);
+		//		draw_text(x, y, nome_item);
+		//	}
+		//}
 	}
 }

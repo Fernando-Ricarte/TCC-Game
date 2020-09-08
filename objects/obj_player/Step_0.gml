@@ -20,7 +20,11 @@ jump = keyboard_check(vk_space);
 parede_d = place_meeting(x+1, y, obj_chao);
 parede_e = place_meeting(x-1, y, obj_chao);
 
-if(parede_d || parede_e && chao){
+if(right && parede_d && chao && jump){
+	jump = false;
+}
+
+if(left && parede_e && chao && jump){
 	jump = false;
 }
 
@@ -161,7 +165,7 @@ if(estado == state.parado){
 // poem a sprite de fall
 if(pulando)
 {
-	if(temp > 0.5)
+	if(temp > 0.55)
 	{
 		sprite_index = spr_fall2;
 	}else{

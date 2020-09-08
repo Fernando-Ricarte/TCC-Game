@@ -13,7 +13,7 @@
     "bboxmode": 1,
     "colkind": 1,
     "coltolerance": 0,
-    "edgeFiltering": false,
+    "edgeFiltering": true,
     "frames": [
         {
             "id": "c35eaf1d-f1d4-478b-81ec-49f7e51d6579",
