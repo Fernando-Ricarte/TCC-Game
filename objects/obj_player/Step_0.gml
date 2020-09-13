@@ -122,16 +122,16 @@ if(estado == state.movendo){
 	else if (temp == 0)
 	{
 		pulando = false;
-		sprite_index = spr_running;
+		sprite_index = spr_running_no;
 	}
 	
 	if(left)
 	{
-		image_xscale = -3;
+		//image_xscale = -3;
 	}
 	if(right)
 	{
-		image_xscale = 3;
+		//image_xscale = 3;
 	}
 	
 	if(right && left)
@@ -141,7 +141,7 @@ if(estado == state.movendo){
 }
 
 if(estado == state.parado){
-	sprite_index = spr_idle;
+	sprite_index = spr_idle_no;
 	
 	if(temp > 0){
 		pulando = true;
@@ -153,11 +153,11 @@ if(estado == state.parado){
 	
 	if(left)
 	{
-		image_xscale = -1;
+		//image_xscale = -1;
 	}
 	if(right)
 	{
-		image_xscale = 1;
+		//image_xscale = 1;
 	}
 }
 
@@ -169,7 +169,7 @@ if(pulando)
 	{
 		sprite_index = spr_fall2;
 	}else{
-		sprite_index = spr_jump;	
+		sprite_index = spr_jump;
 	}
 }
 
@@ -217,6 +217,65 @@ if(chao && jump){
 	}
 }
 
+
+var spr_name = sprite_get_name(sprite_index);
+
+if(spr_name == "spr_idle_no"){
+	
+	if(image_index == 1){
+		//sprite_set_offset(spr_idle_no, 17, 16);
+	}
+	if(image_index == 2){
+		//sprite_set_offset(spr_idle_no, 17, 15);
+	}
+	if(image_index == 3){
+		//sprite_set_offset(spr_idle_no, 17, 16);
+	}
+}else if(spr_name == "spr_running_no"){
+	
+	if(image_index == 1){
+		//sprite_set_offset(spr_running_no, 17, 15);
+	}
+	
+	if(image_index == 2){
+		//sprite_set_offset(spr_running_no, 17, 15);
+	}
+	
+	if(image_index == 3){
+		//sprite_set_offset(spr_running_no, 15, 15);
+	}
+	
+	if(image_index == 4){
+		//sprite_set_offset(spr_running_no, 21, 14);
+	}
+	
+	if(image_index == 5){
+		//sprite_set_offset(spr_running_no, 19, 14);
+	}
+	
+	if(image_index == 6){
+		//sprite_set_offset(spr_running_no, 17, 15);
+	}
+	
+	if(image_index == 7){
+		//sprite_set_offset(spr_running_no, 16, 16);
+	}
+	
+	if(image_index == 8){
+		//sprite_set_offset(spr_running_no, 17, 15);
+	}
+	
+	if(image_index == 9){
+		//sprite_set_offset(spr_running_no, 19, 16);
+	}
+	
+}
+
+if(mouse_x > x){
+	image_xscale = 2;
+}else{
+	image_xscale = -2;
+}
 
 
 //if(keyboard_check(ord("D"))){

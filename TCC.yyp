@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "05fcabf0-0a38-4e35-99d2-028d3ac59dea",
+            "Value": {
+                "id": "7db5ccdd-1230-4ac6-9ffc-511037609dcd",
+                "resourcePath": "sprites\\spr_fall2_no\\spr_fall2_no.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0604ccf6-2c5a-4223-8e56-dd876031d62f",
             "Value": {
                 "id": "ece762e1-d6d0-44eb-8d05-39ad56a22569",
@@ -235,6 +243,14 @@
             "Value": {
                 "id": "5bce5734-4296-42a0-9606-7024af4257fa",
                 "resourcePath": "views\\21021998-6433-46ce-8ccf-461c2533cc6f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "215895b9-0331-49a1-b25a-f23c4716074e",
+            "Value": {
+                "id": "7be7995f-4e65-4005-94de-9c5678949ff8",
+                "resourcePath": "views\\215895b9-0331-49a1-b25a-f23c4716074e.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -1071,6 +1087,14 @@
             }
         },
         {
+            "Key": "7dc0708c-c3a4-4b96-800a-778df65cce12",
+            "Value": {
+                "id": "1ef3ee2b-136f-48ff-bb8f-028597c48d9a",
+                "resourcePath": "views\\7dc0708c-c3a4-4b96-800a-778df65cce12.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "7e093a2a-e51c-4a1e-9a53-f9080d38730b",
             "Value": {
                 "id": "e1d8c39a-6301-4455-ab14-0d809c151c23",
@@ -1083,6 +1107,14 @@
             "Value": {
                 "id": "67b37b9f-5ec2-4c6b-b0a6-2065eaf97696",
                 "resourcePath": "sprites\\spr_muro\\spr_muro.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7fcbf575-b69a-4ea2-a77d-a14dfa81973f",
+            "Value": {
+                "id": "e2db0831-bca8-4736-bcb0-623e50500d30",
+                "resourcePath": "sprites\\spr_idle_no\\spr_idle_no.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1415,6 +1447,14 @@
             }
         },
         {
+            "Key": "9e366e0c-4e5b-423b-aa74-343e12e2d7a1",
+            "Value": {
+                "id": "ca47d793-da1d-4bf3-9656-78013c2818af",
+                "resourcePath": "objects\\obj_pistola\\obj_pistola.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9f8ac69c-7f12-4b71-91fa-1f1f95eb50bd",
             "Value": {
                 "id": "05e0d2df-1626-491d-a0a1-6ad6d4901e23",
@@ -1703,6 +1743,14 @@
             }
         },
         {
+            "Key": "bf5f79ec-c89f-4dd8-b38b-d1bcde76493d",
+            "Value": {
+                "id": "b1518ec2-470f-416f-90f9-c002371f8343",
+                "resourcePath": "sprites\\spr_jump_no\\spr_jump_no.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bf8521a4-83c2-4324-a81f-d09c28417c9e",
             "Value": {
                 "id": "13f51809-f26a-4176-965a-4b5f0ce5bcf8",
@@ -1975,6 +2023,14 @@
             }
         },
         {
+            "Key": "e965508f-5740-441c-8b38-6f8598d33f10",
+            "Value": {
+                "id": "e55fdd14-11c5-4999-85f1-933eced564b1",
+                "resourcePath": "sprites\\spr_running_no\\spr_running_no.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ec8a730e-f9f7-4921-b46a-7a18d888baf3",
             "Value": {
                 "id": "4521cad6-9202-4ab9-9e81-c511dc304fa3",
@@ -1996,6 +2052,14 @@
                 "id": "9e811ebb-1d07-4109-80db-33573091c0c2",
                 "resourcePath": "sounds\\shuriken_shoot\\shuriken_shoot.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "f02e5c4d-51cc-444d-b3e4-2c6fa2b2ea60",
+            "Value": {
+                "id": "84ea1c8e-2cfd-40da-a39e-28917d0098c7",
+                "resourcePath": "sprites\\gun01\\gun01.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
