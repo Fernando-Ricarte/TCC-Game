@@ -4,7 +4,7 @@
     "mvc": "1.12",
     "name": "spr_jump_no",
     "For3D": false,
-    "HTile": false,
+    "HTile": true,
     "VTile": false,
     "bbox_bottom": 31,
     "bbox_left": 0,
@@ -143,7 +143,7 @@
         }
     ],
     "origin": 4,
-    "originLocked": false,
+    "originLocked": true,
     "playbackSpeed": 7,
     "playbackSpeedType": 0,
     "premultiplyAlpha": false,

@@ -11,22 +11,15 @@ else
 	if (timer_pulo > 0) timer_pulo--;	
 }
 
-
 right = keyboard_check(ord("D"));
 left = keyboard_check(ord("A"));
 jump = keyboard_check(vk_space);
 
-// chacando se o personagem esta colado na parede
-parede_d = place_meeting(x+1, y, obj_chao);
-parede_e = place_meeting(x-1, y, obj_chao);
+// checando se o personagem esta colado na parede
+//parede_d = place_meeting(x+1, y, obj_chao);
+//parede_e = place_meeting(x-1, y, obj_chao);
 
-if(right && parede_d && chao && jump){
-	jump = false;
-}
 
-if(left && parede_e && chao && jump){
-	jump = false;
-}
 
 // tira o bug de animação quando aperta os dois botões ao msm tempo
 if(right && left)
@@ -34,7 +27,6 @@ if(right && left)
 	right = false;
 	left = false;
 }
-
 
 // aplicando velocidade horizontal/ gravidade vertical
 velh = (right - left) * max_velh;
@@ -119,20 +111,20 @@ if(estado == state.movendo){
 	if(temp > 0){
 		pulando = true;
 	}
-	else if (temp == 0)
+	else
 	{
 		pulando = false;
 		sprite_index = spr_running_no;
 	}
 	
-	if(left)
-	{
-		//image_xscale = -3;
-	}
-	if(right)
-	{
-		//image_xscale = 3;
-	}
+	//if(left)
+	//{
+	//	//image_xscale = -3;
+	//}
+	//if(right)
+	//{
+	//	//image_xscale = 3;
+	//}
 	
 	if(right && left)
 	{
@@ -141,14 +133,13 @@ if(estado == state.movendo){
 }
 
 if(estado == state.parado){
-	sprite_index = spr_idle_no;
 	
 	if(temp > 0){
 		pulando = true;
-	}
-	else if (temp == 0)
+	}else
 	{
 		pulando = false;
+		sprite_index = spr_idle_no;
 	}
 	
 	if(left)
@@ -163,20 +154,18 @@ if(estado == state.parado){
 
 // lança a animação de pulo se esta no ar por meno de 0.4 segundos senão ele
 // poem a sprite de fall
-if(pulando)
-{
-	if(temp > 0.55)
+if(pulando){
+	
+	if(chao_antes && !chao)
 	{
-		sprite_index = spr_fall2;
-	}else{
-		sprite_index = spr_jump;
+		sprite_index = spr_fall2_no;
 	}
-}
-
-
-if(chao_antes && !chao && !jump)
-{
-	sprite_index = spr_fall2;
+	else if(temp > 0.55)
+	{
+		sprite_index = spr_fall2_no;
+	}else{
+		sprite_index = spr_jump_no;
+	}
 }
 
 
@@ -217,59 +206,6 @@ if(chao && jump){
 	}
 }
 
-
-var spr_name = sprite_get_name(sprite_index);
-
-if(spr_name == "spr_idle_no"){
-	
-	if(image_index == 1){
-		//sprite_set_offset(spr_idle_no, 17, 16);
-	}
-	if(image_index == 2){
-		//sprite_set_offset(spr_idle_no, 17, 15);
-	}
-	if(image_index == 3){
-		//sprite_set_offset(spr_idle_no, 17, 16);
-	}
-}else if(spr_name == "spr_running_no"){
-	
-	if(image_index == 1){
-		//sprite_set_offset(spr_running_no, 17, 15);
-	}
-	
-	if(image_index == 2){
-		//sprite_set_offset(spr_running_no, 17, 15);
-	}
-	
-	if(image_index == 3){
-		//sprite_set_offset(spr_running_no, 15, 15);
-	}
-	
-	if(image_index == 4){
-		//sprite_set_offset(spr_running_no, 21, 14);
-	}
-	
-	if(image_index == 5){
-		//sprite_set_offset(spr_running_no, 19, 14);
-	}
-	
-	if(image_index == 6){
-		//sprite_set_offset(spr_running_no, 17, 15);
-	}
-	
-	if(image_index == 7){
-		//sprite_set_offset(spr_running_no, 16, 16);
-	}
-	
-	if(image_index == 8){
-		//sprite_set_offset(spr_running_no, 17, 15);
-	}
-	
-	if(image_index == 9){
-		//sprite_set_offset(spr_running_no, 19, 16);
-	}
-	
-}
 
 if(mouse_x > x){
 	image_xscale = 2;

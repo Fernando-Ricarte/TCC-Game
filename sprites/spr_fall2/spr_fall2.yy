@@ -4,7 +4,7 @@
     "mvc": "1.12",
     "name": "spr_fall2",
     "For3D": false,
-    "HTile": false,
+    "HTile": true,
     "VTile": false,
     "bbox_bottom": 31,
     "bbox_left": 0,
@@ -12,8 +12,8 @@
     "bbox_top": 0,
     "bboxmode": 1,
     "colkind": 1,
-    "coltolerance": 51,
-    "edgeFiltering": false,
+    "coltolerance": 0,
+    "edgeFiltering": true,
     "frames": [
         {
             "id": "75db91d4-3ca2-4c3e-8c4e-3b831b9e03ca",
@@ -231,7 +231,7 @@
         }
     ],
     "origin": 4,
-    "originLocked": false,
+    "originLocked": true,
     "playbackSpeed": 4,
     "playbackSpeedType": 0,
     "premultiplyAlpha": false,

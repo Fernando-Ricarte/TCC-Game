@@ -4,7 +4,7 @@
     "mvc": "1.12",
     "name": "spr_fall2_no",
     "For3D": false,
-    "HTile": false,
+    "HTile": true,
     "VTile": false,
     "bbox_bottom": 31,
     "bbox_left": 0,
@@ -12,8 +12,8 @@
     "bbox_top": 0,
     "bboxmode": 1,
     "colkind": 1,
-    "coltolerance": 51,
-    "edgeFiltering": false,
+    "coltolerance": 0,
+    "edgeFiltering": true,
     "frames": [
         {
             "id": "3d456be7-75c7-42ea-9dfe-b0c6e1946cde",
@@ -98,8 +98,8 @@
             "visible": true
         }
     ],
-    "origin": 9,
-    "originLocked": false,
+    "origin": 4,
+    "originLocked": true,
     "playbackSpeed": 4,
     "playbackSpeedType": 0,
     "premultiplyAlpha": false,
@@ -109,6 +109,6 @@
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "type": 0,
     "width": 32,
-    "xorig": 60,
-    "yorig": 20
+    "xorig": 16,
+    "yorig": 16
 }

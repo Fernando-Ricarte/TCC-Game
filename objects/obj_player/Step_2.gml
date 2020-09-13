@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //jaaaaaaaaaaaaaj
-// colisão horizontal
+//colisão horizontal
 if(place_meeting(x + velh, y, obj_chao))
 {
 	while(!place_meeting(x + sign(velh), y, obj_chao))
