@@ -1063,6 +1063,14 @@
             }
         },
         {
+            "Key": "79a489f4-dab1-4a2a-be52-fdcb0e530c6c",
+            "Value": {
+                "id": "214f09e4-1b75-4150-b691-4554cc13441f",
+                "resourcePath": "sprites\\spr_aurivam_atirador\\spr_aurivam_atirador.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7b76e465-5bbc-44ef-93da-5f7370f9affa",
             "Value": {
                 "id": "c85a7a43-25ab-4f82-8e9d-11227818d66b",
@@ -1556,6 +1564,14 @@
                 "id": "37d9834b-ef89-4971-8376-d7a8c0020ea9",
                 "resourcePath": "views\\a92f7fd5-e637-4e9e-89f4-99888930d32d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a986a261-cbbe-4111-a204-7dc06264c5b5",
+            "Value": {
+                "id": "23799a8c-a3dd-41ed-9a40-2dfa07545ae0",
+                "resourcePath": "sounds\\snd_tiro\\snd_tiro.yy",
+                "resourceType": "GMSound"
             }
         },
         {

@@ -4,8 +4,9 @@
 // criando tiro do objBossAurivam
 if cooldown <=1
 {
+	audio_play_sound(snd_tiro,0,false);
 	var bullet = instance_create_depth(x,y,1,objShootBoss);
-	cooldown = 50;
+	cooldown = random_range(50,100);
 	
 	with objShootBoss
 	{
@@ -14,4 +15,4 @@ if cooldown <=1
 	}  
 }
 
-cooldown = cooldown - 1;
+cooldown--;
