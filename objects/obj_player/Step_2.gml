@@ -26,19 +26,3 @@ if(place_meeting(x, y + velv, obj_chao))
 	velv = 0;
 }
 y += velv;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

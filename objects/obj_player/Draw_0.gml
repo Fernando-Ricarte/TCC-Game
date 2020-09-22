@@ -1,6 +1,27 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
+
+///========================================================================================
+var idd_escolhido = global.item_escolhido_slot[# 0, 0];
+var var_slot = global.item_escolhido_slot[# 0, 1];
+
+var quant = global.inventory[# var_slot, 1];
+
+var item_stat = global.item_index[# idd_escolhido, item_stat.type];
+
+if(item_stat == item_type.lancavel)
+{
+	tem_lancavel = true;
+}else{
+	tem_lancavel = false;
+}
+//==========================================================================================
+
+
+if(tem_lancavel){
+
 var dir = point_direction(x, y, mouse_x, mouse_y);
 
 var spr_name = sprite_get_name(sprite_index);
@@ -213,4 +234,11 @@ if(mouse_x > x){
 	}
 	
 	}
+}
+
+
+}else{
+	
+	draw_self();
+
 }

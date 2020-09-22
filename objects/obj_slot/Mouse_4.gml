@@ -21,15 +21,12 @@ if(type_item == item_type.food)
 			global.hp = 100;
 		}
 		
-		global.inventory[# var_slot, 1] = quant - 1;
+		scr_diminuir_qtd(iid);
+		
+		// verifica a quantidade de item se for igual a 0 ele seta para non-item
+		if(quant == 1){
+			global.inventory[# var_slot, 0] = item.none;
+		}
 		
 	}
-	
-}
-
-
-
-// verifica a quantidade de item se for igual a 0 ele seta para non-item
-if(quant == 1){
-	global.inventory[# var_slot, 0] = item.none;
 }

@@ -20,6 +20,22 @@ jump = keyboard_check(vk_space);
 //parede_e = place_meeting(x-1, y, obj_chao);
 
 
+///========================================================================================
+var idd_escolhido = global.item_escolhido_slot[# 0, 0];
+var var_slot = global.item_escolhido_slot[# 0, 1];
+
+var quant = global.inventory[# var_slot, 1];
+
+var item_stat = global.item_index[# idd_escolhido, item_stat.type];
+
+if(item_stat == item_type.lancavel)
+{
+	tem_lancavel = true;
+}else{
+	tem_lancavel = false;
+}
+//==========================================================================================
+
 
 // tira o bug de animação quando aperta os dois botões ao msm tempo
 if(right && left)
@@ -114,7 +130,8 @@ if(estado == state.movendo){
 	else
 	{
 		pulando = false;
-		sprite_index = spr_running_no;
+		if(tem_lancavel){sprite_index = spr_running_no;}else{sprite_index = spr_running;}
+		
 	}
 	
 	//if(left)
@@ -139,7 +156,7 @@ if(estado == state.parado){
 	}else
 	{
 		pulando = false;
-		sprite_index = spr_idle_no;
+		if(tem_lancavel){sprite_index = spr_idle_no;}else{sprite_index = spr_idle;}
 	}
 	
 	if(left)
@@ -158,13 +175,13 @@ if(pulando){
 	
 	if(chao_antes && !chao)
 	{
-		sprite_index = spr_fall2_no;
+		if(tem_lancavel){sprite_index = spr_fall2_no;}else{sprite_index = spr_fall2;}
 	}
 	else if(temp > 0.55)
 	{
-		sprite_index = spr_fall2_no;
+		if(tem_lancavel){sprite_index = spr_fall2_no;}else{sprite_index = spr_fall2;}
 	}else{
-		sprite_index = spr_jump_no;
+		if(tem_lancavel){sprite_index = spr_jump_no;}else{sprite_index = spr_jump;}
 	}
 }
 

@@ -20,5 +20,5 @@ while (slot < inventory_width)
 		exit; //Exit function, because it has set the slot
 		}
 	slot ++; //Incriment slot to test next position
-	}
+ }
 return false; //Did not set slot
