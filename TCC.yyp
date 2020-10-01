@@ -607,6 +607,14 @@
             }
         },
         {
+            "Key": "43c960ae-2065-4405-a89e-20edb2f4f403",
+            "Value": {
+                "id": "6e18b6a1-7193-4453-8cd5-62e8b7e86005",
+                "resourcePath": "rooms\\FaseDefinitiva\\FaseDefinitiva.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "440db7b0-f8fe-4ad7-b18f-f9fb5e29d6b9",
             "Value": {
                 "id": "5f5b6581-6d10-46f3-96f6-04f5b37cd0d1",
@@ -780,14 +788,6 @@
                 "id": "e0ba511b-8569-42d2-93c2-0a54120a40d6",
                 "resourcePath": "objects\\obj_toddy\\obj_toddy.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "5c5d57e6-466d-4985-b06e-9a2c9a1f21da",
-            "Value": {
-                "id": "0a6216e2-a82d-45b2-a60e-887cf11578df",
-                "resourcePath": "scripts\\scr_add_weapon_lancavel\\scr_add_weapon_lancavel.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -1067,14 +1067,6 @@
             "Value": {
                 "id": "6f6bcfc7-d7ab-44d0-8fe5-af271f385eba",
                 "resourcePath": "sprites\\spr_options\\spr_options.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "79a489f4-dab1-4a2a-be52-fdcb0e530c6c",
-            "Value": {
-                "id": "214f09e4-1b75-4150-b691-4554cc13441f",
-                "resourcePath": "sprites\\spr_aurivam_atirador\\spr_aurivam_atirador.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1572,14 +1564,6 @@
                 "id": "37d9834b-ef89-4971-8376-d7a8c0020ea9",
                 "resourcePath": "views\\a92f7fd5-e637-4e9e-89f4-99888930d32d.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "a986a261-cbbe-4111-a204-7dc06264c5b5",
-            "Value": {
-                "id": "23799a8c-a3dd-41ed-9a40-2dfa07545ae0",
-                "resourcePath": "sounds\\snd_tiro\\snd_tiro.yy",
-                "resourceType": "GMSound"
             }
         },
         {
@@ -2244,8 +2228,7 @@
         "81140a0b-3794-4409-a5c5-4de333ebbfb8",
         "403ab4b7-c215-4ede-972d-2380b8842ade",
         "808f9474-d5b7-47b4-a3e1-4d8c0d5724db",
-        "9db69ceb-3e9c-4471-a391-57f582a2fe3b",
-        "5c5d57e6-466d-4985-b06e-9a2c9a1f21da"
+        "9db69ceb-3e9c-4471-a391-57f582a2fe3b"
     ],
     "tutorial": ""
 }
