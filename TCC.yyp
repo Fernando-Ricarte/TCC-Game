@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "1e88ea06-6891-4b63-9803-ad1a59eef164",
+            "Value": {
+                "id": "826b54f3-ce22-4baf-81d5-443da86a66b6",
+                "resourcePath": "sprites\\spr_androidIdle\\spr_androidIdle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "21021998-6433-46ce-8ccf-461c2533cc6f",
             "Value": {
                 "id": "5bce5734-4296-42a0-9606-7024af4257fa",
@@ -460,6 +468,14 @@
                 "id": "f2746c4f-2630-416f-b500-feddb5503e28",
                 "resourcePath": "fonts\\font_textbox\\font_textbox.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "36639c15-da73-4bf8-803b-de50b438e49f",
+            "Value": {
+                "id": "05dd4ef5-84db-4a4d-bed3-1069cac5a5e0",
+                "resourcePath": "sprites\\spr_androidRun\\spr_androidRun.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1303,6 +1319,14 @@
             }
         },
         {
+            "Key": "8e02e34e-e128-4564-93e3-6ad0d1234a0d",
+            "Value": {
+                "id": "597663ae-a2ce-467a-afb2-f2bfac05c4f6",
+                "resourcePath": "views\\8e02e34e-e128-4564-93e3-6ad0d1234a0d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "8e1699cc-16f6-4a55-b8b0-de450a65ffe9",
             "Value": {
                 "id": "a910a7ed-4fa4-442b-9bea-5d0d1f19b2d6",
@@ -1556,6 +1580,14 @@
                 "id": "709dee43-2507-4483-b4cc-ad3b72d1ee41",
                 "resourcePath": "objects\\obj_efect_mao\\obj_efect_mao.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a9073124-b6cd-4598-a096-c8b047fe80fe",
+            "Value": {
+                "id": "eac249ef-c37c-4954-bf62-49fefabd3022",
+                "resourcePath": "sprites\\spr_androidAttack\\spr_androidAttack.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1876,6 +1908,14 @@
                 "id": "8cfbbf5d-0880-4c5e-90d2-79deccb62208",
                 "resourcePath": "sprites\\spr_notebook\\spr_notebook.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d3c730a1-5545-4926-9fe9-a5f86fd44045",
+            "Value": {
+                "id": "84a2c000-60d5-4ea2-b135-990c21e1cb55",
+                "resourcePath": "objects\\obj_android\\obj_android.yy",
+                "resourceType": "GMObject"
             }
         },
         {
