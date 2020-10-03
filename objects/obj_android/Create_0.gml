@@ -1,4 +1,4 @@
-enemyhp = 100;
+enemyhp = 200;
 hit_play = true;
 // -------------- iniciando vars do curso -------//
 grav = .3;
@@ -36,3 +36,7 @@ estado = stateAndroid.peranbulando;
 //  ---------- temmporizador pulo --------- //
 
 temp = 0;
+
+hit = 0;
+bater = true;
+timer_hit = 6;

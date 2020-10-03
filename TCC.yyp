@@ -1439,6 +1439,14 @@
             }
         },
         {
+            "Key": "9a87d1a6-e410-4556-90a3-8d749c1fbddc",
+            "Value": {
+                "id": "345a2239-b2f0-418b-9f87-80dd21b80f11",
+                "resourcePath": "sounds\\snd_erro_hit\\snd_erro_hit.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "9b10ce86-b264-49d7-ae4d-bf35185f14bd",
             "Value": {
                 "id": "53188a8c-c024-4d6f-8c8f-5955886c9b2b",
@@ -2028,6 +2036,14 @@
                 "id": "52ee857c-8711-4fcf-86a3-1dee91c51fd8",
                 "resourcePath": "tilesets\\tileset_grama\\tileset_grama.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "e224eaaa-6ffa-4574-b8ce-1368c2b3e800",
+            "Value": {
+                "id": "6928bf95-b2d9-494c-8355-db0010f65bf5",
+                "resourcePath": "sounds\\snd_android_hit\\snd_android_hit.yy",
+                "resourceType": "GMSound"
             }
         },
         {
