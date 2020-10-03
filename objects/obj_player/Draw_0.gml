@@ -7,7 +7,7 @@
 var idd_escolhido = global.item_escolhido_slot[# 0, 0];
 var var_slot = global.item_escolhido_slot[# 0, 1];
 
-var quant  = global.inventory[# var_slot, 1];
+var quant = global.inventory[# var_slot, 1];
 
 var item_stat = global.item_index[# idd_escolhido, item_stat.type];
 

@@ -63,14 +63,6 @@
             }
         },
         {
-            "Key": "06dcf5b6-1a94-4eef-9563-59745b113117",
-            "Value": {
-                "id": "712147c0-ca02-423e-aead-985cf0b51bd9",
-                "resourcePath": "objects\\obj_android\\obj_android.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "090840c1-b30b-49d2-8396-8f322a9b5589",
             "Value": {
                 "id": "b411041e-238b-413c-95b3-238877add496",
@@ -180,14 +172,6 @@
                 "id": "a42d6538-b57b-4a4e-8d30-29bd263ac8bd",
                 "resourcePath": "views\\16b04d8d-36ef-4699-8636-a3c257dc60ed.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "17f7fdad-a6d0-455f-9409-be2b7da35440",
-            "Value": {
-                "id": "6a4e4f59-d6ce-4545-b7cf-3e873c814abb",
-                "resourcePath": "sprites\\spr_androidRun\\spr_androidRun.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -308,14 +292,6 @@
                 "id": "717ff4e6-ec12-45ea-8368-247343a03077",
                 "resourcePath": "views\\2332b440-0943-41a6-8d73-18a1f0c0cddb.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "2378a42b-b160-49b8-b3de-44666fa41361",
-            "Value": {
-                "id": "0972f77c-8e26-4013-a110-8426a1e62d92",
-                "resourcePath": "sprites\\spr_androidAttack\\spr_androidAttack.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -452,14 +428,6 @@
                 "id": "f8958cb3-25f0-49b1-b301-47297f36e776",
                 "resourcePath": "views\\329d01cf-8117-4628-afe7-1f20be4e4cf8.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "32eea816-578a-4ed2-8d19-81c68dc716b6",
-            "Value": {
-                "id": "692d5569-699d-4620-b39a-5bfce108258c",
-                "resourcePath": "sounds\\snd_tiro\\snd_tiro.yy",
-                "resourceType": "GMSound"
             }
         },
         {
@@ -639,14 +607,6 @@
             }
         },
         {
-            "Key": "43c960ae-2065-4405-a89e-20edb2f4f403",
-            "Value": {
-                "id": "6e18b6a1-7193-4453-8cd5-62e8b7e86005",
-                "resourcePath": "rooms\\FaseDefinitiva\\FaseDefinitiva.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "440db7b0-f8fe-4ad7-b18f-f9fb5e29d6b9",
             "Value": {
                 "id": "5f5b6581-6d10-46f3-96f6-04f5b37cd0d1",
@@ -820,6 +780,14 @@
                 "id": "e0ba511b-8569-42d2-93c2-0a54120a40d6",
                 "resourcePath": "objects\\obj_toddy\\obj_toddy.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5c5d57e6-466d-4985-b06e-9a2c9a1f21da",
+            "Value": {
+                "id": "0a6216e2-a82d-45b2-a60e-887cf11578df",
+                "resourcePath": "scripts\\scr_add_weapon_lancavel\\scr_add_weapon_lancavel.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1099,6 +1067,14 @@
             "Value": {
                 "id": "6f6bcfc7-d7ab-44d0-8fe5-af271f385eba",
                 "resourcePath": "sprites\\spr_options\\spr_options.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "79a489f4-dab1-4a2a-be52-fdcb0e530c6c",
+            "Value": {
+                "id": "214f09e4-1b75-4150-b691-4554cc13441f",
+                "resourcePath": "sprites\\spr_aurivam_atirador\\spr_aurivam_atirador.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1559,14 +1535,6 @@
             }
         },
         {
-            "Key": "a5a261d0-4904-4a82-a349-48a59c94cf67",
-            "Value": {
-                "id": "4f95089f-5e22-4cca-b813-c607786e883c",
-                "resourcePath": "sprites\\spr_androidIdle\\spr_androidIdle.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "a5d4516e-8917-4cbc-bd04-434c7b55602f",
             "Value": {
                 "id": "721e7f03-bb00-464c-8ce9-5a1b52a56e87",
@@ -1604,6 +1572,14 @@
                 "id": "37d9834b-ef89-4971-8376-d7a8c0020ea9",
                 "resourcePath": "views\\a92f7fd5-e637-4e9e-89f4-99888930d32d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a986a261-cbbe-4111-a204-7dc06264c5b5",
+            "Value": {
+                "id": "23799a8c-a3dd-41ed-9a40-2dfa07545ae0",
+                "resourcePath": "sounds\\snd_tiro\\snd_tiro.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1879,14 +1855,6 @@
             }
         },
         {
-            "Key": "cdeffbe5-754d-4e6c-87e3-8853116c237d",
-            "Value": {
-                "id": "9b5802aa-0643-403b-9c9e-1e6530af1a18",
-                "resourcePath": "sprites\\spr_aurivam_atirador\\spr_aurivam_atirador.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "ce378ae8-7f4c-4773-8933-58ce00698ff4",
             "Value": {
                 "id": "86c17c98-07bb-4849-9b13-83e1babf6cb3",
@@ -2103,14 +2071,6 @@
             }
         },
         {
-            "Key": "edffa0b6-3b17-45a1-b341-27419e0d699a",
-            "Value": {
-                "id": "d21d42f4-bf79-4130-8302-aca6ef7231c4",
-                "resourcePath": "views\\edffa0b6-3b17-45a1-b341-27419e0d699a.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "f02e5c4d-51cc-444d-b3e4-2c6fa2b2ea60",
             "Value": {
                 "id": "84ea1c8e-2cfd-40da-a39e-28917d0098c7",
@@ -2284,7 +2244,8 @@
         "81140a0b-3794-4409-a5c5-4de333ebbfb8",
         "403ab4b7-c215-4ede-972d-2380b8842ade",
         "808f9474-d5b7-47b4-a3e1-4d8c0d5724db",
-        "9db69ceb-3e9c-4471-a391-57f582a2fe3b"
+        "9db69ceb-3e9c-4471-a391-57f582a2fe3b",
+        "5c5d57e6-466d-4985-b06e-9a2c9a1f21da"
     ],
     "tutorial": ""
 }

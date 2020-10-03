@@ -9,8 +9,7 @@
         "33302acb-fb4f-4e95-a724-7b30dec4e51f",
         "b33bc954-4a29-4005-92ae-9046139fe297",
         "30e888f4-e5d5-432a-b2bf-9dd9b1ddb417",
-        "09e0d768-918f-4e45-b234-58a734f539f7",
-        "32eea816-578a-4ed2-8d19-81c68dc716b6"
+        "09e0d768-918f-4e45-b234-58a734f539f7"
     ],
     "filterType": "GMSound",
     "folderName": "EFEITOS",
