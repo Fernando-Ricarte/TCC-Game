@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "06dcf5b6-1a94-4eef-9563-59745b113117",
+            "Value": {
+                "id": "712147c0-ca02-423e-aead-985cf0b51bd9",
+                "resourcePath": "objects\\obj_android\\obj_android.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "090840c1-b30b-49d2-8396-8f322a9b5589",
             "Value": {
                 "id": "b411041e-238b-413c-95b3-238877add496",
@@ -172,6 +180,14 @@
                 "id": "a42d6538-b57b-4a4e-8d30-29bd263ac8bd",
                 "resourcePath": "views\\16b04d8d-36ef-4699-8636-a3c257dc60ed.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "17f7fdad-a6d0-455f-9409-be2b7da35440",
+            "Value": {
+                "id": "6a4e4f59-d6ce-4545-b7cf-3e873c814abb",
+                "resourcePath": "sprites\\spr_androidRun\\spr_androidRun.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -292,6 +308,14 @@
                 "id": "717ff4e6-ec12-45ea-8368-247343a03077",
                 "resourcePath": "views\\2332b440-0943-41a6-8d73-18a1f0c0cddb.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2378a42b-b160-49b8-b3de-44666fa41361",
+            "Value": {
+                "id": "0972f77c-8e26-4013-a110-8426a1e62d92",
+                "resourcePath": "sprites\\spr_androidAttack\\spr_androidAttack.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1535,6 +1559,14 @@
             }
         },
         {
+            "Key": "a5a261d0-4904-4a82-a349-48a59c94cf67",
+            "Value": {
+                "id": "4f95089f-5e22-4cca-b813-c607786e883c",
+                "resourcePath": "sprites\\spr_androidIdle\\spr_androidIdle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a5d4516e-8917-4cbc-bd04-434c7b55602f",
             "Value": {
                 "id": "721e7f03-bb00-464c-8ce9-5a1b52a56e87",
@@ -2068,6 +2100,14 @@
                 "id": "9e811ebb-1d07-4109-80db-33573091c0c2",
                 "resourcePath": "sounds\\shuriken_shoot\\shuriken_shoot.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "edffa0b6-3b17-45a1-b341-27419e0d699a",
+            "Value": {
+                "id": "d21d42f4-bf79-4130-8302-aca6ef7231c4",
+                "resourcePath": "views\\edffa0b6-3b17-45a1-b341-27419e0d699a.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
