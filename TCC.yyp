@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "1e3f6729-4a50-4bf9-969e-d95e0cecf204",
+            "Value": {
+                "id": "11d29d2c-c13b-4251-a5ff-23bab1db2b37",
+                "resourcePath": "sprites\\spr_slot_selected\\spr_slot_selected.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1e755252-ac6a-40f0-8187-e22ca96480ff",
             "Value": {
                 "id": "5775a8cd-3a04-497e-89ca-94112864de37",
@@ -2122,7 +2130,7 @@
             "Key": "f0991822-215a-48eb-8e58-cce02b3f1386",
             "Value": {
                 "id": "3cfb0a52-7f98-4e38-9b62-e0127d7a0ce5",
-                "resourcePath": "sprites\\spr_slot_selected\\spr_slot_selected.yy",
+                "resourcePath": "sprites\\spr_slot_hovered\\spr_slot_hovered.yy",
                 "resourceType": "GMSprite"
             }
         },

@@ -3,10 +3,17 @@
 
 if(mouse_encima)
 {
-	sprite_index = spr_slot_selected;	
-}else
+	if(sprite_index != spr_slot_selected)
+	{
+		sprite_index = spr_slot_hovered;
+	}
+}
+else
 {
-	sprite_index = spr_slot;
+	if(sprite_index != spr_slot_selected)
+	{
+		sprite_index = spr_slot;
+	}
 }
 
 var xx = camera_get_view_x(view_camera[0]);

@@ -9,6 +9,11 @@ global.item_escolhido_slot[# 0, 0] = iid;
 global.item_escolhido_slot[# 0, 1] = var_slot;
 
 
+obj_slot.sprite_index = spr_slot;
+sprite_index = spr_slot_selected;
+
+
+
 
 //var mouse_iid = global.mouse_slot[# 0, 0];
 //var mouse_amount = global.mouse_slot[# 0, 1];
