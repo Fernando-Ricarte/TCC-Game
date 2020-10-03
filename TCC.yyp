@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "0871e342-a263-44b7-bf93-8bd03ff5bc9b",
+            "Value": {
+                "id": "b5dbd084-aaee-4cd1-9f74-98ccf387fa33",
+                "resourcePath": "sprites\\spr_back_health_bar\\spr_back_health_bar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "090840c1-b30b-49d2-8396-8f322a9b5589",
             "Value": {
                 "id": "b411041e-238b-413c-95b3-238877add496",
