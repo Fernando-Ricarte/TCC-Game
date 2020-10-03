@@ -1,5 +1,5 @@
 {
-    "id": "a986a261-cbbe-4111-a204-7dc06264c5b5",
+    "id": "32eea816-578a-4ed2-8d19-81c68dc716b6",
     "modelName": "GMSound",
     "mvc": "1.0",
     "name": "snd_tiro",

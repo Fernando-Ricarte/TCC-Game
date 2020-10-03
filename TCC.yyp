@@ -431,6 +431,14 @@
             }
         },
         {
+            "Key": "32eea816-578a-4ed2-8d19-81c68dc716b6",
+            "Value": {
+                "id": "692d5569-699d-4620-b39a-5bfce108258c",
+                "resourcePath": "sounds\\snd_tiro\\snd_tiro.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "33302acb-fb4f-4e95-a724-7b30dec4e51f",
             "Value": {
                 "id": "fa17748d-d115-4394-9400-9883f3055b49",
@@ -1835,6 +1843,14 @@
             "Value": {
                 "id": "7dfc3ddb-bf29-44d8-8259-0ed11b547ed0",
                 "resourcePath": "sprites\\spr_errorAttack\\spr_errorAttack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cdeffbe5-754d-4e6c-87e3-8853116c237d",
+            "Value": {
+                "id": "9b5802aa-0643-403b-9c9e-1e6530af1a18",
+                "resourcePath": "sprites\\spr_aurivam_atirador\\spr_aurivam_atirador.yy",
                 "resourceType": "GMSprite"
             }
         },

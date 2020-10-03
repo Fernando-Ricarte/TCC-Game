@@ -50,7 +50,7 @@ scr_add_food(item.bolinho, "Bolinho da ETEC", "Muito gostoso! se não estiver mo
 scr_add_weapon(item.sword , "Espada Comum", "Uma espada capaz de infligir danos a inimigos", 10, "spr_espada_comum");
 adiciona_diversos(item.notebook, "Note Gamer 12GB", "Capaz de rodar qualquer programa, menos Android Studio é claro...", "spr_notebook");
 scr_add_weapon(item.none, "", "", 0, "spr_none");
-scr_add_weapon_lancavel(item.shuriken, "Estrela ninja", "Dattebayo viado", 10, "spr_shuriken_item");
+scr_add_weapon(item.shuriken, "Estrela ninja", "Dattebayo viado", 10, "spr_shuriken_item");
 
 
 // adicionando item ao player

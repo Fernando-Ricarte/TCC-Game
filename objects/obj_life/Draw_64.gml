@@ -16,7 +16,7 @@ if global.life = 5
 
 // se a variavel global.life que a a vida do player estiver = 4
 // ira aparecer o spr_life correspondente
-if global.life = 4
+if global. life = 4
 {
 	draw_sprite(spr_life,4,100,50)		
 }
