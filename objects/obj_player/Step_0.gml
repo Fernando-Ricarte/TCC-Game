@@ -85,10 +85,8 @@ switch(estado)
 	{
 		estado = state.movendo;
 	}
-	
 		break;
 	case state.movendo:
-	
 	
 	// aplicando a movimentação?
 	 velh = lerp(velh, avanco_h, acel);
@@ -103,8 +101,6 @@ switch(estado)
 	if (jump && (chao || timer_pulo)) {
 		velv += -max_velv;
 	}
-	
-	
 		break;
 	case state.dash:
 	

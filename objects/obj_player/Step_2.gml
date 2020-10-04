@@ -26,3 +26,33 @@ if(place_meeting(x, y + velv, obj_chao))
 	velv = 0;
 }
 y += velv;
+
+
+////            B R A Ç O     D  O     P L A Y E R
+
+///========================================================================================
+var idd_escolhido = global.item_escolhido_slot[# 0, 0];
+var var_slot = global.item_escolhido_slot[# 0, 1];
+
+var quant = global.inventory[# var_slot, 1];
+
+var item_stat = global.item_index[# idd_escolhido, item_stat.type];
+
+if(item_stat == item_type.lancavel)
+{
+	tem_lancavel = true;
+}else{
+	tem_lancavel = false;
+}
+//==========================================================================================
+
+if( tem_lancavel )
+{
+	obj_braco.visible = true;
+	obj_braco_esq.visible = true;
+}
+else
+{
+	obj_braco.visible = false;
+	obj_braco_esq.visible = false;
+}

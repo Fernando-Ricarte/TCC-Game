@@ -54,3 +54,15 @@ temp = 0;
 // ---------- limite para o pulo -------//
 limite_pulo = 8;
 timer_pulo = limite_pulo;
+
+
+//// criação dos braços
+with( instance_create_layer(x, y+3, "player", obj_braco_esq) )
+{
+	visible = false;
+}
+
+with( instance_create_layer(x, y, "cursor", obj_braco) )
+{
+	visible = false;
+}

@@ -559,6 +559,14 @@
             }
         },
         {
+            "Key": "3ad8761a-bf09-4d5b-891f-0958ed49c31f",
+            "Value": {
+                "id": "5f0d5e90-7a6e-4155-9c66-5179292d2688",
+                "resourcePath": "sprites\\gun02\\gun02.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3afd7875-09d2-48f9-a85e-77cd0ab624fd",
             "Value": {
                 "id": "51d714ed-97ff-450a-8313-873e7ede2a95",
@@ -652,6 +660,14 @@
                 "id": "6674d6ff-f465-4061-82d8-01b42153e5de",
                 "resourcePath": "sprites\\spr_shootBoss\\spr_shootBoss.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "45713a81-1714-4b6f-9fa4-9deff2706a6d",
+            "Value": {
+                "id": "f494644e-2499-451f-9247-f3d926a1a14e",
+                "resourcePath": "objects\\obj_braco_esq\\obj_braco_esq.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1991,6 +2007,14 @@
             }
         },
         {
+            "Key": "db3a919b-87e2-48ff-be8a-52c64d881753",
+            "Value": {
+                "id": "5e6ce3ea-0a2f-43ac-8490-f8bd608d4b47",
+                "resourcePath": "objects\\obj_braco\\obj_braco.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "db5b5e61-762d-4b00-ad06-97a5573bb80a",
             "Value": {
                 "id": "97fca521-a6c4-43c2-8e71-94cff601faa3",
@@ -2204,6 +2228,14 @@
                 "id": "77bf0e5e-87f9-4b99-bbb0-0244f3f077ce",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f579f962-3732-496b-b0c0-e1805b1af4a6",
+            "Value": {
+                "id": "03fdfffb-6e65-4b77-a2a8-81b8e5a56958",
+                "resourcePath": "sprites\\spr_shuriken_arm\\spr_shuriken_arm.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
