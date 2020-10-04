@@ -9,7 +9,7 @@ switch (state)
 	
 }
 
-if count <2 
+if count < 2 
 {
  if state = BOSS_STATE.BOBBING
  {

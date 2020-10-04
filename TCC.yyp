@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "18cfde70-928d-4818-81d4-8128241a94e5",
+            "Value": {
+                "id": "07e2c2eb-c680-467a-a207-0c80cdc747e6",
+                "resourcePath": "views\\18cfde70-928d-4818-81d4-8128241a94e5.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "19f79a85-4e43-4f81-a933-0c998e5c92f3",
             "Value": {
                 "id": "a19aca98-5534-446c-9d30-eb131487aeee",
@@ -307,6 +315,14 @@
             "Value": {
                 "id": "717ff4e6-ec12-45ea-8368-247343a03077",
                 "resourcePath": "views\\2332b440-0943-41a6-8d73-18a1f0c0cddb.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "24a82ff9-7693-4902-a84b-f70ec388bfa9",
+            "Value": {
+                "id": "d0db765a-c772-4da9-80f6-5117d55a2179",
+                "resourcePath": "views\\24a82ff9-7693-4902-a84b-f70ec388bfa9.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -727,6 +743,14 @@
             }
         },
         {
+            "Key": "4c38b34c-2719-4e04-8fd5-813af2bfdb19",
+            "Value": {
+                "id": "debfc57c-9bbc-4571-8765-c40b81ea9fcf",
+                "resourcePath": "scripts\\src_add_weapon_fire\\src_add_weapon_fire.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4e3409f8-6c1c-4c3c-87e3-d077f5e585e5",
             "Value": {
                 "id": "23eb4505-a3fc-4225-b6be-7e41632fa072",
@@ -756,6 +780,14 @@
                 "id": "cc9727bf-fba2-4868-b653-653585eaaf15",
                 "resourcePath": "tilesets\\tile_predinhos\\tile_predinhos.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "51ab28b7-61cf-4b1b-95ab-821274f66f30",
+            "Value": {
+                "id": "980d7425-915f-457c-9eb6-5f4fd7e9ebd3",
+                "resourcePath": "sprites\\spr_railgun\\spr_railgun.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -948,6 +980,14 @@
                 "id": "5c26acc3-b96a-425c-b263-0292ad17e209",
                 "resourcePath": "views\\686e3f8a-c47e-4011-a17f-32230536790c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "68bd15f5-844b-4ea6-845f-de9d496ccc75",
+            "Value": {
+                "id": "f9566179-56a6-4144-952b-848e2d1cc8a1",
+                "resourcePath": "objects\\bullet\\bullet.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1247,6 +1287,14 @@
             }
         },
         {
+            "Key": "8535ba6f-5131-4754-95a2-0ec6982d1962",
+            "Value": {
+                "id": "27abca0d-f218-4b4f-bfa2-7c5d7823c883",
+                "resourcePath": "objects\\obj_weapon\\obj_weapon.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "86449f3c-3dcf-41b6-a682-6f7aa5670703",
             "Value": {
                 "id": "a5c5e35b-2b43-40d3-b187-e9d99be47d7b",
@@ -1356,6 +1404,14 @@
                 "id": "a910a7ed-4fa4-442b-9bea-5d0d1f19b2d6",
                 "resourcePath": "scripts\\scr_gain_item\\scr_gain_item.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "8f834231-24eb-43ac-8ac0-0a506c8d85b7",
+            "Value": {
+                "id": "f8b0c99d-c01d-4730-9344-60fec60f3fd6",
+                "resourcePath": "objects\\obj_weapon2\\obj_weapon2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2311,6 +2367,14 @@
             }
         },
         {
+            "Key": "ff485f02-4e7a-476a-926c-c2f5cb7c6f07",
+            "Value": {
+                "id": "3f6eba5b-2789-4285-b6ef-2b127835c5a8",
+                "resourcePath": "sprites\\spr_bullet_railgun\\spr_bullet_railgun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ff908fe7-aa9d-40a4-ae1b-bf681733a401",
             "Value": {
                 "id": "8ba61a28-ce3f-477d-9cf5-e98aa06b028e",
@@ -2341,7 +2405,8 @@
         "403ab4b7-c215-4ede-972d-2380b8842ade",
         "808f9474-d5b7-47b4-a3e1-4d8c0d5724db",
         "9db69ceb-3e9c-4471-a391-57f582a2fe3b",
-        "5c5d57e6-466d-4985-b06e-9a2c9a1f21da"
+        "5c5d57e6-466d-4985-b06e-9a2c9a1f21da",
+        "4c38b34c-2719-4e04-8fd5-813af2bfdb19"
     ],
     "tutorial": ""
 }

@@ -5,6 +5,7 @@
     "name": "10156d6a-e69c-477b-bcce-e9274ed194b8",
     "children": [
         "2e40eda9-a114-40ad-943a-c386c16276c5",
+        "51ab28b7-61cf-4b1b-95ab-821274f66f30",
         "f579f962-3732-496b-b0c0-e1805b1af4a6",
         "b9bb2d2c-d901-4f1a-97aa-90c02374f49f",
         "3afd7875-09d2-48f9-a85e-77cd0ab624fd",
@@ -13,7 +14,8 @@
         "9b512552-b080-4d2f-ab86-55160536076b",
         "9bcb3545-c5f0-4772-82d5-a35d20337684",
         "4514584f-4738-45cc-92a3-0312af14f9fa",
-        "9fbd87a8-b13b-4c72-8572-839caeb9d231"
+        "9fbd87a8-b13b-4c72-8572-839caeb9d231",
+        "24a82ff9-7693-4902-a84b-f70ec388bfa9"
     ],
     "filterType": "GMSprite",
     "folderName": "Armas",

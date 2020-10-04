@@ -10,6 +10,7 @@ enum item
 	bolinho,
 	notebook,
 	shuriken,
+	rail_gun,
 	total
 }
 
@@ -21,6 +22,7 @@ enum item_stat
  damage,
  health_gain,
  sprite,
+ spr_bullet,
  total
  }
 
@@ -30,7 +32,8 @@ enum item_type
  weapon,
  food,
  diversos,
- lancavel
+ lancavel,
+ fire_gun
  }
 
 global.inventory = ds_grid_create(10, 2);
@@ -48,14 +51,15 @@ global.item_escolhido_slot = ds_grid_create(1, 2);
 scr_add_food(item.toddy, "Toddynho", "Achocolatado da ETEC, o melhor", 10, "spr_toddynho");
 scr_add_food(item.bolinho, "Bolinho da ETEC", "Muito gostoso! se não estiver mofado, é claro...", 15, "spr_bolinho");
 scr_add_weapon(item.sword , "Espada Comum", "Uma espada capaz de infligir danos a inimigos", 10, "spr_espada_comum");
-adiciona_diversos(item.notebook, "Note Gamer 12GB", "Capaz de rodar qualquer programa, menos Android Studio é claro...", "spr_notebook");
+adiciona_diversos(item.notebook, "Notebook 12GB's", "Capaz de rodar qualquer programa, menos Android Studio é claro...", "spr_notebook");
 scr_add_weapon(item.none, "", "", 0, "spr_none");
-scr_add_weapon_lancavel(item.shuriken, "Estrela ninja", "Dattebayo viado", 10, "spr_shuriken_item");
-
+scr_add_weapon_lancavel(item.shuriken, "Estrela ninja", "", 10, "spr_shuriken_item", "spr_shuriken");
+src_add_weapon_fire(item.rail_gun , "Arma de Raio", "", 20, "spr_railgun", "spr_bullet_railgun");
 
 // adicionando item ao player
 scr_gain_item(item.toddy, 1);
 scr_gain_item(item.notebook, 1);
 scr_gain_item(item.sword, 1);
 scr_gain_item(item.bolinho, 1);
-scr_gain_item(item.shuriken , 5);
+scr_gain_item(item.shuriken , 10);
+scr_gain_item(item.rail_gun , 50);

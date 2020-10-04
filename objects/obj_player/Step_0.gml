@@ -28,7 +28,7 @@ var quant = global.inventory[# var_slot, 1];
 
 var item_stat = global.item_index[# idd_escolhido, item_stat.type];
 
-if(item_stat == item_type.lancavel)
+if(item_stat == item_type.lancavel || item_stat == item_type.fire_gun)
 {
 	tem_lancavel = true;
 }else{

@@ -5,7 +5,10 @@
     "name": "4205c1ae-6002-43bc-a8e6-8126fc2ab62a",
     "children": [
         "ce378ae8-7f4c-4773-8933-58ce00698ff4",
-        "e587bc16-b3ce-4059-80de-c2706d6c8d5b"
+        "e587bc16-b3ce-4059-80de-c2706d6c8d5b",
+        "18cfde70-928d-4818-81d4-8128241a94e5",
+        "8535ba6f-5131-4754-95a2-0ec6982d1962",
+        "8f834231-24eb-43ac-8ac0-0a506c8d85b7"
     ],
     "filterType": "GMObject",
     "folderName": "Efeitos",
