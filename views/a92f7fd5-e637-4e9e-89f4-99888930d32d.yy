@@ -7,8 +7,7 @@
         "2caea5cd-2e12-4e32-a702-eba84833f2e3",
         "1b05e782-07dd-4157-84d8-8b3f9011e2e8",
         "fd6744e2-dada-4be8-9bb1-37fdd6f56af2",
-        "b80bc70f-c241-4a6c-898b-a33e5bdbb088",
-        "e87c0372-3790-4b95-af79-c7f887557a19"
+        "b80bc70f-c241-4a6c-898b-a33e5bdbb088"
     ],
     "filterType": "GMObject",
     "folderName": "Eventos",

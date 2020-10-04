@@ -15,14 +15,16 @@ scr_init_inventory();
 for (var i = 0; i < ds_grid_width(global.inventory); i++)
  {
 	var w = sprite_get_width(spr_slot);
-	var pos_x = i * w + (w * 6.5);
+	var tamanho_camera_largura = camera_get_view_width(view_camera[0]);
+	var metade_camera = tamanho_camera_largura / 2;
+	var pos_x = i * w + (metade_camera / 1.7);
+	
+	
 	var pos_y = camera_get_view_height(view_camera[0]);
+	pos_y = pos_y / 25;
 	
-	pos_y = pos_y / pos_y;
 	
-	pos_y = pos_y + 28;
-	
-	var s = instance_create_layer(pos_x, 50, "inventory", obj_slot);
+	var s = instance_create_layer(pos_x, pos_y, "inventory", obj_slot);
 	
 	s.var_slot = i;
 	s.pos_x = pos_x;

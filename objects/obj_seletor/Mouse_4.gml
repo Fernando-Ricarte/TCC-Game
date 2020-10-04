@@ -2,12 +2,12 @@
    
 switch(fase){
 
-case 1:{
-	if(global.Fase_Destravada == 1) {
-		room_goto(Fase01);
-	} else show_message("Está fase ainda não está disponivel");
-	break;
-}
+//case 1:{
+//	if(global.Fase_Destravada == 1) {
+//		room_goto(Fase01);
+//	} else show_message("Está fase ainda não está disponivel");
+//	break;
+//}
 
 case 2:{
 	if(global.Fase_Destravada == 1) {
