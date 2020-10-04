@@ -1599,6 +1599,14 @@
             }
         },
         {
+            "Key": "a5c2520c-aafc-4aa0-adb5-2f39dfaa42c4",
+            "Value": {
+                "id": "a6add77c-975b-4119-acf5-5da1ad86331d",
+                "resourcePath": "rooms\\FaseDefinitiva02\\FaseDefinitiva02.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "a5d4516e-8917-4cbc-bd04-434c7b55602f",
             "Value": {
                 "id": "721e7f03-bb00-464c-8ce9-5a1b52a56e87",
