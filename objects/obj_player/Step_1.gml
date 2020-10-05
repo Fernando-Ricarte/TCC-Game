@@ -3,3 +3,12 @@
 
 // chacando se o personagem esta no chao
 chao_antes = place_meeting(x, y + 1, obj_chao);
+
+if ( pulando )
+{
+	pulando_antes = true;
+}
+else
+{
+	pulando_antes = false;	
+}

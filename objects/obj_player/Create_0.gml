@@ -9,6 +9,7 @@
 
 //pulo = false;
 pulando = false;
+pulando_antes = false;
 
 //jumpheight = 128;
 //jumpFrame = 0;

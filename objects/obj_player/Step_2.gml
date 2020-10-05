@@ -56,3 +56,9 @@ else
 	obj_braco.visible = false;
 	obj_braco_esq.visible = false;
 }
+
+
+if(	pulando_antes && chao )
+{
+	script_execute(src_lansa_poeira, x, y);
+}

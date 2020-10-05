@@ -1,4 +1,4 @@
-script_execute(add_blood);
+script_execute(add_parts);
 
 var px = argument0;
 var py = argument1;

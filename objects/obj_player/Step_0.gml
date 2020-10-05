@@ -4,12 +4,18 @@ chao = place_meeting(x, y + 1, obj_chao);
 // limite do pulo
 if (chao)
 {
-	timer_pulo = limite_pulo;	
+	timer_pulo = limite_pulo;
 }
 else
 {
 	if (timer_pulo > 0) timer_pulo--;	
 }
+
+if(	pulando_antes && chao )
+{
+	script_execute(src_lansa_poeira, x, y);
+}
+
 
 right = keyboard_check(ord("D"));
 left = keyboard_check(ord("A"));
