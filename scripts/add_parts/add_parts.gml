@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+var sprite = argument0;
+
+
 part_system=part_system_create();
 
 part_emitter=part_emitter_create(part_system);
@@ -15,12 +18,11 @@ part_type_scale(part_type, 1, 1);
 part_type_gravity(part_type, 0.10, -70);
 
 
-
 //// poeira
 part_system_poeira = part_system_create();
 part_emitter_poeira = part_emitter_create(part_system_poeira);
 part_type_poeira = part_type_create();
-part_type_sprite(part_type_poeira, spr_part_poeira, false, false, false);
+part_type_sprite(part_type_poeira, sprite, false, false, false);
 part_type_alpha3(part_type_poeira, 0, 1, 0);
 part_type_color3(part_type_poeira, c_gray, c_silver, c_white);
 

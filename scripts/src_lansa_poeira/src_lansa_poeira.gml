@@ -1,4 +1,8 @@
-script_execute(add_parts);
+var sprite_na = "spr_part_poeira";
+var num = irandom_range( 1, 4 );
+var spr = string(sprite_na) + string(num);
+var sprite = asset_get_index(spr);
+add_parts( sprite );
 
 var px = argument0;
 var py = argument1;

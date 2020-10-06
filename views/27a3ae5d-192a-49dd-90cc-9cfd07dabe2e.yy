@@ -13,7 +13,9 @@
         "ae1ff0fc-efbf-4383-9078-ab1eec1491b6",
         "7ee6d56e-7d99-4c9e-bece-639bab38f332",
         "1402dc06-be4b-4c8c-836a-14c585502d2f",
-        "1503b19a-4090-4dba-a4c1-b29c3e2280f0"
+        "1503b19a-4090-4dba-a4c1-b29c3e2280f0",
+        "c82b40f5-74bd-45b4-b79d-077f5f36ac36",
+        "f336a8c2-9754-4400-a5bc-d9188041c21e"
     ],
     "filterType": "GMSprite",
     "folderName": "SprTilesDecoração",

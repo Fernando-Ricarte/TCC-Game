@@ -4,7 +4,8 @@
     "mvc": "1.1",
     "name": "155f126c-af3e-4752-b37d-0cec23444fc1",
     "children": [
-        "e5dce793-73b8-468f-8ceb-91d948c2a133"
+        "e1ded35d-74fa-48bf-8f5e-880ccee3fe8f",
+        "5c7cfcc6-afdd-43b4-a475-ef638086dba8"
     ],
     "filterType": "GMSprite",
     "folderName": "particles",
