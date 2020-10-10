@@ -106,12 +106,9 @@ switch(estado){
 						estado = stateAndroid.atacando
 					}
 					
-				}else{
-					sprite_index = spr_androidIdle;
 				}
 			}else{
 				estado = stateAndroid.parado;
-				sprite_index = spr_androidIdle;
 			}
 		
 		break;
@@ -120,13 +117,8 @@ switch(estado){
 			// verifica quanto tempo o npc esta parado
 			timerParado += 1 / 64;
 			// passou 1 segundo que o npc está parado
-			if(timerParado > 1){
-					estado = stateAndroid.peranbulando;
-					timerParado = 0;
-			}else{
-				sprite_index = spr_androidIdle;	
-			}
-		
+			
+			sprite_index = spr_androidIdle;
 		break;
 		
 	case stateAndroid.peranbulando:
@@ -135,27 +127,6 @@ switch(estado){
 		if (distance_to_object(obj_player) < distance && distance_to_object(obj_player) > 10 && pode_seguir && pode_mover)
 		{
 			estado = stateAndroid.seguindo;	
-		}else{
-			
-			if(var_lado == 1){
-				x_scale = 1;
-				chao_pre = 40;
-				x += 4;
-			}
-			if(var_lado == -1){
-				x_scale = -1;
-				chao_pre = -40;
-				x -= 4;
-			}
-			
-			sprite_index = spr_androidRun;
-			image_xscale = x_scale;
-			chao_previsao2 = place_meeting(x+chao_pre, y + 1, obj_chao);
-			
-			if(!chao_previsao2){
-				var_lado = var_lado * -1;
-			}
-			
 		}
 		break;
 		
@@ -167,7 +138,7 @@ switch(estado){
 			if (distance_to_object(obj_player) < 5){
 				estado = stateAndroid.atacando
 			}else{
-				estado = stateAndroid.peranbulando;
+				estado = stateAndroid.parado;
 			}
 		
 		break;

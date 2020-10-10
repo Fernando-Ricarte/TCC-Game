@@ -31,7 +31,7 @@ enum stateAndroid
 	atacando
 }
 
-estado = stateAndroid.peranbulando;
+estado = stateAndroid.parado;
 
 //  ---------- temmporizador pulo --------- //
 

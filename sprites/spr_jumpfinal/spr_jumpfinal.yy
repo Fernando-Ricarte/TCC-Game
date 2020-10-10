@@ -5,7 +5,7 @@
     "name": "spr_jumpfinal",
     "For3D": false,
     "HTile": true,
-    "VTile": false,
+    "VTile": true,
     "bbox_bottom": 31,
     "bbox_left": 0,
     "bbox_right": 31,
