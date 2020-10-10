@@ -1,4 +1,4 @@
-/// @description Insert description here
+ /// @description Insert description here
 // You can write your code in this editor
 
 if (!pause)
@@ -11,4 +11,5 @@ if (!pause)
 	pause = 0;
 	instance_activate_all();
 	audio_resume_all();
+	draw_set_alpha(100);
 }
