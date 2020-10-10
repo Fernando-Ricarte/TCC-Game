@@ -20,7 +20,7 @@ timerParado = 0;
 var_lado = 1;
 chao = false;
 andar_mais = true;
-
+parede_previsao = false;
 // ------------- STATE MACHINE ----------------------//
 
 enum stateNoinha
@@ -40,3 +40,6 @@ temp = 0;
 hit = 0;
 bater = true;
 timer_hit = 6;
+
+show_damage = false;
+last_damage = 0;

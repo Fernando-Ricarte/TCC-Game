@@ -56,7 +56,7 @@ if(!chao)
 
 y_player = obj_player.y;
 			
-if(y_player > y-40 && y_player < y+40){
+if(y_player > y-80 && y_player < y+80){
 	pode_seguir = true;
 }else{
 	pode_seguir = false;	
@@ -88,6 +88,20 @@ switch(estado){
 			}else{
 				direcao = -40;
 				perto = -2;
+			}
+			
+			
+			if(var_lado == 1){
+				parede_previsao = place_meeting(x+10, y - 1, obj_chao);
+			}
+			if(var_lado == -1){
+				parede_previsao = place_meeting(x-10, y - 1, obj_chao);
+			}
+			
+			if( parede_previsao )
+			{
+				estado = stateNoinha.peranbulando;
+				exit;
 			}
 			
 			chao_previsao = place_meeting(x+direcao, y + 1, obj_chao);
@@ -141,18 +155,22 @@ switch(estado){
 				x_scale = 1;
 				chao_pre = 40;
 				x += 4;
+				
+				parede_previsao = place_meeting(x+10, y - 1, obj_chao);
 			}
 			if(var_lado == -1){
 				x_scale = -1;
 				chao_pre = -40;
 				x -= 4;
+				
+				parede_previsao = place_meeting(x-10, y - 1, obj_chao);
 			}
 			
 			sprite_index = spr_noinhaRun;
 			image_xscale = x_scale;
 			chao_previsao2 = place_meeting(x+chao_pre, y + 1, obj_chao);
 			
-			if(!chao_previsao2){
+			if(!chao_previsao2 || parede_previsao ){
 				var_lado = var_lado * -1;
 			}
 			

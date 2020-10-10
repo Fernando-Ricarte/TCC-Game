@@ -9,6 +9,13 @@ with ( bullet )
 	instance_destroy();
 }
 
+last_damage = damage_bullet;
+
 enemyhp -= damage_bullet;
+
+if(!show_damage){
+	show_damage = true;
+	alarm[1] = 20;
+}
 
 audio_play_sound(snd_noinha_hit,0,false);
