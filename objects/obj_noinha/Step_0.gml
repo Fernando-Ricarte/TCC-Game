@@ -71,7 +71,7 @@ if(obj_player.x == x && obj_player.y > y){
 }
 
 // verifica se o player esta perto, se sim ele muda o estado para seguindo
-if (distance_to_object(obj_player) < distance && distance_to_object(obj_player) > 10 && pode_seguir && pode_mover)
+if (distance_to_object(obj_player) < distance && distance_to_object(obj_player) > 13 && pode_seguir && pode_mover)
 {
 	estado = stateNoinha.seguindo;
 }
@@ -83,10 +83,10 @@ switch(estado){
 			
 			pos_x_player = obj_player.x;
 			if(pos_x_player > x){
-				direcao = 40;
+				direcao = 30;
 				perto = 2;
 			}else{
-				direcao = -40;
+				direcao = -30;
 				perto = -2;
 			}
 			
@@ -100,7 +100,7 @@ switch(estado){
 			
 			if( parede_previsao )
 			{
-				estado = stateNoinha.peranbulando;
+				estado = stateNoinha.parado;
 				exit;
 			}
 			
@@ -116,7 +116,7 @@ switch(estado){
 					velh = seguir*4;
 					
 					//Verifica o quão perto está do player para realizar o ataque
-					if (distance_to_object(obj_player) < 10){
+					if (distance_to_object(obj_player) < 13){
 						estado = stateNoinha.atacando
 					}
 					
@@ -146,7 +146,7 @@ switch(estado){
 	case stateNoinha.peranbulando:
 	
 		// verifica se o player esta perto, se sim ele muda o estado para seguindo
-		if (distance_to_object(obj_player) < distance && distance_to_object(obj_player) > 10 && pode_seguir && pode_mover)
+		if (distance_to_object(obj_player) < distance && distance_to_object(obj_player) > 13 && pode_seguir && pode_mover)
 		{
 			estado = stateNoinha.seguindo;	
 		}else{
@@ -192,7 +192,8 @@ switch(estado){
 						with(instance_place( x, y, obj_player ))
 						{
 							audio_play_sound(snd_facada_hit, 10, false);
-							global.hp--;
+							scr_hit_player(x, y);
+							global.hp -= 10;
 						}
 					}
 					bater = false;
@@ -204,6 +205,15 @@ switch(estado){
 						bater = true;
 					}
 				}
+			}
+			/// muda direceção do atk caso o player sai da frente do inimigo
+			if( obj_player.x > x )
+			{
+				image_xscale = 1;
+			}
+			else
+			{
+				image_xscale = -1;
 			}
 			
 			//Verifica o quão perto está do player para realizar o ataque

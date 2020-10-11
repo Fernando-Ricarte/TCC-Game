@@ -64,13 +64,21 @@ if ( tem_quantidade && show_arms_guns && mouse_check_button_pressed( mb_left ) )
 	/*var obj = instance_create_depth(x,y,-10,obj_shoot);*/
 	
 	
-	with(instance_create_layer( x + lengthdir_x( 35 , obj_braco.image_angle), y + lengthdir_y( 35 , obj_braco.image_angle) , "player", bullet ) ) {
+	with(instance_create_layer( x + lengthdir_x( 25 , obj_braco.image_angle), y + lengthdir_y( 25 , obj_braco.image_angle) , "player", bullet ) ) {
 		
+		if( item_stat == item_type.fire_gun )
+		{
+			scr_firegun_effect(x + lengthdir_x( 25 , obj_braco.image_angle), y + lengthdir_y( 25 , obj_braco.image_angle));
+		}
 		sprite_index = sprite_bullet_gun;
 		speed = 25;
 		direction = other.image_angle + random_range(-3,3 );
-		image_angle = direction;	
-		//audio_play_sound(shuriken_shoot, 0, false);
+		image_angle = direction;
+		
+		var item_audio = global.item_index[# idd_escolhido, item_stat.som_tiro];
+		var audio = asset_get_index(item_audio);
+		
+		audio_play_sound(audio, 0, false);
 	}
   
 	scr_diminuir_qtd(idd_escolhido);

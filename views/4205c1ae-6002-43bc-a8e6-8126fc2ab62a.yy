@@ -8,7 +8,8 @@
         "e587bc16-b3ce-4059-80de-c2706d6c8d5b",
         "18cfde70-928d-4818-81d4-8128241a94e5",
         "8535ba6f-5131-4754-95a2-0ec6982d1962",
-        "8f834231-24eb-43ac-8ac0-0a506c8d85b7"
+        "8f834231-24eb-43ac-8ac0-0a506c8d85b7",
+        "89686054-e7d8-4edc-be8c-8fdcf9e33f18"
     ],
     "filterType": "GMObject",
     "folderName": "Efeitos",

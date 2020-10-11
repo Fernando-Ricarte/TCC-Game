@@ -21,6 +21,9 @@ if(type_item == item_type.food)
 			global.hp = 100;
 		}
 		
+		script_execute(src_lansa_health);
+		
+		audio_play_sound(health1 ,0,false);
 		scr_diminuir_qtd(iid);
 		
 		// verifica a quantidade de item se for igual a 0 ele seta para non-item

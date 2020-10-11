@@ -5,7 +5,7 @@ grav = .3;
 acel_chao = .1;
 acel_ar = .07;
 acel = acel_chao;
-distance = 300;
+distance = 150;
 seguir = 0;
 // ---------------------- velocidades ----------------//
 velv = 0;

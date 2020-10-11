@@ -25,6 +25,7 @@ enum item_stat
  sprite,
  spr_bullet,
  spr_arm,
+ som_tiro,
  total
  }
 
@@ -53,14 +54,14 @@ global.item_escolhido_slot = ds_grid_create(1, 2);
 scr_add_food(item.toddy, "Toddynho", "Achocolatado da ETEC, o melhor", 10, "spr_toddynho");
 scr_add_food(item.bolinho, "Bolinho da ETEC", "Muito gostoso! se não estiver mofado, é claro...", 15, "spr_bolinho");
 scr_add_weapon(item.none, "", "", 0, "spr_none");
-scr_add_weapon_lancavel(item.shuriken, "Estrela ninja", "", 10, "spr_shuriken_item", "spr_shuriken", "spr_shuriken_arm");
-src_add_weapon_fire(item.rail_gun , "Arma de Raio", "", 20, "spr_railgun_slot", "spr_bullet_railgun", "spr_railgun");
-src_add_weapon_fire(item.gun_fire, "Arma de Fogo", "", 40, "spr_gun_fire_slot", "spr_bullet_gun_fire", "spr_gun_fire");
+scr_add_weapon_lancavel(item.shuriken, "Estrela ninja", "", 10, "spr_shuriken_item", "spr_shuriken", "spr_shuriken_arm", "shuriken_shoot");
+src_add_weapon_fire(item.rail_gun , "Arma de Raio", "", 20, "spr_railgun_slot", "spr_bullet_railgun", "spr_railgun", "laser1");
+src_add_weapon_fire(item.gun_fire, "Arma de Fogo", "", 40, "spr_gun_fire_slot", "spr_bullet_gun_fire", "spr_gun_fire", "laser2");
 
 
 // adicionando item ao player
-scr_gain_item(item.toddy, 1);
-scr_gain_item(item.bolinho, 1);
+scr_gain_item(item.toddy, 5);
+scr_gain_item(item.bolinho, 5);
 scr_gain_item(item.shuriken , 10);
 scr_gain_item(item.rail_gun , 50);
 scr_gain_item(item.gun_fire , 30);

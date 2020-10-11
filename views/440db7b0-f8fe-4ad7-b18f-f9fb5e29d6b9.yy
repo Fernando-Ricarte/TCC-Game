@@ -6,7 +6,8 @@
     "children": [
         "21b99618-63be-47ce-b09b-7293afcc1bc2",
         "db3a919b-87e2-48ff-be8a-52c64d881753",
-        "45713a81-1714-4b6f-9fa4-9deff2706a6d"
+        "45713a81-1714-4b6f-9fa4-9deff2706a6d",
+        "754f2b25-89db-46d4-aa5f-4efe796e767b"
     ],
     "filterType": "GMObject",
     "folderName": "Jogador",
