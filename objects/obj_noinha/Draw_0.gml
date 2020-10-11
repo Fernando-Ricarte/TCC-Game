@@ -14,4 +14,4 @@ var cordenada_x_esq = x + 40;
 var cordenada_y_top = y - 100;
 var cordenada_x_direta = x - 40;
 var cordenada_y_bottom = y - 96;
-draw_healthbar(cordenada_x_esq, cordenada_y_top,cordenada_x_direta , cordenada_y_bottom, enemyhp, c_black, c_red, c_lime, 0, true, true)
+draw_healthbar(cordenada_x_esq, cordenada_y_top,cordenada_x_direta , cordenada_y_bottom, enemyhp, c_silver, c_red, c_lime, 0, true, true)

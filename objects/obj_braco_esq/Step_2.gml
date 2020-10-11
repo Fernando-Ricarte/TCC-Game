@@ -6,7 +6,7 @@ var yy = lengthdir_y( 25, image_angle);
 
 var idd_escolhido = global.item_escolhido_slot[# 0, 0];
 
-var item_sprite = global.item_index[# idd_escolhido, item_stat.sprite];
+var item_sprite = global.item_index[# idd_escolhido, item_stat.spr_arm];
 var sprite_gun = asset_get_index(item_sprite);
 
 var idd_escolhido = global.item_escolhido_slot[# 0, 0];

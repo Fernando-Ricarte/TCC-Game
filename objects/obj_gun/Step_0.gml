@@ -63,7 +63,8 @@ if ( tem_quantidade && show_arms_guns && mouse_check_button_pressed( mb_left ) )
 	fdelay = 10;	
 	/*var obj = instance_create_depth(x,y,-10,obj_shoot);*/
 	
-	with(instance_create_layer(x,y,"player", bullet ) ) {
+	
+	with(instance_create_layer( x + lengthdir_x( 35 , obj_braco.image_angle), y + lengthdir_y( 35 , obj_braco.image_angle) , "player", bullet ) ) {
 		
 		sprite_index = sprite_bullet_gun;
 		speed = 25;

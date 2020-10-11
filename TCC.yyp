@@ -383,6 +383,14 @@
             }
         },
         {
+            "Key": "27541f48-a0e7-49c7-9dff-51fa5cbb1dc2",
+            "Value": {
+                "id": "73c489d7-ed04-4060-a4e7-267dd0def425",
+                "resourcePath": "sprites\\spr_bullet_gun_fire\\spr_bullet_gun_fire.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "27a3ae5d-192a-49dd-90cc-9cfd07dabe2e",
             "Value": {
                 "id": "4ab6fd87-354c-4cb9-981d-6eae09eb860e",
@@ -1663,6 +1671,14 @@
             }
         },
         {
+            "Key": "a116a73a-2baf-4108-8eb9-50b5e21c7e0d",
+            "Value": {
+                "id": "6d75bbc0-5efd-4f71-8d09-119a2717fd90",
+                "resourcePath": "sprites\\spr_railgun_slot\\spr_railgun_slot.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
             "Value": {
                 "id": "a82c377a-1524-4bfd-937e-2222dd7e5874",
@@ -1859,6 +1875,14 @@
             "Value": {
                 "id": "8f2effbb-c4e6-4c1f-af11-aec3e5ad2599",
                 "resourcePath": "sprites\\spr_railgun\\spr_railgun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b4b30f06-5ee6-4bfa-99b2-798bad225905",
+            "Value": {
+                "id": "3c381cd8-f6bd-4562-b6e3-97845d3ef407",
+                "resourcePath": "sprites\\spr_gun_fire\\spr_gun_fire.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2116,6 +2140,14 @@
                 "id": "84a2c000-60d5-4ea2-b135-990c21e1cb55",
                 "resourcePath": "objects\\obj_android\\obj_android.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d48a8729-5a4d-46f2-a52f-5b76eaaec47f",
+            "Value": {
+                "id": "8b236949-1a1d-4b78-994a-56fb3dd4ef8c",
+                "resourcePath": "sprites\\spr_gun_fire_slot\\spr_gun_fire_slot.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
