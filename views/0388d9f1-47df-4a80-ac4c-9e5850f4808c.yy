@@ -10,7 +10,7 @@
         "1a690fbe-5010-4b88-8fd1-a1d641ee3bf8"
     ],
     "filterType": "GMSprite",
-    "folderName": "SprTilesFloresta",
+    "folderName": "Floresta",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

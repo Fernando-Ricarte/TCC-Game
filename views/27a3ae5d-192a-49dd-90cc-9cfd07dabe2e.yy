@@ -18,7 +18,7 @@
         "f336a8c2-9754-4400-a5bc-d9188041c21e"
     ],
     "filterType": "GMSprite",
-    "folderName": "SprTilesDecoração",
+    "folderName": "Decoração",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

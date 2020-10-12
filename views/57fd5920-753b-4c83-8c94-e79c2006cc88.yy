@@ -13,7 +13,7 @@
         "95fdf35b-35c3-4ce7-ab6c-3370ab0a8913"
     ],
     "filterType": "GMSprite",
-    "folderName": "SprTilesConstruções",
+    "folderName": "Construções tiles",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

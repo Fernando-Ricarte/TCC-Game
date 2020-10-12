@@ -1,3 +1,2 @@
- /// @description Insert description here
-// You can write your code in this editor
+  /// @description Tirar vida do personagem (debug)
 global.hp -= 1;
