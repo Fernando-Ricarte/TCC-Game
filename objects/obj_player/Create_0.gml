@@ -67,3 +67,5 @@ with( instance_create_layer(x, y, "cursor", obj_braco) )
 {
 	visible = false;
 }
+
+instance_create_layer(x, y, "player", obj_control_teclas);
