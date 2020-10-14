@@ -20,7 +20,6 @@ state = BOSS_STATE.BOBBING;
 
 enum BOSS_STATE // array com estados do boss
 {
-	CUTSCENE,
 	BOBBING,
 	SHOOTING
 }
