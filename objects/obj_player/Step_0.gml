@@ -1,4 +1,4 @@
-// chacando se o personagem esta no chao
+ // chacando se o personagem esta no chao
 
 chao = place_meeting(x, y + 1, obj_chao);
 
