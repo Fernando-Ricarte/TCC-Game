@@ -4,11 +4,11 @@
 draw_self();
 
 
-if( show_damage )
-{
-	var damage_txt = "-" + string(last_damage);
-	draw_text_colour(x - 10, y - 130, damage_txt, c_red, c_maroon, c_red, c_red, 1);
-}
+//if( show_damage )
+//{
+//	var damage_txt = "-" + string(last_damage);
+//	draw_text_colour(x - 10, y - 130, damage_txt, c_red, c_maroon, c_red, c_red, 1);
+//}
 
 var cordenada_x_esq = x + 40;
 var cordenada_y_top = y - 100;

@@ -12,4 +12,9 @@ with ( bullet )
 
 enemyhp -= damage_bullet;
 
+with ( instance_create_layer(x, y - 130, "player", obj_hit_damage ) )
+{
+	dmg_points = damage_bullet;
+}
+
 audio_play_sound(snd_noinha_hit,0,false);

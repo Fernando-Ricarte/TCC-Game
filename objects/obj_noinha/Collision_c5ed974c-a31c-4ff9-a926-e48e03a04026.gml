@@ -13,9 +13,9 @@ last_damage = damage_bullet;
 
 enemyhp -= damage_bullet;
 
-if(!show_damage){
-	show_damage = true;
-	alarm[1] = 20;
+with ( instance_create_layer(x, y - 130, "player", obj_hit_damage ) )
+{
+	dmg_points = damage_bullet;
 }
 
 audio_play_sound(snd_noinha_hit,0,false);

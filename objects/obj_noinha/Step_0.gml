@@ -56,10 +56,10 @@ if(!chao)
 
 y_player = obj_player.y;
 			
-if(y_player > y-80 && y_player < y+80){
+if(y_player > y - 80 && y_player < y + 80){
 	pode_seguir = true;
 }else{
-	pode_seguir = false;	
+	pode_seguir = false;
 }
 
 pode_mover = true;
@@ -70,16 +70,38 @@ if(obj_player.x == x && obj_player.y > y){
 	pode_mover = false;	
 }
 
+if(var_lado == 1)
+{
+	parede_previsao = place_meeting(x + 5, y, obj_chao);
+}
+else if(var_lado == -1)
+{
+	parede_previsao = place_meeting(x - 5, y, obj_chao);
+}
+
 // verifica se o player esta perto, se sim ele muda o estado para seguindo
-if (distance_to_object(obj_player) < distance && distance_to_object(obj_player) > 13 && pode_seguir && pode_mover)
+if ( !parede_previsao && distance_to_object(obj_player) < distance && distance_to_object(obj_player) > 5 && pode_seguir && pode_mover)
 {
 	estado = stateNoinha.seguindo;
+}
+
+//Verifica o quão perto está do player para realizar o ataque
+if (distance_to_object(obj_player) < 6){
+	estado = stateNoinha.atacando
 }
 
 // --------- animações -------------------//
 
 switch(estado){
 	case stateNoinha.seguindo:
+	
+			if(y_player > y - 80 && y_player < y + 80){
+				
+			}else{
+				estado = stateNoinha.peranbulando;
+				exit;
+			}
+
 			
 			pos_x_player = obj_player.x;
 			if(pos_x_player > x){
@@ -91,11 +113,13 @@ switch(estado){
 			}
 			
 			
-			if(var_lado == 1){
-				parede_previsao = place_meeting(x+10, y - 1, obj_chao);
+			if(var_lado == 1)
+			{
+				parede_previsao = place_meeting(x + 5, y, obj_chao);
 			}
-			if(var_lado == -1){
-				parede_previsao = place_meeting(x-10, y - 1, obj_chao);
+			else if(var_lado == -1)
+			{
+				parede_previsao = place_meeting(x - 5, y, obj_chao);
 			}
 			
 			if( parede_previsao )
@@ -116,7 +140,7 @@ switch(estado){
 					velh = seguir*4;
 					
 					//Verifica o quão perto está do player para realizar o ataque
-					if (distance_to_object(obj_player) < 13){
+					if (distance_to_object(obj_player) < 6){
 						estado = stateNoinha.atacando
 					}
 					
@@ -134,7 +158,7 @@ switch(estado){
 			// verifica quanto tempo o npc esta parado
 			timerParado += 1 / 64;
 			// passou 1 segundo que o npc está parado
-			if(timerParado > 1){
+			if(timerParado > random_range(3, 18) ){
 					estado = stateNoinha.peranbulando;
 					timerParado = 0;
 			}else{
@@ -146,7 +170,7 @@ switch(estado){
 	case stateNoinha.peranbulando:
 	
 		// verifica se o player esta perto, se sim ele muda o estado para seguindo
-		if (distance_to_object(obj_player) < distance && distance_to_object(obj_player) > 13 && pode_seguir && pode_mover)
+		if (distance_to_object(obj_player) < distance && distance_to_object(obj_player) > 5 && pode_seguir && pode_mover)
 		{
 			estado = stateNoinha.seguindo;	
 		}else{
@@ -164,6 +188,15 @@ switch(estado){
 				x -= 4;
 				
 				parede_previsao = place_meeting(x-10, y - 1, obj_chao);
+			}
+			
+			temp_perambulando = temp_perambulando + 1 / 60;
+			
+			if( temp_perambulando > random_range(3, 18) )
+			{
+				temp_perambulando = 0;
+				estado = stateNoinha.parado;
+				exit;
 			}
 			
 			sprite_index = spr_noinhaRun;
@@ -217,15 +250,20 @@ switch(estado){
 			}
 			
 			//Verifica o quão perto está do player para realizar o ataque
-			if (distance_to_object(obj_player) < 10){
+			if (distance_to_object(obj_player) < 6){
 				estado = stateNoinha.atacando
 			}else{
-				estado = stateNoinha.peranbulando;
+				if( pode_seguir )
+				{
+					estado = stateNoinha.seguindo;
+				}else
+				{
+					estado = stateNoinha.peranbulando;	
+				}
 			}
 		
 		break;
 }
-
 
 //morte 
 if(enemyhp <= 0){
