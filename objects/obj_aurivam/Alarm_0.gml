@@ -1,5 +1,5 @@
 /// @description 
 // codigo desenvolvido por Miguel Lukas 
 
-state = BOSS_STATE.SHOOTING;
+state = BOSS_STATE.BOBBING;
 count++;

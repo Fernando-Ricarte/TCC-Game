@@ -3,7 +3,6 @@
 //
 switch (state)
 {
-	case BOSS_STATE.CUTSCENE: scr_cutsceneBoss(); break;
 	case BOSS_STATE.BOBBING: scr_bobbingBoss(); break;
 	case BOSS_STATE.SHOOTING: scr_shootingBoss(); break;
 	
