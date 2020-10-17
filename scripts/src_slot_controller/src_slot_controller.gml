@@ -1,5 +1,7 @@
 //@param indice do slot
 
+audio_play_sound(snd_menus,0,false);
+
 var var_s = argument0;
 
 var iid = global.inventory[# var_s, 0];

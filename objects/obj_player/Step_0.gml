@@ -226,81 +226,36 @@ if(chao && jump){
 	}
 }
 
-
 if(mouse_x > x){
 	image_xscale = 2;
 }else{
 	image_xscale = -2;
 }
 
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//// audio do pisado no chão
 
-//if(keyboard_check(ord("D"))){
-//	x+=spd;
-//	image_xscale = 1;
-	
-//	//só solta animação de correndo se não estiver pulando
-//	if(!pulando){
-//		sprite_index = spr_running;
-//	}
-//}
-	 
+if ( chao )
+{
+	if( right || left )
+	{
+		if( !audio_is_playing( walking_1 ) )
+		{
+			if( contador_timer_passos > 0.14 )
+			{
+				contador_timer_passos = 0;
+				// se sim, então não pode gritar denovo
+				audio_play_sound(walking_1, 0, false);
+			}
+			else
+			{
+				contador_timer_passos = contador_timer_passos + 1 / 60;
+			}
+		}
+	}
+}
 
-
-////movimentação pra esquerda
-//if(keyboard_check(ord("A"))){
-//	x-=spd;
-//	image_xscale = -1;
-	
-//	//só solta animação de correndo se não estiver pulando
-//	if(!pulando){
-//		sprite_index = spr_running;
-//	}
-//}
-	
-//if(pulando){
-//	sprite_index = spr_jump;
-//}
-
-////comando do pulo
-//if(keyboard_check(vk_space)){
-//	if(!place_free(x,y+1)){
-//		pulo = true;
-//		pulando = true;
-//	}
-
-//}
-
-////pulo
-//if(pulo){
-//	if(jumpFrame < jumpheight){ 
-		
-//		if(place_free(x,y-spdjump)){
-//			jumpFrame += spdjump;
-//			y-=spdjump;
-//		}else{
-//			pulo  = false;
-//			jumpFrame = 0;
-//		}
-//	}else{
-//		pulo  = false;
-//		jumpFrame = 0;
-//	}
-//}
-
-
-////gravidade
-//if (pulo == false){
-//	if(place_free(x,y+fallspd)){
-//		y+=fallspd;
-//		fallspd+=gravid;
-//	}else{
-//	fallspd = 2;
-//	pulando = false;
-//	while(place_free(x,y+1)){
-//		y++;
-//	}
-//	}
-//}
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 //morte
 if(global.hp <= 0){
