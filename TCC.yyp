@@ -815,19 +815,19 @@
             }
         },
         {
+            "Key": "46b57a07-cab7-43c8-a36d-88da44c4c9d9",
+            "Value": {
+                "id": "05fa8523-c302-4b30-97e7-6b8737f2d730",
+                "resourcePath": "sprites\\sprite118\\sprite118.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "481d3b61-9b8b-46e8-9422-4c1453583f9d",
             "Value": {
                 "id": "1a9ea8af-2007-4cfe-bc76-de9779f7f434",
                 "resourcePath": "objects\\obj_play_button\\obj_play_button.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "489ea596-9582-4220-b09e-4f0012746655",
-            "Value": {
-                "id": "e2822fca-8f0a-4553-80bc-dfbbb9915ebb",
-                "resourcePath": "sprites\\spr_01_background\\spr_01_background.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -948,14 +948,6 @@
                 "id": "708d9968-5a26-480f-95d9-de265ee681f0",
                 "resourcePath": "views\\53a38e23-7de9-4dbb-8465-08324d473bab.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "53d48b3f-26fb-4541-b022-cf1ff414374e",
-            "Value": {
-                "id": "738fce34-378f-430a-8f48-f49982a8ca81",
-                "resourcePath": "sprites\\spr_conclusao_fase\\spr_conclusao_fase.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -2039,6 +2031,14 @@
             }
         },
         {
+            "Key": "b2e5cc39-2289-44ce-baa6-2dbb26049d1b",
+            "Value": {
+                "id": "7b02e9bb-64d1-4468-97be-5760b939a682",
+                "resourcePath": "rooms\\Fase01\\Fase01.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "b334257e-5cf8-4ac4-91db-ec977ab1f788",
             "Value": {
                 "id": "e570c4ed-db7e-472b-89c0-83dd82f89d1b",
@@ -2068,6 +2068,14 @@
                 "id": "3c381cd8-f6bd-4562-b6e3-97845d3ef407",
                 "resourcePath": "sprites\\spr_gun_fire\\spr_gun_fire.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b573bc7e-4113-4907-90b0-b70f40f4e4aa",
+            "Value": {
+                "id": "8e4db71f-34ca-4113-8df1-58cd4add5d39",
+                "resourcePath": "tilesets\\icones\\icones.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {

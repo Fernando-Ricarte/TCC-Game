@@ -1,4 +1,4 @@
-  /// @description altera o valor das fases
+   /// @description altera o valor das fases
 // You can write your code in this editor
 switch(fase) {
 case 1:{
