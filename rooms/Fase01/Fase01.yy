@@ -36,7 +36,7 @@
             "m_serialiseFrozen": false,
             "modelName": "GMRBackgroundLayer",
             "mvc": "1.0",
-            "spriteId": "46b57a07-cab7-43c8-a36d-88da44c4c9d9",
+            "spriteId": "ed11f225-fc84-42ab-8250-a6a8d7f6abd5",
             "stretch": false,
             "userdefined_animFPS": false,
             "userdefined_depth": false,
@@ -60,7 +60,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_64C8021C","id": "b1cab757-1e0e-49ed-b3e9-a1b7a5a80da1","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_64C8021C","objId": "f297c2b4-88c7-4314-899f-2702e9fc9a3b","properties": null,"rotation": 0,"scaleX": 45.0625,"scaleY": 1,"mvc": "1.1","x": 721,"y": 861}
+{"name": "inst_64C8021C","id": "b1cab757-1e0e-49ed-b3e9-a1b7a5a80da1","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_64C8021C","objId": "f297c2b4-88c7-4314-899f-2702e9fc9a3b","properties": null,"rotation": 0.06255726,"scaleX": 60.0625,"scaleY": 1.3125,"mvc": "1.1","x": 960.012,"y": 1039.738}
             ],
             "layers": [
 
@@ -87,12 +87,12 @@
     },
     "roomSettings":     {
         "id": "fd4e22b4-4fe5-42c7-b2ec-694ceda201f1",
-        "Height": 900,
+        "Height": 1080,
         "inheritRoomSettings": false,
         "modelName": "GMRoomSettings",
         "persistent": false,
         "mvc": "1.0",
-        "Width": 1440
+        "Width": 1920
     },
     "mvc": "1.0",
     "views": [
