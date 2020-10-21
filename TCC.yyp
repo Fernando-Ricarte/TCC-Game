@@ -2063,6 +2063,14 @@
             }
         },
         {
+            "Key": "b36a7239-d54b-4797-826e-63ec90ace7fd",
+            "Value": {
+                "id": "73246c69-056e-424b-898e-fb513bad92a1",
+                "resourcePath": "sprites\\spr_creditos\\spr_creditos.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b4b30f06-5ee6-4bfa-99b2-798bad225905",
             "Value": {
                 "id": "3c381cd8-f6bd-4562-b6e3-97845d3ef407",
