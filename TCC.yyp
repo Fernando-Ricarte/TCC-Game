@@ -311,6 +311,14 @@
             }
         },
         {
+            "Key": "2017bf3d-e33f-4683-b4cd-bc557e647ebd",
+            "Value": {
+                "id": "bca2dcc1-3aa8-43af-b669-5737b92542ec",
+                "resourcePath": "sprites\\spr_cred\\spr_cred.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "21021998-6433-46ce-8ccf-461c2533cc6f",
             "Value": {
                 "id": "5bce5734-4296-42a0-9606-7024af4257fa",
@@ -1167,6 +1175,14 @@
             }
         },
         {
+            "Key": "68344438-b3f9-46d7-adf6-a1520dd31320",
+            "Value": {
+                "id": "2ac0d4e9-a6a4-4fd1-9cbd-585295990fc7",
+                "resourcePath": "rooms\\Creditos\\Creditos.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "686e3f8a-c47e-4011-a17f-32230536790c",
             "Value": {
                 "id": "5c26acc3-b96a-425c-b263-0292ad17e209",
@@ -1372,6 +1388,14 @@
                 "id": "214f09e4-1b75-4150-b691-4554cc13441f",
                 "resourcePath": "sprites\\spr_aurivam_atirador\\spr_aurivam_atirador.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "79d95672-71e8-4abd-a61c-c68c66f68aef",
+            "Value": {
+                "id": "9069d2d6-fd53-4d5c-a7d1-5428b7ee5c93",
+                "resourcePath": "objects\\obj_control_creditos\\obj_control_creditos.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2447,6 +2471,14 @@
             }
         },
         {
+            "Key": "dc81414b-b954-4bb1-93ad-4df5a4735e01",
+            "Value": {
+                "id": "8f3cb280-d9d7-4417-ae68-29c79ed5a4ae",
+                "resourcePath": "objects\\obj_home_menus\\obj_home_menus.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "dd329b59-9f98-4e3c-bf49-20295e322e8c",
             "Value": {
                 "id": "40a37884-1a3e-4430-896a-42624be9e707",
@@ -2476,6 +2508,14 @@
                 "id": "a7219510-db9f-44cf-8ca2-c38480009be0",
                 "resourcePath": "tilesets\\tile_jungle\\tile_jungle.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "e171660a-feea-4e61-a6d7-af6170923333",
+            "Value": {
+                "id": "6106b247-0bd8-4428-8b3f-07cc505305f5",
+                "resourcePath": "objects\\obj_creditos\\obj_creditos.yy",
+                "resourceType": "GMObject"
             }
         },
         {
