@@ -911,6 +911,14 @@
             }
         },
         {
+            "Key": "4e0b8fb6-7c6c-4a26-9488-0944ea1b55ef",
+            "Value": {
+                "id": "72e5d6d6-6e0a-4be3-aec4-e38ed0cdf38e",
+                "resourcePath": "sprites\\spr_hdRun\\spr_hdRun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4e3409f8-6c1c-4c3c-87e3-d077f5e585e5",
             "Value": {
                 "id": "23eb4505-a3fc-4225-b6be-7e41632fa072",
@@ -1583,6 +1591,14 @@
             }
         },
         {
+            "Key": "899561c2-44f3-4c16-a3d1-0724355ecfd8",
+            "Value": {
+                "id": "4f6521f0-1bce-41d8-a6cf-6b9ebc8b3770",
+                "resourcePath": "views\\899561c2-44f3-4c16-a3d1-0724355ecfd8.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "89f853e7-8b75-4adb-a0f8-9e965cc18537",
             "Value": {
                 "id": "a5c27bd1-5a1a-498a-a255-0013c272e605",
@@ -1787,6 +1803,14 @@
             "Value": {
                 "id": "680e39f4-420a-4a0a-b8bc-80f9a809811c",
                 "resourcePath": "sprites\\cajado_floresta\\cajado_floresta.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9b6cfbf4-83b5-422f-9a05-873ea98320d6",
+            "Value": {
+                "id": "e0bead90-1227-4719-9f05-99fd53704092",
+                "resourcePath": "sprites\\spr_hdAttack\\spr_hdAttack.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2615,6 +2639,14 @@
             }
         },
         {
+            "Key": "ec609a29-92d6-4d53-974c-07209e59a42d",
+            "Value": {
+                "id": "9da367db-995d-488f-82b0-e33e492154c7",
+                "resourcePath": "objects\\obj_hd\\obj_hd.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ec8a730e-f9f7-4921-b46a-7a18d888baf3",
             "Value": {
                 "id": "4521cad6-9202-4ab9-9e81-c511dc304fa3",
@@ -2739,6 +2771,14 @@
             "Value": {
                 "id": "03fdfffb-6e65-4b77-a2a8-81b8e5a56958",
                 "resourcePath": "sprites\\spr_shuriken_arm\\spr_shuriken_arm.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f71171dc-76d4-4d60-8457-37e0b9267aa1",
+            "Value": {
+                "id": "7f742882-7022-421a-b461-7e6f36f48127",
+                "resourcePath": "sprites\\spr_hdIdle\\spr_hdIdle.yy",
                 "resourceType": "GMSprite"
             }
         },
