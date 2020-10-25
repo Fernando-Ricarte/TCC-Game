@@ -855,14 +855,6 @@
             }
         },
         {
-            "Key": "45526ea3-95d4-460d-a71b-8c8c24d39b06",
-            "Value": {
-                "id": "f24f4a3c-3972-435a-bf9e-f7cd89bf93ce",
-                "resourcePath": "rooms\\GAME_CONTROLLER_INIT\\GAME_CONTROLLER_INIT.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "45713a81-1714-4b6f-9fa4-9deff2706a6d",
             "Value": {
                 "id": "f494644e-2499-451f-9247-f3d926a1a14e",
@@ -2164,6 +2156,14 @@
                 "id": "7e59a88d-1731-4111-a201-6f886c387505",
                 "resourcePath": "sounds\\laser1\\laser1.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "b004d80d-9384-46b0-a44c-f41c33d72e1c",
+            "Value": {
+                "id": "5d7d4c71-2868-4e4f-b33a-e19ccc0b20dc",
+                "resourcePath": "rooms\\fase_teste_windows\\fase_teste_windows.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
