@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "215cd895-27b5-4d40-bf40-66c9187791c8",
+            "Value": {
+                "id": "68529fb1-ba75-4c42-b48f-d3e168d48933",
+                "resourcePath": "sprites\\spr_windows\\spr_windows.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "21b99618-63be-47ce-b09b-7293afcc1bc2",
             "Value": {
                 "id": "46f2bb0a-2ddb-492e-862d-23f33d114c58",
@@ -1052,6 +1060,14 @@
                 "id": "d2036a20-d210-417a-b8a0-c9b3b9245050",
                 "resourcePath": "views\\57fd5920-753b-4c83-8c94-e79c2006cc88.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5865c455-b66c-44d5-9b91-99fba1bfa531",
+            "Value": {
+                "id": "7f689f33-0887-459e-90ee-95a3bb5c54c7",
+                "resourcePath": "sprites\\spr_help_icons\\spr_help_icons.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
