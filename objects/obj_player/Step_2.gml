@@ -38,7 +38,7 @@ var quant = global.inventory[# var_slot, 1];
 
 var item_stat = global.item_index[# idd_escolhido, item_stat.type];
 
-if(item_stat == item_type.lancavel || item_stat == item_type.fire_gun)
+if(item_stat == item_type.lancavel || item_stat == item_type.fire_gun && !global.shindeiru )
 {
 	tem_lancavel = true;
 }else{
@@ -46,17 +46,19 @@ if(item_stat == item_type.lancavel || item_stat == item_type.fire_gun)
 }
 //==========================================================================================
 
-if( tem_lancavel )
+if( !global.shindeiru )
 {
-	obj_braco.visible = true;
-	obj_braco_esq.visible = true;
+	if( tem_lancavel )
+	{
+		obj_braco.visible = true;
+		obj_braco_esq.visible = true;
+	}
+	else
+	{
+		obj_braco.visible = false;
+		obj_braco_esq.visible = false;
+	}
 }
-else
-{
-	obj_braco.visible = false;
-	obj_braco_esq.visible = false;
-}
-
 
 if(	pulando_antes && chao )
 {

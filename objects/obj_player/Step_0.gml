@@ -35,7 +35,7 @@ var quant = global.inventory[# var_slot, 1];
 
 var item_stat = global.item_index[# idd_escolhido, item_stat.type];
 
-if(item_stat == item_type.lancavel || item_stat == item_type.fire_gun)
+if(item_stat == item_type.lancavel || item_stat == item_type.fire_gun && !global.shindeiru)
 {
 	tem_lancavel = true;
 }else{
@@ -70,7 +70,7 @@ if(chao)
 velv = clamp(velv, -max_velv, max_velv);
 
 
-if(!jump && !right && !left && velv == 0 && velh == 0)
+if(!jump && !right && !left && velv == 0 && velh == 0 && !global.shindeiru)
 {
 	estado = state.parado;
 }
@@ -127,7 +127,8 @@ if(!chao)
 
 if(estado == state.movendo){
 	
-	if(temp > 0){
+	if(temp > 0)
+	{
 		pulando = true;
 	}
 	else
@@ -146,13 +147,13 @@ if(estado == state.movendo){
 	//	//image_xscale = 3;
 	//}
 	
-	if(right && left)
+	if(right && left && !global.shindeiru)
 	{
 		estado = state.parado;	
 	}
 }
 
-if(estado == state.parado){
+if(estado == state.parado && !global.shindeiru){
 	
 	if(temp > 0){
 		pulando = true;
@@ -174,7 +175,7 @@ if(estado == state.parado){
 
 // lança a animação de pulo se esta no ar por meno de 0.4 segundos senão ele
 // poem a sprite de fall
-if(pulando){
+if(pulando && !global.shindeiru){
 	
 	if(chao_antes && !chao)
 	{
@@ -188,9 +189,14 @@ if(pulando){
 	}
 }
 
+if( global.shindeiru )
+{
+	sprite_index = spr_shindeiru;	
+}
+
 
 // verifica se o player esta no chão e se apertou a barra de espaço
-if(chao && jump){
+if(chao && jump && !global.shindeiru){
 	
 	// cria o array contendo os audios de grito
 	var gritos = [];
@@ -226,7 +232,7 @@ if(chao && jump){
 	}
 }
 
-if(mouse_x > x){
+if(mouse_x > x && !global.shindeiru){
 	image_xscale = 2;
 }else{
 	image_xscale = -2;
@@ -235,7 +241,7 @@ if(mouse_x > x){
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 //// audio do pisado no chão
 
-if ( chao )
+if ( chao && !global.shindeiru )
 {
 	if( right || left )
 	{
@@ -258,7 +264,11 @@ if ( chao )
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 //morte
-if(global.hp <= 0){
- show_message("Você morreu!!!");   
- room_restart();   
+if( global.hp <= 0 )
+{
+	estado = state.morto;
+	velh = 0;
+	roomname = room_get_name(room);
+	global.roomDeath = roomname;
+	global.shindeiru = true;
 }

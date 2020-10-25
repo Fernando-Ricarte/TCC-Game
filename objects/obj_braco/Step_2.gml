@@ -13,7 +13,7 @@ var sprite_gun = asset_get_index(item_sprite);
 var idd_escolhido = global.item_escolhido_slot[# 0, 0];
 var item_stat = global.item_index[# idd_escolhido, item_stat.type];
 
-if(item_stat == item_type.lancavel || item_stat == item_type.fire_gun)
+if(item_stat == item_type.lancavel || item_stat == item_type.fire_gun && !global.shindeiru )
 {
 	show_guns = true;
 }else{

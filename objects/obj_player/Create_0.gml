@@ -40,6 +40,7 @@ enum state
 {
 	parado,
 	movendo,
+	morto,
 	dash
 }
 
@@ -48,7 +49,7 @@ estado = state.parado;
 //  ---------- temmporizador pulo --------- //
 
 temp = 0;
-
+cont_shi = 0;
 //fall = false;
 
 
