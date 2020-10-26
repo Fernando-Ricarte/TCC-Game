@@ -54,44 +54,61 @@ if(!chao)
 	temp = 0;
 }
 
-y_player = obj_player.y;
-			
-if(y_player > y-40 && y_player < y+40){
-	pode_seguir = true;
-}else{
-	pode_seguir = false;	
-}
-
-pode_mover = true;
-
-if(obj_player.x == x && obj_player.y > y){
-	pode_mover = false;
-}else if(obj_player.x == x && obj_player.y < y){
-	pode_mover = false;	
-}
-
-// verifica se o player esta perto, se sim ele muda o estado para seguindo
-if (distance_to_object(obj_player) < distance && distance_to_object(obj_player) > 10 && pode_seguir && pode_mover)
+/// verificando se vai se encontrar com uma parede
+if(var_lado == 1)
 {
-	estado = stateHd.seguindo;
+	parede_previsao = collision_line(x, y, x + 10, y,obj_chao, 1, 0);
+}
+else if(var_lado == -1)
+{
+	parede_previsao = collision_line(x, y, x - 10, y,obj_chao, 1, 0);
+}
+
+/// verificando player
+if ( collision_line(x, y - 32, x + 200, y - 32, obj_player, 1, 0) )
+{
+	estado = stateHD.seguindo;
+}
+if ( collision_line(x, y - 32, x - 200, y - 32, obj_player, 1, 0) )
+{
+	estado = stateHD.seguindo;
+}
+
+//Verifica o quão perto está do player para realizar o ataque
+if (distance_to_object(obj_player) < 1){
+	estado = stateHD.atacando
 }
 
 // --------- animações -------------------//
 
 switch(estado){
-	case stateHd.seguindo:
-			
+	case stateHD.seguindo:
+	
 			pos_x_player = obj_player.x;
 			if(pos_x_player > x){
-				direcao = 40;
+				direcao = 30;
 				perto = 2;
 			}else{
-				direcao = -40;
+				direcao = -30;
 				perto = -2;
 			}
 			
-			chao_previsao = place_meeting(x+direcao, y + 1, obj_chao);
-			chega_perto_demais = place_meeting(x+perto, y, obj_player);
+			if(var_lado == 1)
+			{
+				parede_previsao = place_meeting(x + 5, y, obj_chao);
+			}
+			else if(var_lado == -1)
+			{
+				parede_previsao = place_meeting(x - 5, y, obj_chao);
+			}
+			
+			if( parede_previsao )
+			{
+				estado = stateHD.parado;
+			}
+			
+			chao_previsao = place_meeting(x + direcao, y + 1, obj_chao);
+			chega_perto_demais = place_meeting(x + perto, y, obj_player);
 			
 			if(chao_previsao){
 				if(!chega_perto_demais){
@@ -99,29 +116,29 @@ switch(estado){
 					sprite_index = spr_hdRun;
 					seguir = sign(obj_player.x - x);
 					image_xscale = seguir;
-					velh = seguir*4;
+					velh = seguir * 4;
 					
 					//Verifica o quão perto está do player para realizar o ataque
-					if (distance_to_object(obj_player) < 10){
-						estado = stateHd.atacando
+					if (distance_to_object(obj_player) < 1){
+						estado = stateHD.atacando
 					}
 					
 				}else{
 					sprite_index = spr_hdIdle;
 				}
 			}else{
-				estado = stateHd.parado;
+				estado = stateHD.parado;
 				sprite_index = spr_hdIdle;
 			}
 		
 		break;
-	case stateHd.parado:
+	case stateHD.parado:
 	
 			// verifica quanto tempo o npc esta parado
 			timerParado += 1 / 64;
 			// passou 1 segundo que o npc está parado
-			if(timerParado > 1){
-					estado = stateHd.peranbulando;
+			if(timerParado > random_range(3, 18) ){
+					estado = stateHD.peranbulando;
 					timerParado = 0;
 			}else{
 				sprite_index = spr_hdIdle;	
@@ -129,50 +146,91 @@ switch(estado){
 		
 		break;
 		
-	case stateHd.peranbulando:
+	case stateHD.peranbulando:
 	
-		// verifica se o player esta perto, se sim ele muda o estado para seguindo
-		if (distance_to_object(obj_player) < distance && distance_to_object(obj_player) > 10 && pode_seguir && pode_mover)
+		if ( collision_line(x, y - 32, x + 200, y - 32, obj_player, 1, 0) )
 		{
-			estado = stateHd.seguindo;	
-		}else{
-			
-			if(var_lado == 1){
-				x_scale = 1;
-				chao_pre = 40;
-				x += 4;
-			}
-			if(var_lado == -1){
-				x_scale = -1;
-				chao_pre = -40;
-				x -= 4;
-			}
-			
-			sprite_index = spr_hdRun;
-			image_xscale = x_scale;
-			chao_previsao2 = place_meeting(x+chao_pre, y + 1, obj_chao);
-			
-			if(!chao_previsao2){
-				var_lado = var_lado * -1;
-			}
-			
+			estado = stateHD.seguindo;
 		}
+		if ( collision_line(x, y - 32, x - 200, y - 32, obj_player, 1, 0) )
+		{
+			estado = stateHD.seguindo;
+		}
+		
+		if(var_lado == 1)
+		{
+			x_scale = 1;
+			chao_pre = 40;
+			x += 4;
+				
+			parede_previsao = place_meeting(x+10, y - 1, obj_chao);
+		}
+		if(var_lado == -1)
+		{
+			x_scale = -1;
+			chao_pre = -40;
+			x -= 4;
+				
+			parede_previsao = place_meeting(x-10, y - 1, obj_chao);
+		}
+			
+		temp_perambulando = temp_perambulando + 1 / 60;
+			
+		if( temp_perambulando > random_range(3, 18) )
+		{
+			temp_perambulando = 0;
+			estado = stateHD.parado;
+			exit;
+		}
+			
+		sprite_index = spr_hdRun;
+		image_xscale = x_scale;
+		chao_previsao2 = place_meeting(x + chao_pre, y + 1, obj_chao);
+			
+		if(!chao_previsao2 || parede_previsao )
+		{
+			var_lado = var_lado * -1;
+		}
+		
 		break;
 		
-		case stateHd.atacando:
+		case stateHD.atacando:
 		
 			sprite_index = spr_hdAttack;
 			
-			//Verifica o quão perto está do player para realizar o ataque
-			if (distance_to_object(obj_player) < 5){
-				estado = stateHd.atacando
-			}else{
-				estado = stateHd.peranbulando;
+			/// muda direceção do atk caso o player sai da frente do inimigo
+			if( obj_player.x > x )
+			{
+				image_xscale = 1;
 			}
-		
+			else
+			{
+				image_xscale = -1;
+			}
+			
+			if (distance_to_object(obj_player) < 1){
+				estado = stateHD.atacando;
+			}
+			else
+			{
+				/// verificando player
+				if ( collision_line(x, y - 32, x + 200, y - 32, obj_player, 1, 0) )
+				{
+					estado = stateHD.seguindo;
+				}else
+				{
+					estado = stateHD.peranbulando;
+				}
+				if ( collision_line(x, y - 32, x - 200, y - 32, obj_player, 1, 0) )
+				{
+					estado = stateHD.seguindo;
+				}else
+				{
+					estado = stateHD.peranbulando;
+				}
+			}
 		break;
 }
-
 
 //morte 
 if(enemyhp <= 0){

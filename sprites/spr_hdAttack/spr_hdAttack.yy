@@ -5,15 +5,15 @@
     "name": "spr_hdAttack",
     "For3D": false,
     "HTile": false,
-    "VTile": false,
-    "bbox_bottom": 62,
-    "bbox_left": 11,
-    "bbox_right": 60,
-    "bbox_top": 3,
-    "bboxmode": 0,
+    "VTile": true,
+    "bbox_bottom": 63,
+    "bbox_left": 0,
+    "bbox_right": 63,
+    "bbox_top": 0,
+    "bboxmode": 1,
     "colkind": 1,
     "coltolerance": 0,
-    "edgeFiltering": false,
+    "edgeFiltering": true,
     "frames": [
         {
             "id": "02d3dbd7-25a7-4bbf-a79b-1e6a6f681ae2",
@@ -76,7 +76,7 @@
             "visible": true
         }
     ],
-    "origin": 9,
+    "origin": 4,
     "originLocked": true,
     "playbackSpeed": 4,
     "playbackSpeedType": 0,
@@ -88,5 +88,5 @@
     "type": 0,
     "width": 64,
     "xorig": 32,
-    "yorig": 62
+    "yorig": 32
 }

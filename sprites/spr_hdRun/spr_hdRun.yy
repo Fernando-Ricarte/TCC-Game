@@ -5,15 +5,15 @@
     "name": "spr_hdRun",
     "For3D": false,
     "HTile": false,
-    "VTile": false,
-    "bbox_bottom": 62,
-    "bbox_left": 6,
-    "bbox_right": 57,
-    "bbox_top": 2,
-    "bboxmode": 0,
+    "VTile": true,
+    "bbox_bottom": 63,
+    "bbox_left": 0,
+    "bbox_right": 63,
+    "bbox_top": 0,
+    "bboxmode": 1,
     "colkind": 1,
     "coltolerance": 0,
-    "edgeFiltering": false,
+    "edgeFiltering": true,
     "frames": [
         {
             "id": "c3e08175-8156-46d7-804d-f9657914d9b5",
@@ -142,7 +142,7 @@
             "visible": true
         }
     ],
-    "origin": 9,
+    "origin": 4,
     "originLocked": true,
     "playbackSpeed": 14,
     "playbackSpeedType": 0,
@@ -154,5 +154,5 @@
     "type": 0,
     "width": 64,
     "xorig": 32,
-    "yorig": 62
+    "yorig": 32
 }
