@@ -23,7 +23,7 @@ andar_mais = true;
 parede_previsao = false;
 // ------------- STATE MACHINE ----------------------//
 
-enum stateHD
+enum stateInimigoWalker
 {
 	parado,
 	seguindo,
@@ -31,7 +31,7 @@ enum stateHD
 	atacando
 }
 
-estado = stateHD.peranbulando;
+estado = stateInimigoWalker.peranbulando;
 
 //  ---------- temmporizador pulo --------- //
 

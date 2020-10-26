@@ -783,6 +783,14 @@
             }
         },
         {
+            "Key": "41f75bba-1dba-4de7-bc35-f9d5bc804896",
+            "Value": {
+                "id": "79c9b30c-62e4-41db-987a-9136c32531db",
+                "resourcePath": "scripts\\src_inimigo_steep\\src_inimigo_steep.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4205c1ae-6002-43bc-a8e6-8126fc2ab62a",
             "Value": {
                 "id": "12d9617e-ea5e-428c-bee8-c80f319f326c",
@@ -812,6 +820,14 @@
                 "id": "39daacb4-4fe2-4234-8806-bdc70fe5d32d",
                 "resourcePath": "rooms\\Options\\Options.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "426db87d-66f0-46d3-8ef8-13bf3914644e",
+            "Value": {
+                "id": "9411c6b5-9b70-474b-9eb0-92093c53df53",
+                "resourcePath": "views\\426db87d-66f0-46d3-8ef8-13bf3914644e.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -3116,7 +3132,8 @@
         "0db296db-b01e-40be-962e-28bec7ea11d3",
         "9db69ceb-3e9c-4471-a391-57f582a2fe3b",
         "5c5d57e6-466d-4985-b06e-9a2c9a1f21da",
-        "4b29c8a8-58bc-4615-9551-cbd68241d7a3"
+        "4b29c8a8-58bc-4615-9551-cbd68241d7a3",
+        "41f75bba-1dba-4de7-bc35-f9d5bc804896"
     ],
     "tutorial": ""
 }
