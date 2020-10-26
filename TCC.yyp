@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0115355b-a788-422d-a8b8-3dc50aaa2950",
+            "Value": {
+                "id": "d34173c7-aa70-4db5-afaa-eda060070ac7",
+                "resourcePath": "objects\\obj_tex_tiro\\obj_tex_tiro.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "01232bd4-1eb0-417a-997a-32258c3b5146",
             "Value": {
                 "id": "8c527748-a5b9-4a83-92fd-1a2ae8217f8d",
@@ -220,6 +228,14 @@
                 "id": "a42d6538-b57b-4a4e-8d30-29bd263ac8bd",
                 "resourcePath": "views\\16b04d8d-36ef-4699-8636-a3c257dc60ed.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1753f329-07d3-4098-acee-bfd00183f375",
+            "Value": {
+                "id": "92973143-07bc-4f28-a5be-9f891aecc0fc",
+                "resourcePath": "sprites\\spr_text_pular\\spr_text_pular.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2159,6 +2175,14 @@
             }
         },
         {
+            "Key": "ac48858e-7f21-4201-922d-48e62d1128a3",
+            "Value": {
+                "id": "14e83dcf-b4f4-400d-9969-2239dec1aff3",
+                "resourcePath": "sprites\\spr_text_scroll\\spr_text_scroll.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ac908d74-ffc0-4a73-82cd-64bf25381b08",
             "Value": {
                 "id": "9ef821d5-a5fb-4e1f-b94d-695e9c5cde74",
@@ -2391,6 +2415,14 @@
             }
         },
         {
+            "Key": "bc869721-0a8f-4f20-b0ee-5c41a234735d",
+            "Value": {
+                "id": "c1ac4667-60bf-4170-93bf-27543f52b3a9",
+                "resourcePath": "views\\bc869721-0a8f-4f20-b0ee-5c41a234735d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "bd03143f-8b91-4959-a73a-536dd0d7e28b",
             "Value": {
                 "id": "1fdffc11-53ba-4f4e-886f-0393f27d1195",
@@ -2492,6 +2524,14 @@
                 "id": "884522e9-a939-4329-80c6-6b6cd323271d",
                 "resourcePath": "views\\ca0d2e33-dcff-42d2-a37b-9ceac1888045.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cc47b960-97e3-432a-bc4f-d31d998d90ab",
+            "Value": {
+                "id": "ceb36903-9023-4c17-b30e-044e94d83377",
+                "resourcePath": "objects\\obj_text_pulo\\obj_text_pulo.yy",
+                "resourceType": "GMObject"
             }
         },
         {
