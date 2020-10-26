@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "123e936f-f128-40a9-b557-01466fb3a52b",
+            "Value": {
+                "id": "57b52b87-e11e-46d0-94f7-6c727364b12e",
+                "resourcePath": "scripts\\scr_restaura_itens\\scr_restaura_itens.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "12ae96ba-c603-40df-8d85-072cf93b254f",
             "Value": {
                 "id": "6078cb39-51c4-4744-8675-a5b554311880",
@@ -988,6 +996,14 @@
                 "id": "debfc57c-9bbc-4571-8765-c40b81ea9fcf",
                 "resourcePath": "scripts\\src_add_weapon_fire\\src_add_weapon_fire.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "4cf27527-9b81-4700-bdd8-02c2bc906c0d",
+            "Value": {
+                "id": "464660e8-07f5-4c6f-8c79-5ae3e5db6999",
+                "resourcePath": "objects\\obj_salva_itens\\obj_salva_itens.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2439,6 +2455,14 @@
             }
         },
         {
+            "Key": "bf33961b-197a-4b10-8f9a-1dbaea2146ab",
+            "Value": {
+                "id": "6bc040b4-1384-4fdd-98ac-f3adc4f64a19",
+                "resourcePath": "scripts\\scr_salva_itens\\scr_salva_itens.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "bf5f79ec-c89f-4dd8-b38b-d1bcde76493d",
             "Value": {
                 "id": "b1518ec2-470f-416f-90f9-c002371f8343",
@@ -2740,6 +2764,14 @@
                 "id": "a7219510-db9f-44cf-8ca2-c38480009be0",
                 "resourcePath": "tilesets\\tile_jungle\\tile_jungle.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "e141cf60-8717-4a63-b8a9-885026e9ac51",
+            "Value": {
+                "id": "4f157e14-56ba-481a-9154-4e42f9304433",
+                "resourcePath": "objects\\obj_salva_redireciona\\obj_salva_redireciona.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -3133,7 +3165,9 @@
         "9db69ceb-3e9c-4471-a391-57f582a2fe3b",
         "5c5d57e6-466d-4985-b06e-9a2c9a1f21da",
         "4b29c8a8-58bc-4615-9551-cbd68241d7a3",
-        "41f75bba-1dba-4de7-bc35-f9d5bc804896"
+        "41f75bba-1dba-4de7-bc35-f9d5bc804896",
+        "bf33961b-197a-4b10-8f9a-1dbaea2146ab",
+        "123e936f-f128-40a9-b557-01466fb3a52b"
     ],
     "tutorial": ""
 }

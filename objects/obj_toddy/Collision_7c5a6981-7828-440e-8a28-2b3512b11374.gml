@@ -8,5 +8,5 @@
 //};
 
 audio_play_sound(snd_pickup,0,false);
-scr_gain_item(item.toddy, 1);
+scr_gain_item(item.toddy, 5);
 instance_destroy();

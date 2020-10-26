@@ -59,9 +59,12 @@ src_add_weapon_fire(item.rail_gun , "Arma de Raio", "", 20, "spr_railgun_slot", 
 src_add_weapon_fire(item.gun_fire, "Arma de Fogo", "", 40, "spr_gun_fire_slot", "spr_bullet_gun_fire", "spr_gun_fire", "laser2");
 
 
+/// tenta restaurar os itens?
+script_execute(scr_restaura_itens);
+
 // adicionando item ao player
-scr_gain_item(item.toddy, 5);
-scr_gain_item(item.bolinho, 5);
-scr_gain_item(item.shuriken , 10);
-scr_gain_item(item.rail_gun , 50);
-scr_gain_item(item.gun_fire , 30);
+//scr_gain_item(item.toddy, 5);
+//scr_gain_item(item.bolinho, 5);
+//scr_gain_item(item.shuriken , 10);
+//scr_gain_item(item.rail_gun , 50);
+//scr_gain_item(item.gun_fire , 30);
