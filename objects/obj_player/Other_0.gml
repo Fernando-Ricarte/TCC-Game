@@ -1,3 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-room_restart()
+obj_player.visible = false;
+audio_stop_all();
+roomname = room_get_name(room);
+global.roomDeath = roomname;
+global.shindeiru = true;

@@ -1,5 +1,7 @@
    // You can write your code in this editor
-   
+ 
+scr_salva_itens(); 
+
 switch(fase){
 
 	case 1:{
