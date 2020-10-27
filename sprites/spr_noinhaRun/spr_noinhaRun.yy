@@ -4,16 +4,16 @@
     "mvc": "1.12",
     "name": "spr_noinhaRun",
     "For3D": false,
-    "HTile": false,
-    "VTile": false,
-    "bbox_bottom": 58,
-    "bbox_left": 3,
-    "bbox_right": 47,
-    "bbox_top": 2,
-    "bboxmode": 0,
+    "HTile": true,
+    "VTile": true,
+    "bbox_bottom": 63,
+    "bbox_left": 0,
+    "bbox_right": 63,
+    "bbox_top": 0,
+    "bboxmode": 1,
     "colkind": 1,
     "coltolerance": 0,
-    "edgeFiltering": false,
+    "edgeFiltering": true,
     "frames": [
         {
             "id": "75dd2c5f-3b3a-45e3-beab-b11b1de01ea9",
@@ -164,7 +164,7 @@
             "visible": true
         }
     ],
-    "origin": 7,
+    "origin": 4,
     "originLocked": true,
     "playbackSpeed": 6,
     "playbackSpeedType": 0,
@@ -176,5 +176,5 @@
     "type": 0,
     "width": 64,
     "xorig": 32,
-    "yorig": 63
+    "yorig": 32
 }

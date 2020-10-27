@@ -4,8 +4,8 @@
     "mvc": "1.12",
     "name": "spr_errorIdle",
     "For3D": false,
-    "HTile": false,
-    "VTile": false,
+    "HTile": true,
+    "VTile": true,
     "bbox_bottom": 71,
     "bbox_left": 0,
     "bbox_right": 63,
@@ -13,7 +13,7 @@
     "bboxmode": 1,
     "colkind": 1,
     "coltolerance": 0,
-    "edgeFiltering": false,
+    "edgeFiltering": true,
     "frames": [
         {
             "id": "bf010724-9dc1-407a-8f16-fd90906df291",

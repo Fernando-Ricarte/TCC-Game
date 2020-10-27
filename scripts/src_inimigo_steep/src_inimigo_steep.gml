@@ -51,7 +51,17 @@ if( !chao )
 {
 	velv += grav;
 	estado = stateInimigoWalker.parado;
-	var_lado = ultimo_hit_lado;
+	
+	if ( collision_line(x, y, x - 5, y,obj_chao, 1, 0))
+	{
+		x++;
+		var_lado = ultimo_hit_lado;
+	}
+	else if ( collision_line(x, y, x + 5, y,obj_chao, 1, 0))
+	{
+		x--;
+		var_lado = ultimo_hit_lado;
+	}
 }
 
 // verfifcando quanto tempo esta no ar -----//
@@ -184,7 +194,12 @@ switch(estado){
 		{
 			estado = stateInimigoWalker.peranbulando;
 		}
-
+		
+		if( !chao )
+		{
+			estado = stateInimigoWalker.parado;
+			exit;
+		}
 		
 		if(var_lado == 1)
 		{
@@ -214,9 +229,10 @@ switch(estado){
 			
 		sprite_index = sprite_walk;
 		image_xscale = x_scale;
+		
 		chao_previsao2 = place_meeting(x + chao_pre, y + 1, obj_chao);
 			
-		if(!chao_previsao2 || parede_previsao )
+		if(!chao_previsao2 || parede_previsao && chao )
 		{
 			var_lado = var_lado * -1;
 		}

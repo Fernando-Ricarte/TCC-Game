@@ -4,7 +4,7 @@
     "mvc": "1.12",
     "name": "spr_hdIdle",
     "For3D": false,
-    "HTile": false,
+    "HTile": true,
     "VTile": true,
     "bbox_bottom": 63,
     "bbox_left": 0,

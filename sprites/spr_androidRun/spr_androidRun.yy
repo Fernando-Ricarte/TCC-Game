@@ -4,16 +4,16 @@
     "mvc": "1.12",
     "name": "spr_androidRun",
     "For3D": false,
-    "HTile": false,
-    "VTile": false,
-    "bbox_bottom": 60,
+    "HTile": true,
+    "VTile": true,
+    "bbox_bottom": 63,
     "bbox_left": 0,
-    "bbox_right": 49,
-    "bbox_top": 23,
-    "bboxmode": 0,
+    "bbox_right": 63,
+    "bbox_top": 0,
+    "bboxmode": 1,
     "colkind": 1,
     "coltolerance": 0,
-    "edgeFiltering": false,
+    "edgeFiltering": true,
     "frames": [
         {
             "id": "78825173-4134-46e9-807c-3d7c7bd5ef2f",
@@ -98,7 +98,7 @@
             "visible": true
         }
     ],
-    "origin": 7,
+    "origin": 4,
     "originLocked": true,
     "playbackSpeed": 15,
     "playbackSpeedType": 0,
@@ -110,5 +110,5 @@
     "type": 0,
     "width": 64,
     "xorig": 32,
-    "yorig": 63
+    "yorig": 32
 }

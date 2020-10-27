@@ -4,16 +4,16 @@
     "mvc": "1.12",
     "name": "spr_androidAttack",
     "For3D": false,
-    "HTile": false,
-    "VTile": false,
-    "bbox_bottom": 61,
+    "HTile": true,
+    "VTile": true,
+    "bbox_bottom": 63,
     "bbox_left": 0,
     "bbox_right": 63,
-    "bbox_top": 10,
-    "bboxmode": 0,
+    "bbox_top": 0,
+    "bboxmode": 1,
     "colkind": 1,
     "coltolerance": 0,
-    "edgeFiltering": false,
+    "edgeFiltering": true,
     "frames": [
         {
             "id": "9b2ca570-cd85-423e-96a2-489e0bc87c0f",
@@ -142,7 +142,7 @@
             "visible": true
         }
     ],
-    "origin": 7,
+    "origin": 4,
     "originLocked": true,
     "playbackSpeed": 15,
     "playbackSpeedType": 0,
@@ -154,5 +154,5 @@
     "type": 0,
     "width": 64,
     "xorig": 32,
-    "yorig": 63
+    "yorig": 32
 }

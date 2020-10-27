@@ -4,16 +4,16 @@
     "mvc": "1.12",
     "name": "spr_noinhaAttack",
     "For3D": false,
-    "HTile": false,
-    "VTile": false,
-    "bbox_bottom": 59,
-    "bbox_left": 11,
+    "HTile": true,
+    "VTile": true,
+    "bbox_bottom": 63,
+    "bbox_left": 0,
     "bbox_right": 63,
-    "bbox_top": 3,
-    "bboxmode": 0,
+    "bbox_top": 0,
+    "bboxmode": 1,
     "colkind": 1,
     "coltolerance": 0,
-    "edgeFiltering": false,
+    "edgeFiltering": true,
     "frames": [
         {
             "id": "e33086f8-dcd0-4eb1-ac6a-3cdf1c0d77d6",
@@ -120,7 +120,7 @@
             "visible": true
         }
     ],
-    "origin": 7,
+    "origin": 4,
     "originLocked": true,
     "playbackSpeed": 10,
     "playbackSpeedType": 0,
@@ -211,5 +211,5 @@
     "type": 0,
     "width": 64,
     "xorig": 32,
-    "yorig": 63
+    "yorig": 32
 }
