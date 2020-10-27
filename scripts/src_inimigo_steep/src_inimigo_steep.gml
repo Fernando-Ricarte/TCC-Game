@@ -47,9 +47,11 @@ velv = clamp(velv, -max_velv, max_velv);
 velh = lerp(velh, avanco_h, acel);
 
 // gravidade
-if(!chao)
+if( !chao )
 {
 	velv += grav;
+	estado = stateInimigoWalker.parado;
+	var_lado = ultimo_hit_lado;
 }
 
 // verfifcando quanto tempo esta no ar -----//

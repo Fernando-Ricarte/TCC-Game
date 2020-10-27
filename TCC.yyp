@@ -3151,6 +3151,14 @@
             }
         },
         {
+            "Key": "fa42a60f-f334-48bf-94d3-c7134ebeeb03",
+            "Value": {
+                "id": "42f8ee19-82c3-40f7-8434-d4b84f0a25a5",
+                "resourcePath": "scripts\\obj_interativeis\\obj_interativeis.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "fa534ad4-444d-48a0-b1ef-3fd7ad0bc3ae",
             "Value": {
                 "id": "07ec4465-cf3d-40c1-9004-fe116a7e41b9",
@@ -3256,7 +3264,8 @@
         "41f75bba-1dba-4de7-bc35-f9d5bc804896",
         "bf33961b-197a-4b10-8f9a-1dbaea2146ab",
         "123e936f-f128-40a9-b557-01466fb3a52b",
-        "2b79e18b-30c7-4001-a13c-eae10b4d83cf"
+        "2b79e18b-30c7-4001-a13c-eae10b4d83cf",
+        "fa42a60f-f334-48bf-94d3-c7134ebeeb03"
     ],
     "tutorial": ""
 }

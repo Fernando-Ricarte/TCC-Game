@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "obj_notebook",
     "eventList": [
-        
+        {
+            "id": "47f35d9b-2f93-4dce-9028-f0b55306b4fc",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "56926836-cae5-4287-89d9-0e0c8ac85d06"
+        },
+        {
+            "id": "64187f43-5789-4ea8-9827-9ae6079c233b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "56926836-cae5-4287-89d9-0e0c8ac85d06"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

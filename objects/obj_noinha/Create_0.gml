@@ -44,3 +44,5 @@ timer_hit = 6;
 
 show_damage = false;
 last_damage = 0;
+
+ultimo_hit_lado = 1;

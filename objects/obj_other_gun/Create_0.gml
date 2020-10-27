@@ -1,3 +1,6 @@
+/// @description Insert description here
+// You can write your code in this editor
+
 enemyhp = 100;
 hit_play = true;
 // -------------- iniciando vars do curso -------//
@@ -21,9 +24,6 @@ var_lado = 1;
 chao = false;
 andar_mais = true;
 parede_previsao = false;
-// ------------- STATE MACHINE ----------------------//
-
-estado = stateInimigoWalker.peranbulando;
 
 //  ---------- temmporizador pulo --------- //
 
@@ -36,5 +36,3 @@ timer_hit = 6;
 
 show_damage = false;
 last_damage = 0;
-
-ultimo_hit_lado = 1;
