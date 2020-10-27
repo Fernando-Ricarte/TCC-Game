@@ -1,6 +1,5 @@
- /// @description Insert description here
+/// @description Insert description here
 // You can write your code in this editor
-
 enemyhp = 100;
 hit_play = true;
 // -------------- iniciando vars do curso -------//
@@ -34,5 +33,4 @@ hit = 0;
 bater = true;
 timer_hit = 6;
 
-show_damage = false;
-last_damage = 0;
+show_damage = false; 

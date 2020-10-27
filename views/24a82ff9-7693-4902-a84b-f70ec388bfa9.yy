@@ -6,7 +6,8 @@
     "children": [
         "ff485f02-4e7a-476a-926c-c2f5cb7c6f07",
         "27541f48-a0e7-49c7-9dff-51fa5cbb1dc2",
-        "2e40eda9-a114-40ad-943a-c386c16276c5"
+        "2e40eda9-a114-40ad-943a-c386c16276c5",
+        "79c73faa-10df-4da4-8036-26edf15274fd"
     ],
     "filterType": "GMSprite",
     "folderName": "bullets",

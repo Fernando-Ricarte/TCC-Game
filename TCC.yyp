@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "0f225f41-185e-4602-87e7-dd8a2e9a364e",
+            "Value": {
+                "id": "2db3c01a-3c3b-49eb-8d25-5fb3da6189b6",
+                "resourcePath": "objects\\obj_bazuca_OP\\obj_bazuca_OP.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "10156d6a-e69c-477b-bcce-e9274ed194b8",
             "Value": {
                 "id": "6e09bf3d-59dd-4f1c-848f-b45575316c15",
@@ -492,6 +500,14 @@
                 "id": "0e5ea454-fc95-4e9d-8a18-486e8d7b872f",
                 "resourcePath": "views\\734440d8-3b99-4625-825b-f429b196943c-room.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "286cc248-3e92-47e6-8e61-270d36bcb86c",
+            "Value": {
+                "id": "e368a94b-3dac-434d-afb4-8f15f8c3e71d",
+                "resourcePath": "sprites\\spr_bazucao_slot\\spr_bazucao_slot.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1599,6 +1615,14 @@
             }
         },
         {
+            "Key": "79c73faa-10df-4da4-8036-26edf15274fd",
+            "Value": {
+                "id": "5a863938-b98f-4746-8017-06f090613bae",
+                "resourcePath": "sprites\\spr_MB_do_mal\\spr_MB_do_mal.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "79d95672-71e8-4abd-a61c-c68c66f68aef",
             "Value": {
                 "id": "9069d2d6-fd53-4d5c-a7d1-5428b7ee5c93",
@@ -1799,6 +1823,14 @@
             }
         },
         {
+            "Key": "89bdd454-fa9c-45fd-9d9e-fb4bc26f7aeb",
+            "Value": {
+                "id": "b45337ff-2613-4a05-926e-08263ec3a5e7",
+                "resourcePath": "sounds\\snd_bazuca\\snd_bazuca.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "89f853e7-8b75-4adb-a0f8-9e965cc18537",
             "Value": {
                 "id": "a5c27bd1-5a1a-498a-a255-0013c272e605",
@@ -1827,6 +1859,14 @@
             "Value": {
                 "id": "b46a1694-9a6b-42d8-890c-fbf70d1e3f0b",
                 "resourcePath": "sprites\\sprBossAurivam\\sprBossAurivam.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8b585637-5848-475c-87a5-6eef0416ba5f",
+            "Value": {
+                "id": "2ba19423-3755-49f3-a647-93c8c5e11a01",
+                "resourcePath": "sprites\\spr_bazucao\\spr_bazucao.yy",
                 "resourceType": "GMSprite"
             }
         },

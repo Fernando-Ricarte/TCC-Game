@@ -12,6 +12,7 @@ enum item
 	shuriken,
 	rail_gun,
 	gun_fire,
+	bazuca,
 	total
 }
 
@@ -56,11 +57,11 @@ scr_add_food(item.bolinho, "Bolinho da ETEC", "Muito gostoso! se não estiver mo
 scr_add_weapon(item.none, "", "", 0, "spr_none");
 scr_add_weapon_lancavel(item.shuriken, "Estrela ninja", "", 10, "spr_shuriken_item", "spr_shuriken", "spr_shuriken_arm", "snd_shuriken");
 src_add_weapon_fire(item.rail_gun , "Arma de Raio", "", 20, "spr_railgun_slot", "spr_bullet_railgun", "spr_railgun", "snd_laser02");
-src_add_weapon_fire(item.gun_fire, "Arma de Fogo", "", 40, "spr_gun_fire_slot", "spr_bullet_gun_fire", "spr_gun_fire", "snd_laser");
+src_add_weapon_fire(item.gun_fire, "Arma de Fogo", "", 40, "spr_gun_fire_slot", "spr_bullet_gun_fire", "spr_gun_fire", "snd_laser");  
+src_add_weapon_fire(item.bazuca, "BAZUCA MB",  "", 100, "spr_bazucao_slot", "spr_MB_do_mal","spr_bazucao", "snd_bazuca");
 
-
-/// tenta restaurar os itens?
-script_execute(scr_restaura_itens);
+/// tenta restaurar os itens?     
+script_execute(scr_restaura_itens); 
 
 // adicionando item ao player
 //scr_gain_item(item.toddy, 5);
