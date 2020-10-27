@@ -1,4 +1,4 @@
-//Codigo desenvolvido por Miguel Lukas
+ //Codigo desenvolvido por Miguel Lukas
 //criando tiro do objBossAurivam
 if cooldown <= 1
 {	
