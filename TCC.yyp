@@ -1151,14 +1151,6 @@
             }
         },
         {
-            "Key": "5897871d-0707-448e-b8be-7b074b10c5f9",
-            "Value": {
-                "id": "979077ca-a8df-4336-bfea-380306ed7207",
-                "resourcePath": "sounds\\laser2\\laser2.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "594b4931-3395-4e99-942c-580e36d190ac",
             "Value": {
                 "id": "1f5bba77-c3b5-4e25-a661-442d7e925410",
@@ -1300,6 +1292,14 @@
                 "id": "8de3fea9-7876-432f-8faa-a0eaaf8bac36",
                 "resourcePath": "views\\629960c6-d669-44e1-ae41-5a1038babb93.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "63ca5793-70d3-485d-99f0-fe5eb13992dc",
+            "Value": {
+                "id": "e9faeb6c-bc11-4eaa-9b03-f52f1c320a09",
+                "resourcePath": "sounds\\snd_laser\\snd_laser.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1604,6 +1604,14 @@
                 "id": "9069d2d6-fd53-4d5c-a7d1-5428b7ee5c93",
                 "resourcePath": "objects\\obj_control_creditos\\obj_control_creditos.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7aa32979-949f-4111-8f5f-48fd46b0f658",
+            "Value": {
+                "id": "aa2da61a-a4be-4d3d-90cb-7361a51ea6cd",
+                "resourcePath": "sounds\\snd_pickup_arma\\snd_pickup_arma.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -2298,7 +2306,7 @@
             "Key": "aed88b29-2b67-4d15-83ab-c26bbc178a65",
             "Value": {
                 "id": "7e59a88d-1731-4111-a201-6f886c387505",
-                "resourcePath": "sounds\\laser1\\laser1.yy",
+                "resourcePath": "sounds\\snd_laser02\\snd_laser02.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -2436,6 +2444,14 @@
                 "id": "3e446507-d60f-4f6b-9093-ade551505694",
                 "resourcePath": "tilesets\\tileset_pixacao\\tileset_pixacao.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "ba794de7-88e9-45f3-b996-6530062f607c",
+            "Value": {
+                "id": "48e64941-60cb-4457-9a27-06dae08e4807",
+                "resourcePath": "views\\ba794de7-88e9-45f3-b996-6530062f607c.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -2986,7 +3002,7 @@
             "Key": "edee569c-a8a7-4ff3-aa44-d4a19e848a9d",
             "Value": {
                 "id": "9e811ebb-1d07-4109-80db-33573091c0c2",
-                "resourcePath": "sounds\\shuriken_shoot\\shuriken_shoot.yy",
+                "resourcePath": "sounds\\snd_shuriken\\snd_shuriken.yy",
                 "resourceType": "GMSound"
             }
         },

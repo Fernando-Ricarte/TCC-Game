@@ -1,3 +1,5 @@
-/// @description Hack pra ganhar item :D
-audio_play_sound(snd_pickup,0,false);
+ /// @description Hack :D
+
 scr_gain_item(item.shuriken , 1);
+scr_gain_item( item.gun_fire, 1);
+scr_gain_item( item.rail_gun, 1);

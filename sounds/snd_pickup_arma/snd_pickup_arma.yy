@@ -1,8 +1,8 @@
 {
-    "id": "5897871d-0707-448e-b8be-7b074b10c5f9",
+    "id": "7aa32979-949f-4111-8f5f-48fd46b0f658",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "laser2",
+    "name": "snd_pickup_arma",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,
@@ -10,5 +10,5 @@
     "preload": false,
     "sampleRate": 44100,
     "type": 0,
-    "volume": 0.3
+    "volume": 1
 }
