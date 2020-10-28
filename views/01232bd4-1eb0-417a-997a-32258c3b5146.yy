@@ -11,7 +11,7 @@
         "67e128ef-96a9-4c4c-84a3-a41a0ed35b6b",
         "3afd7875-09d2-48f9-a85e-77cd0ab624fd",
         "f579f962-3732-496b-b0c0-e1805b1af4a6",
-        "b4b30f06-5ee6-4bfa-99b2-798bad225905"
+        "e644d587-a8ff-4223-a88d-eb10e6949f5f"
     ],
     "filterType": "GMSprite",
     "folderName": "sprites_na_mao",

@@ -1271,6 +1271,14 @@
             }
         },
         {
+            "Key": "611bb2ba-e8a2-4541-bb5c-439cd1b23fc3",
+            "Value": {
+                "id": "78f491d1-5f15-4d92-907b-bda0af896c46",
+                "resourcePath": "sprites\\spr_php_idle\\spr_php_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "61e5d7c6-744e-4871-9e58-4eb3c6912acd",
             "Value": {
                 "id": "e2327d2b-407a-4c82-a1eb-c87fffbd0122",
@@ -2399,14 +2407,6 @@
             }
         },
         {
-            "Key": "b4b30f06-5ee6-4bfa-99b2-798bad225905",
-            "Value": {
-                "id": "3c381cd8-f6bd-4562-b6e3-97845d3ef407",
-                "resourcePath": "sprites\\spr_gun_fire\\spr_gun_fire.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "b573bc7e-4113-4907-90b0-b70f40f4e4aa",
             "Value": {
                 "id": "8e4db71f-34ca-4113-8df1-58cd4add5d39",
@@ -2651,6 +2651,14 @@
             "Value": {
                 "id": "884522e9-a939-4329-80c6-6b6cd323271d",
                 "resourcePath": "views\\ca0d2e33-dcff-42d2-a37b-9ceac1888045.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cbf0e158-bd8f-47ce-99a4-deb11f9eab74",
+            "Value": {
+                "id": "846102f4-20b4-421a-b2d8-8b33db6879d6",
+                "resourcePath": "views\\cbf0e158-bd8f-47ce-99a4-deb11f9eab74.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -2975,6 +2983,14 @@
             }
         },
         {
+            "Key": "e644d587-a8ff-4223-a88d-eb10e6949f5f",
+            "Value": {
+                "id": "ad5b9f3b-983d-47fb-9488-9eac7fcbc53b",
+                "resourcePath": "sprites\\spr_gun_fire\\spr_gun_fire.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e7bac989-f589-4926-bbf1-12e0bda2e934",
             "Value": {
                 "id": "0535ca17-b0f5-405f-8440-f01127f7af8a",
@@ -3139,6 +3155,14 @@
             "Value": {
                 "id": "abed0179-5dbb-4c0c-9496-edc04e5d81a6",
                 "resourcePath": "sprites\\spr_all_comerciante\\spr_all_comerciante.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f6a6db55-98bd-42cd-8afa-c0e05e6d0efc",
+            "Value": {
+                "id": "0cdcd334-b75a-44cf-a1d9-08d53f6b453a",
+                "resourcePath": "sprites\\spr_php_atack\\spr_php_atack.yy",
                 "resourceType": "GMSprite"
             }
         },
