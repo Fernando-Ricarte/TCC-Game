@@ -4,8 +4,8 @@
     "mvc": "1.12",
     "name": "spr_php_idle",
     "For3D": false,
-    "HTile": false,
-    "VTile": false,
+    "HTile": true,
+    "VTile": true,
     "bbox_bottom": 54,
     "bbox_left": 14,
     "bbox_right": 89,
@@ -13,7 +13,7 @@
     "bboxmode": 0,
     "colkind": 1,
     "coltolerance": 0,
-    "edgeFiltering": false,
+    "edgeFiltering": true,
     "frames": [
         {
             "id": "76ff36a6-5ccd-4d97-90e3-ef2914cd4f7e",
@@ -100,7 +100,7 @@
     ],
     "origin": 4,
     "originLocked": false,
-    "playbackSpeed": 5,
+    "playbackSpeed": 3,
     "playbackSpeedType": 0,
     "premultiplyAlpha": false,
     "sepmasks": false,

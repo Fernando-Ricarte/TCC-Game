@@ -2615,6 +2615,14 @@
             }
         },
         {
+            "Key": "c6dc7be3-50bf-4a7b-afc6-a695cb3dcd5d",
+            "Value": {
+                "id": "dc9643be-28ab-46e1-931e-64359c816183",
+                "resourcePath": "sprites\\spr_php_walk\\spr_php_walk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c80e93ea-d7dc-4518-a3f1-ae9bc3fbd256",
             "Value": {
                 "id": "87c9e135-bbd6-4fec-826b-a86884541965",
@@ -2695,6 +2703,14 @@
             }
         },
         {
+            "Key": "cd9eb2e2-3a62-44cb-b1c1-3200072cb116",
+            "Value": {
+                "id": "7a477fc5-a3a8-4b9b-9f65-f0dddd09eb48",
+                "resourcePath": "sprites\\spr_gun_fire_slot\\spr_gun_fire_slot.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ce378ae8-7f4c-4773-8933-58ce00698ff4",
             "Value": {
                 "id": "86c17c98-07bb-4849-9b13-83e1babf6cb3",
@@ -2746,7 +2762,7 @@
             "Key": "d48a8729-5a4d-46f2-a52f-5b76eaaec47f",
             "Value": {
                 "id": "8b236949-1a1d-4b78-994a-56fb3dd4ef8c",
-                "resourcePath": "sprites\\spr_gun_fire_slot\\spr_gun_fire_slot.yy",
+                "resourcePath": "sprites\\spr_gun_fire_slot_desactived\\spr_gun_fire_slot_desactived.yy",
                 "resourceType": "GMSprite"
             }
         },
