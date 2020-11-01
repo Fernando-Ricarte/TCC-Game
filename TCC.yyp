@@ -2015,6 +2015,14 @@
             }
         },
         {
+            "Key": "9914112b-ba6d-4889-b215-2018e8618a00",
+            "Value": {
+                "id": "2f75753f-a14d-44af-ba42-474e9f95d390",
+                "resourcePath": "sprites\\spr_favelaReal\\spr_favelaReal.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "998e8d43-5d67-40b9-8dd0-f39fe5d0a5dd",
             "Value": {
                 "id": "3b344d3e-1ea0-458e-9e9e-577a74d0a256",
@@ -2060,6 +2068,14 @@
                 "id": "345a2239-b2f0-418b-9f87-80dd21b80f11",
                 "resourcePath": "sounds\\snd_erro_hit\\snd_erro_hit.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "9aee0e37-11a9-49ee-a8bb-c97b2deaba3b",
+            "Value": {
+                "id": "1a45baa9-1c05-4bf2-86b5-4103d2c0a25a",
+                "resourcePath": "tilesets\\tile_favelaReal\\tile_favelaReal.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
