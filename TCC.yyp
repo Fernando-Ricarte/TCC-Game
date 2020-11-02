@@ -3247,6 +3247,14 @@
             }
         },
         {
+            "Key": "fa09e023-8584-41fa-a501-da3d3546916d",
+            "Value": {
+                "id": "2f16265b-6d3c-42bc-bc57-a2815cb053c7",
+                "resourcePath": "scripts\\scr_mostra_hp\\scr_mostra_hp.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "fa42a60f-f334-48bf-94d3-c7134ebeeb03",
             "Value": {
                 "id": "42f8ee19-82c3-40f7-8434-d4b84f0a25a5",
@@ -3358,6 +3366,7 @@
         "5c5d57e6-466d-4985-b06e-9a2c9a1f21da",
         "4b29c8a8-58bc-4615-9551-cbd68241d7a3",
         "41f75bba-1dba-4de7-bc35-f9d5bc804896",
+        "fa09e023-8584-41fa-a501-da3d3546916d",
         "bf33961b-197a-4b10-8f9a-1dbaea2146ab",
         "123e936f-f128-40a9-b557-01466fb3a52b",
         "2b79e18b-30c7-4001-a13c-eae10b4d83cf",

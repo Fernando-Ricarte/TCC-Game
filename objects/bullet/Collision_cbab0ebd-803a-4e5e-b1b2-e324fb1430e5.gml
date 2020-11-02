@@ -15,7 +15,10 @@ with( other ){
 
 with( other )
 {
-	velv += irandom_range( -4, -7 );	
+	if( place_meeting(x, y + 1, obj_chao) )
+	{	
+		velv += irandom_range( -4, -7 );
+	}	
 }
 
 scr_hit_part_create(x, y);

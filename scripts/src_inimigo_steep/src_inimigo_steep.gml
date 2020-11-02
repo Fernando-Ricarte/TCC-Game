@@ -1,10 +1,11 @@
-
+#region ARGUMENTOS
 /// argumentos de sprite
 sprite_idle = argument0;
 sprite_walk = argument1;
 sprite_atack = argument2;
+#endregion
 
-
+#region CHECANDO COLISÕES
 // colisão horizontal
 if(place_meeting(x + velh, y, obj_chao))
 {
@@ -28,7 +29,9 @@ if(place_meeting(x, y + velv, obj_chao))
 	velv = 0;
 }
 y += velv;
+#endregion
 
+#region PRÉ-CHECAMENTOS DE ESTADO
 // chacando se o personagem esta no chao
 chao = place_meeting(x, y + 1, obj_chao);
 
@@ -101,12 +104,12 @@ else
 if (distance_to_object(obj_player) < 5){
 	estado = stateInimigoWalker.atacando
 }
+#endregion
 
-// --------- animações -------------------//
-
+#region STATE_MACHINE INIMIGO
 switch(estado){
 	case stateInimigoWalker.seguindo:
-	
+	#region STATE: SEGUINDO O PLAYER
 			/// muda direceção do atk caso o player sai da frente do inimigo
 			if( obj_player.x > x )
 			{
@@ -163,9 +166,10 @@ switch(estado){
 				estado = stateInimigoWalker.parado;
 				sprite_index = sprite_idle;
 			}
-		
-		break;
+		#endregion
+	break;
 	case stateInimigoWalker.parado:
+	#region STATE: PARADO/IDDLE
 	
 			// verifica quanto tempo o npc esta parado
 			timerParado += 1 / 64;
@@ -176,11 +180,11 @@ switch(estado){
 			}else{
 				sprite_index = sprite_idle;	
 			}
-		
-		break;
+	#endregion	
+	break;
 		
 	case stateInimigoWalker.peranbulando:
-
+	#region STATE: ANDANDO/PERAMBULANDO
 		/// verifica colisão com player
 		if ( collision_line(x, y, x + 200, y, obj_player, 1, 0) )
 		{
@@ -220,7 +224,7 @@ switch(estado){
 			
 		temp_perambulando = temp_perambulando + 1 / 60;
 			
-		if( temp_perambulando > random_range(3, 48) )
+		if( temp_perambulando > random_range(3, 20) )
 		{
 			temp_perambulando = 0;
 			estado = stateInimigoWalker.parado;
@@ -295,5 +299,7 @@ switch(estado){
 					estado = stateInimigoWalker.peranbulando;
 				}
 			}
-		break;
+	break;
+	#endregion
 }
+#endregion
