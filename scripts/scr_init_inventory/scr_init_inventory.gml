@@ -59,6 +59,7 @@ scr_add_weapon_lancavel(item.shuriken, "Estrela ninja", "", 10, "spr_shuriken_it
 src_add_weapon_fire(item.rail_gun , "Arma de Raio", "", 20, "spr_railgun_slot", "spr_bullet_railgun", "spr_railgun", "snd_laser02");
 src_add_weapon_fire(item.gun_fire, "Arma de Fogo", "", 40, "spr_gun_fire_slot", "spr_bullet_gun_fire", "spr_gun_fire", "snd_laser");  
 src_add_weapon_fire(item.bazuca, "BAZUCA MB",  "", 100, "spr_bazucao_slot", "spr_MB_do_mal","spr_bazucao", "snd_bazuca");
+adiciona_diversos( item.notebook, "Notebook", "", "spr_notebook");
 
 /// tenta restaurar os itens?     
 script_execute(scr_restaura_itens); 
