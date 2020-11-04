@@ -9,7 +9,8 @@
         "00626759-36b3-4ede-8411-4b3f3cfdec48",
         "1fb5f742-8497-465f-a821-34fd46aaab62",
         "bbe7d6e1-9e7d-4147-87c8-db6f951c51f0",
-        "30c75095-2819-44bc-8f08-4045b5d72196"
+        "30c75095-2819-44bc-8f08-4045b5d72196",
+        "c7d96287-ffae-4213-874c-28d9452d90ac"
     ],
     "filterType": "GMSound",
     "folderName": "MUSICAS\/AMBIENTAÇÃO",

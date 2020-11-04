@@ -1639,14 +1639,6 @@
             }
         },
         {
-            "Key": "7684dc5e-181e-484f-afd8-4eadcd33ecd0",
-            "Value": {
-                "id": "db7405c1-832e-4728-8622-87d8745910b1",
-                "resourcePath": "objects\\music_room1\\music_room1.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "76e0ef7d-f537-499d-9c6f-6d0d352e63c1",
             "Value": {
                 "id": "5cce1946-44cc-4503-ad43-07a867d224b4",
@@ -2119,14 +2111,6 @@
             }
         },
         {
-            "Key": "9a2d6de0-37b6-4f1c-8b3d-907a688b4576",
-            "Value": {
-                "id": "5537ffc3-4302-4fcc-aa50-aad8afbbbbb7",
-                "resourcePath": "objects\\music_fase_1\\music_fase_1.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "9a72e16e-11bc-4b07-8e55-7323752cf8e0",
             "Value": {
                 "id": "043faae2-cfae-4cd8-b5b3-5921c20add6a",
@@ -2466,8 +2450,16 @@
             "Key": "b004d80d-9384-46b0-a44c-f41c33d72e1c",
             "Value": {
                 "id": "5d7d4c71-2868-4e4f-b33a-e19ccc0b20dc",
-                "resourcePath": "rooms\\fase_teste_windows\\fase_teste_windows.yy",
+                "resourcePath": "rooms\\Tutorial\\Tutorial.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "b116538d-822b-484c-96c2-d4b74744a9f2",
+            "Value": {
+                "id": "fcc7b5b8-b24a-4585-a851-5a4bbcde4e12",
+                "resourcePath": "objects\\obj_home_options\\obj_home_options.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2743,6 +2735,14 @@
             }
         },
         {
+            "Key": "c7d96287-ffae-4213-874c-28d9452d90ac",
+            "Value": {
+                "id": "c643abdd-1e9b-4830-8d45-28f087ba646e",
+                "resourcePath": "sounds\\snd_tutorial\\snd_tutorial.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "c80e93ea-d7dc-4518-a3f1-ae9bc3fbd256",
             "Value": {
                 "id": "87c9e135-bbd6-4fec-826b-a86884541965",
@@ -2996,14 +2996,6 @@
                 "id": "1153e6ff-57b9-481b-8a5c-a7efd702bf55",
                 "resourcePath": "rooms\\Menu_Principal\\Menu_Principal.yy",
                 "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "de40a7b2-33ca-4b02-92f6-c7c17c8794c6",
-            "Value": {
-                "id": "5bb3898f-69f4-4740-a028-e0a9cbd30c38",
-                "resourcePath": "views\\de40a7b2-33ca-4b02-92f6-c7c17c8794c6.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
