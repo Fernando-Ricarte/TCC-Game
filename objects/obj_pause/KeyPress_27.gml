@@ -4,7 +4,6 @@ if (!pause)
 {
 	pause = 1;
 	instance_deactivate_all(true);
-	instance_activate_object(obj_mao);
 }else
 {
 	pause = 0;

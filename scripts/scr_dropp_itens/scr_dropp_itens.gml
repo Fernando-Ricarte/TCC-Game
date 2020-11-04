@@ -3,7 +3,6 @@ creation_x = argument0;
 creation_y = argument1;
 nivel_percent = argument2;
 
-
 multiplicador = nivel_percent * 2;
 
 obj_dropaveis = [ "obj_toddy", "obj_bolinho", "obj_notebook", "obj_shuriken", "obj_other_gun", "obj_bazuca_OP" ];
