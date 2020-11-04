@@ -10,7 +10,7 @@
         "0115355b-a788-422d-a8b8-3dc50aaa2950"
     ],
     "filterType": "GMObject",
-    "folderName": "auxiliares_fase1",
+    "folderName": "Auxiliares do tutorial",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
