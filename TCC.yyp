@@ -2015,6 +2015,14 @@
             }
         },
         {
+            "Key": "90a9f7e0-7936-4549-a40e-8d8863a33e00",
+            "Value": {
+                "id": "9a57e150-d3e7-4f25-8c13-354d1b9219ca",
+                "resourcePath": "rooms\\fase_teste_windows\\fase_teste_windows.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "91075502-01a4-42b5-990c-850d5db64c05",
             "Value": {
                 "id": "5335bcd4-c6f7-4ba8-8f6c-b9300559197d",
@@ -2116,6 +2124,14 @@
                 "id": "78914075-f999-4171-ae3e-bb050f12ac33",
                 "resourcePath": "sprites\\spr_noinhaRun\\spr_noinhaRun.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9a2d6de0-37b6-4f1c-8b3d-907a688b4576",
+            "Value": {
+                "id": "249cb580-d39f-466d-af07-01f5f3da813b",
+                "resourcePath": "objects\\music_fase_1\\music_fase_1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
