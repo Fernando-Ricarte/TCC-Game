@@ -1,15 +1,10 @@
 // cutscene
-
-if y != 500 //se o y do boss estiver menos que 300 a velocidade vertial continua
+if(y != 590) //se o y do boss estiver menos que 300 a velocidade vertial continua
 {
-	vspeed = 3;
+	vspeed = 2;
 	
-} else { // se não a velocidade vertical recebe 0 
+} else { 
 	vspeed = 0;
 	state = BOSS_STATE.BOBBING;
 }
 
-if  y == 500 // quando a cutscene acabar ou seja o y = 500 trocara para o estado bobbing
-{
-	state = BOSS_STATE.BOBBING;
-}

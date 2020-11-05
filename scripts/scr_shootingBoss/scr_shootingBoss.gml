@@ -3,16 +3,24 @@
 if cooldown <= 1
 {	
 	
-    global.bulletBoss = instance_create_depth(x,y,1,objShootBoss);
+    var bulletBoss = instance_create_depth(x,y,1,objShootBoss);
 	audio_play_sound(snd_tiro,0,false);
-	cooldown = 50
+	cooldown = 25
 	
 	with objShootBoss
 	{
-		global.bulletBoss.direction = point_direction(global.bullet.x, global.bullet.y , obj_player.x, obj_player.y);
+		bulletBoss.direction = point_direction(bulletBoss.x,bulletBoss.y,obj_player.x,obj_player.y);
 		speed = 6;
 	}  
+	
+}
+cooldown = cooldown - 1;
+
+if (alarm[0] == -1)
+{
+	alarm[0] = 300;
 }
 
-cooldown = cooldown - 1;
+
+
 

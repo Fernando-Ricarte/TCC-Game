@@ -1,4 +1,4 @@
-// Codigo desenvolvido por Miguel LUkas
+// Codigo desenvolvido por Miguel Lukas
 if (vspeed == 0)
 {
 	if dir_c >= 2
@@ -20,3 +20,8 @@ if (vspeed == 0)
 	} else dir_c++;
 	
 }
+
+if (alarm[1] == -1)
+	{
+		alarm[1] = 300;
+	}

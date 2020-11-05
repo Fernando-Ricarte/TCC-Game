@@ -16,10 +16,11 @@ cooldown = 0;
 count = 0;
 
 // definindo estado inicial boss
-state = BOSS_STATE.BOBBING;
+state = BOSS_STATE.CUTSCENE;
 
 enum BOSS_STATE // array com estados do boss
-{
+{	
+	CUTSCENE,
 	BOBBING,
 	SHOOTING
 }
