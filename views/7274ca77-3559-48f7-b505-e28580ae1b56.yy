@@ -11,7 +11,8 @@
         "4a00d7f1-4eb1-4b85-93e4-c4ac30e9e03a",
         "94db31f0-9ab8-4b9f-b1a3-153c3d456b23",
         "b9fa8c88-6e72-4b15-9d55-08a211c7e25f",
-        "64679f58-8dc2-463e-9be6-d0019679ee99"
+        "64679f58-8dc2-463e-9be6-d0019679ee99",
+        "9f8f719a-b2d8-4466-9788-36bd703eaaa6"
     ],
     "filterType": "GMTileSet",
     "folderName": "Decoração",
