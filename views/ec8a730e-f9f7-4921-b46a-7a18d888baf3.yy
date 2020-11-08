@@ -10,7 +10,8 @@
         "696f5a8a-2353-48a6-a6ae-486740cbb18a",
         "89f853e7-8b75-4adb-a0f8-9e965cc18537",
         "c64ae6d5-8a92-44ac-815d-e9c3f16da91e",
-        "e141cf60-8717-4a63-b8a9-885026e9ac51"
+        "e141cf60-8717-4a63-b8a9-885026e9ac51",
+        "ad27a1bc-9ff2-4cec-a46a-94ec740f304e"
     ],
     "filterType": "GMObject",
     "folderName": "Construções",

@@ -1623,6 +1623,14 @@
             }
         },
         {
+            "Key": "75d407ac-d63f-43bd-a23d-f56c635cd126",
+            "Value": {
+                "id": "200a22d1-b20f-4ec0-9983-293a78bf413c",
+                "resourcePath": "sprites\\wall_no\\wall_no.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "76e0ef7d-f537-499d-9c6f-6d0d352e63c1",
             "Value": {
                 "id": "5cce1946-44cc-4503-ad43-07a867d224b4",
@@ -1994,7 +2002,7 @@
             "Key": "90a9f7e0-7936-4549-a40e-8d8863a33e00",
             "Value": {
                 "id": "9a57e150-d3e7-4f25-8c13-354d1b9219ca",
-                "resourcePath": "rooms\\fase_teste_windows\\fase_teste_windows.yy",
+                "resourcePath": "rooms\\tutorial1\\tutorial1.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -2412,6 +2420,14 @@
                 "id": "9ef821d5-a5fb-4e1f-b94d-695e9c5cde74",
                 "resourcePath": "views\\ac908d74-ffc0-4a73-82cd-64bf25381b08.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ad27a1bc-9ff2-4cec-a46a-94ec740f304e",
+            "Value": {
+                "id": "2187ebc6-ee18-4ef3-b904-4747b60b9f38",
+                "resourcePath": "objects\\obj_parede_warning\\obj_parede_warning.yy",
+                "resourceType": "GMObject"
             }
         },
         {

@@ -6,7 +6,7 @@ switch(fase){
 
 	case 1:{
 		if(global.Fase_Destravada == 1) {
-			room_goto( fase_teste_windows );
+			room_goto( tutorial1 );
 			audio_stop_all();
 		} 
 		else show_message("Está fase ainda não está disponivel");
