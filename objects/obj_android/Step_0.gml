@@ -7,5 +7,5 @@ script_execute(src_inimigo_steep, spr_androidIdle, spr_androidRun, spr_androidAt
 //morte 
 if(enemyhp <= 0){
 	instance_destroy();
-	audio_play_sound(snd_solado,0,false);
+	audio_play_sound(snd_errors_die,0,false);
 }

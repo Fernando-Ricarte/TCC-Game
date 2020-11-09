@@ -5,8 +5,7 @@
     "name": "d0697cfd-d5fb-4230-83e8-36a3708c18fe",
     "children": [
         "09e0d768-918f-4e45-b234-58a734f539f7",
-        "30e888f4-e5d5-432a-b2bf-9dd9b1ddb417",
-        "33302acb-fb4f-4e95-a724-7b30dec4e51f"
+        "30e888f4-e5d5-432a-b2bf-9dd9b1ddb417"
     ],
     "filterType": "GMSound",
     "folderName": "Personagem",

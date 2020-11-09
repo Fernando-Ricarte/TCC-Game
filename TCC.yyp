@@ -1031,6 +1031,14 @@
             }
         },
         {
+            "Key": "4ab7851a-d6a9-489c-a3b4-6f527fdf7c4b",
+            "Value": {
+                "id": "e2142c90-abbd-45df-bdd6-c87b82589c8c",
+                "resourcePath": "views\\4ab7851a-d6a9-489c-a3b4-6f527fdf7c4b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "4aeca94e-8eef-4af0-8dc0-9b162de5a6bc",
             "Value": {
                 "id": "8cd125c9-4271-4676-8c2e-be0190afb262",
@@ -1084,6 +1092,14 @@
                 "id": "debfc57c-9bbc-4571-8765-c40b81ea9fcf",
                 "resourcePath": "scripts\\src_add_weapon_fire\\src_add_weapon_fire.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "4cd49598-fd03-423e-8a20-19f2a8dc9b4b",
+            "Value": {
+                "id": "16d73791-2a1a-4b55-9664-903ed9d05628",
+                "resourcePath": "sounds\\snd_tek_die\\snd_tek_die.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -3055,6 +3071,14 @@
             }
         },
         {
+            "Key": "dfe67d8e-47a2-48b7-a73a-a1b216b4a03d",
+            "Value": {
+                "id": "46ba184d-c157-4abd-8f24-f2dd5b000080",
+                "resourcePath": "sounds\\snd_errors_die\\snd_errors_die.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "e0d7bb47-94df-438b-9979-c3b00d07b25a",
             "Value": {
                 "id": "a7219510-db9f-44cf-8ca2-c38480009be0",
@@ -3196,6 +3220,14 @@
                 "id": "e55fdd14-11c5-4999-85f1-933eced564b1",
                 "resourcePath": "sprites\\spr_running_no\\spr_running_no.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e9fc4023-e1d6-42bc-80be-a31e8bb93cf3",
+            "Value": {
+                "id": "0d1795b6-a4b1-4c76-a8a9-6cdb47e7fed1",
+                "resourcePath": "sounds\\snd_tek_hit\\snd_tek_hit.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -3443,6 +3475,14 @@
             "Value": {
                 "id": "02e89031-0445-492a-9bbe-d3f157389340",
                 "resourcePath": "sounds\\health1\\health1.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "fcdc5977-056d-467e-8755-fc692b34e903",
+            "Value": {
+                "id": "ae5a270a-51ab-43e6-857e-a8a8e45620c4",
+                "resourcePath": "sounds\\snd_risada_sinistra\\snd_risada_sinistra.yy",
                 "resourceType": "GMSound"
             }
         },

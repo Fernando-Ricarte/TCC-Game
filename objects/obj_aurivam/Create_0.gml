@@ -1,7 +1,8 @@
- /// @description 
+   /// @description 
 // Codigo desenvolvido por Miguel Lukas
 // 
 //
+audio_play_sound(snd_risada_sinistra,0,false);
 
 global.hpboss = 100;// vida do boss
 spd = 2; // velocidade

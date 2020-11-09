@@ -1,6 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
-
+/// @description Abrir o baú
+ 
 if ( player_closer )
 {
 	/// chamaria o criador de objs, somente se for a primeira vez
@@ -10,4 +9,4 @@ if ( player_closer )
 	}
 	
 	has_open = true;
-}
+} 
