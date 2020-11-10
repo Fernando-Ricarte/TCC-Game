@@ -1,2 +1,2 @@
-
-script_execute(scr_mostra_hp, "inimigo noia", enemyhp);
+ 
+script_execute(scr_mostra_hp, "Noinha", enemyhp);

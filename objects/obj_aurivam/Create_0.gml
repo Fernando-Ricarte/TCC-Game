@@ -4,12 +4,12 @@
 //
 audio_play_sound(snd_risada_sinistra,0,false);
 
-global.hpboss = 100;// vida do boss
+hp_boss = 2000;// vida do boss
 spd = 2; // velocidade
 vspeed = 0; // velocidade vertical
 image_angle = 0;
 
-
+ 
 dir_c = 0;
 dir_z = 0;
 z = 0;

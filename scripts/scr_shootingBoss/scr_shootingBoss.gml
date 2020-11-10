@@ -5,7 +5,7 @@ if cooldown <= 1
 	
     var bulletBoss = instance_create_depth(x,y,1,objShootBoss);
 	audio_play_sound(snd_tiro,0,false);
-	cooldown = 25
+	cooldown = random_range(25,35);
 	
 	with objShootBoss
 	{

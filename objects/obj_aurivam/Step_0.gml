@@ -1,4 +1,4 @@
- /// @description 
+  /// @description 
 // Codigo desenvolvido por Miguel Lukas
 //
 switch (state)
@@ -22,7 +22,7 @@ if count < 2
 }
 
 // morte do boss
-if(global.hpboss < 0 || global.hpboss = 0){
+if(hp_boss < 0 || hp_boss = 0){
 	instance_destroy();
 	audio_play_sound(snd_solado,0,false);
 }

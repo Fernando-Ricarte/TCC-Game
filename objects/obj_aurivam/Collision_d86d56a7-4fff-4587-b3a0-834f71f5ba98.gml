@@ -9,7 +9,7 @@ with ( bullet )
 	instance_destroy();
 }
 
-global.hpboss -= damage_bullet;
+hp_boss  -= damage_bullet;
 
 with ( instance_create_layer(x, y - 130, "player", obj_hit_damage ) )
 {
