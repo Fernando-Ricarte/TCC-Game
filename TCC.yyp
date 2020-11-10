@@ -519,6 +519,14 @@
             }
         },
         {
+            "Key": "2827fb97-4546-4afa-979d-2edcd366084b",
+            "Value": {
+                "id": "0af87cc8-8ace-4d28-b663-51346e1cc19c",
+                "resourcePath": "views\\2827fb97-4546-4afa-979d-2edcd366084b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "286cc248-3e92-47e6-8e61-270d36bcb86c",
             "Value": {
                 "id": "e368a94b-3dac-434d-afb4-8f15f8c3e71d",
@@ -1999,6 +2007,14 @@
             }
         },
         {
+            "Key": "8dadea16-9c7d-44ed-bba9-a143ef76af7f",
+            "Value": {
+                "id": "5aa95cc9-5591-4c84-a980-e4cc4b9d410c",
+                "resourcePath": "views\\8dadea16-9c7d-44ed-bba9-a143ef76af7f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "8e02e34e-e128-4564-93e3-6ad0d1234a0d",
             "Value": {
                 "id": "597663ae-a2ce-467a-afb2-f2bfac05c4f6",
@@ -2124,14 +2140,6 @@
                 "id": "78914075-f999-4171-ae3e-bb050f12ac33",
                 "resourcePath": "sprites\\spr_noinhaRun\\spr_noinhaRun.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "9a2d6de0-37b6-4f1c-8b3d-907a688b4576",
-            "Value": {
-                "id": "249cb580-d39f-466d-af07-01f5f3da813b",
-                "resourcePath": "objects\\music_fase_1\\music_fase_1.yy",
-                "resourceType": "GMObject"
             }
         },
         {

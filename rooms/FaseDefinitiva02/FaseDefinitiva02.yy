@@ -2,7 +2,7 @@
 {
     "name": "FaseDefinitiva02",
     "id": "a5c2520c-aafc-4aa0-adb5-2f39dfaa42c4",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

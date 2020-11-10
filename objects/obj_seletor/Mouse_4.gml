@@ -1,6 +1,6 @@
-    // You can write your code in this editor
+     // You can write your code in this editor
  
-scr_salva_itens(); 
+//scr_salva_itens(); 
 
 switch(fase){
 
