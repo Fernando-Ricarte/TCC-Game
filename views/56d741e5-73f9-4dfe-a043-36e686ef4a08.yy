@@ -12,7 +12,8 @@
         "dc81414b-b954-4bb1-93ad-4df5a4735e01",
         "b116538d-822b-484c-96c2-d4b74744a9f2",
         "2300a92e-3116-4332-bd63-1d2163c10103",
-        "e171660a-feea-4e61-a6d7-af6170923333"
+        "e171660a-feea-4e61-a6d7-af6170923333",
+        "e3caf5cc-3f1b-4a37-920e-631f477a2f5c"
     ],
     "filterType": "GMObject",
     "folderName": "Botoes_menu",

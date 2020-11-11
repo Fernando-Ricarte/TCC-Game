@@ -3151,6 +3151,14 @@
             }
         },
         {
+            "Key": "e3caf5cc-3f1b-4a37-920e-631f477a2f5c",
+            "Value": {
+                "id": "a70e1666-e33b-4dd7-8500-b5a1798d0f5a",
+                "resourcePath": "objects\\obj_tutorial\\obj_tutorial.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e3e6f3ec-80d1-4880-a3b0-958129ce77b0",
             "Value": {
                 "id": "06a468e3-5fbf-45e8-bbe8-2fad0edb91d1",
