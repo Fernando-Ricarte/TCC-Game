@@ -9,7 +9,7 @@
         "cd95ca81-9169-4b12-b059-43ff42c1c66c"
     ],
     "filterType": "GMSprite",
-    "folderName": "spr_error",
+    "folderName": "Sintax Error",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

@@ -23,6 +23,6 @@ if count < 2
 
 // morte do boss
 if(hp_boss < 0 || hp_boss = 0){
-	instance_destroy();
+	instance_destroy(); 
 	audio_play_sound(snd_solado,0,false);
 }

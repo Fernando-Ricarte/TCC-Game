@@ -9,7 +9,7 @@
         "c6dc7be3-50bf-4a7b-afc6-a695cb3dcd5d"
     ],
     "filterType": "GMSprite",
-    "folderName": "spr_Php",
+    "folderName": "elefante PHP",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

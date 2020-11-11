@@ -847,6 +847,14 @@
             }
         },
         {
+            "Key": "3f6b6ea6-b83c-48b4-978e-f2674c577ce2",
+            "Value": {
+                "id": "6d74e23c-3436-4dab-b895-10abc6216fb9",
+                "resourcePath": "sprites\\spr_aurivam_maquinado\\spr_aurivam_maquinado.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3fcc0963-7b9f-438c-9415-c55d9bba9bd1",
             "Value": {
                 "id": "902fe79a-ac60-4b1f-912b-fff61b596412",
@@ -1820,6 +1828,14 @@
                 "id": "6f1136c8-593a-4ea9-8b4b-b330e36f45dc",
                 "resourcePath": "views\\82c96408-7d4e-435f-985d-d7398f09750f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "83ac2592-e3a6-44d9-9949-9322b0250b6a",
+            "Value": {
+                "id": "8ca9c16b-721b-4d83-a5df-b95dbe587941",
+                "resourcePath": "sprites\\spr_aurivam_do_bem\\spr_aurivam_do_bem.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -3404,6 +3420,14 @@
                 "id": "03fdfffb-6e65-4b77-a2a8-81b8e5a56958",
                 "resourcePath": "sprites\\spr_shuriken_arm\\spr_shuriken_arm.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f5c13e1c-756f-471a-a65f-ea26a5f98419",
+            "Value": {
+                "id": "c3d67229-dc51-46b9-b892-feece1667f68",
+                "resourcePath": "objects\\obj_auriva_do_bem\\obj_auriva_do_bem.yy",
+                "resourceType": "GMObject"
             }
         },
         {

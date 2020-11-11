@@ -9,7 +9,7 @@
         "9b6cfbf4-83b5-422f-9a05-873ea98320d6"
     ],
     "filterType": "GMSprite",
-    "folderName": "spr_hd",
+    "folderName": "HD",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

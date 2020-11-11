@@ -9,7 +9,7 @@
         "a9073124-b6cd-4598-a096-c8b047fe80fe"
     ],
     "filterType": "GMSprite",
-    "folderName": "spr_android",
+    "folderName": "Android Studio",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

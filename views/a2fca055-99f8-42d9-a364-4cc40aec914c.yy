@@ -10,7 +10,7 @@
         "9fd45237-fb97-408a-b84e-0853edbe1e3c"
     ],
     "filterType": "GMSprite",
-    "folderName": "spr_noinha",
+    "folderName": "Noinha",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
