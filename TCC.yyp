@@ -1423,6 +1423,14 @@
             }
         },
         {
+            "Key": "65c187a2-2609-44b0-9050-6845310d87c9",
+            "Value": {
+                "id": "dc5fcf27-6c8b-48e1-837a-c7cd3150eee8",
+                "resourcePath": "objects\\obj_salva_redireciona\\obj_salva_redireciona.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "65edfb4f-e89c-4aab-93df-1bae0c3c4cb8",
             "Value": {
                 "id": "4caf50e0-4fa4-45c6-9dfa-fd057985f6a9",
@@ -3122,7 +3130,7 @@
             "Key": "e141cf60-8717-4a63-b8a9-885026e9ac51",
             "Value": {
                 "id": "4f157e14-56ba-481a-9154-4e42f9304433",
-                "resourcePath": "objects\\obj_salva_redireciona\\obj_salva_redireciona.yy",
+                "resourcePath": "objects\\obj_salva_redireciona_tutorial\\obj_salva_redireciona_tutorial.yy",
                 "resourceType": "GMObject"
             }
         },
