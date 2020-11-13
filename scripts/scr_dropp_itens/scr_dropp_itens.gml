@@ -5,7 +5,7 @@ nivel_percent = argument2;
 
 multiplicador = nivel_percent * 2;
 
-obj_dropaveis = [ "obj_toddy", "obj_bolinho", "obj_notebook", "obj_shuriken", "obj_other_gun", "obj_bazuca_OP" ];
+obj_dropaveis = [ "obj_toddy", "obj_bolinho", "obj_shuriken", "obj_other_gun"];
 
 for ( var v = 0; v <= multiplicador; v++ )
 {

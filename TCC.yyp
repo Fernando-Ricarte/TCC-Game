@@ -2543,6 +2543,14 @@
             }
         },
         {
+            "Key": "b0653b82-09a8-4400-ae8c-e8de446b1627",
+            "Value": {
+                "id": "60f5a880-4aae-40ed-b1d3-bb61b84ef8ad",
+                "resourcePath": "sprites\\spr_txt\\spr_txt.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b116538d-822b-484c-96c2-d4b74744a9f2",
             "Value": {
                 "id": "fcc7b5b8-b24a-4585-a851-5a4bbcde4e12",

@@ -1,4 +1,4 @@
-/// @description Abrir o baú
+ /// @description Abrir o baú
  
 if ( player_closer )
 {
