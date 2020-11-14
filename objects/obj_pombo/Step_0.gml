@@ -1,8 +1,7 @@
 
 switch (state)
 {
-	case Pombo_STATE.CUTSCENE: scr_cutscene_pombo(); break;
-	case Pombo_STATE.BOBBING: scr_shooting_pombo(); break;
+	
 	case Pombo_STATE.SHOOTING: scr_shooting_pombo(); break;
 }
 

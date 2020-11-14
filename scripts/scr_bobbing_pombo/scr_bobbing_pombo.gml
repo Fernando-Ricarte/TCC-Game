@@ -1,4 +1,5 @@
 // Codigo desenvolvido por Miguel Lukas
+
 if (vspeed == 0)
 {
 	if dir_c >= 2

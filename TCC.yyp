@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "1539ccfc-bff4-4ebd-9936-921e94a2fdbb",
+            "Value": {
+                "id": "5458d57e-1fa4-45d8-8022-55ca0cfd80f4",
+                "resourcePath": "sounds\\snd_bufa\\snd_bufa.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "155f126c-af3e-4752-b37d-0cec23444fc1",
             "Value": {
                 "id": "ed3b8f0b-f167-41f2-8148-db4f8d2bb780",

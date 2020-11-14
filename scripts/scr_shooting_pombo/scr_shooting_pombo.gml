@@ -4,7 +4,7 @@ if cooldown <= 1
 {	
 	
     var bulletBoss = instance_create_depth(x,y,1,obj_cocozin);
-	audio_play_sound(snd_tiro,0,false);
+	audio_play_sound(snd_bufa,0,false);
 	sprite_index = spr_pombo_attack;
 	cooldown = random_range(50,100);
 	
