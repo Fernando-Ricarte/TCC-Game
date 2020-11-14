@@ -18,7 +18,7 @@ if count < 2
  
 }
 
-// morte do boss
+// morte do pombo
 if(hp_pombo < 0 || hp_pombo = 0){
 	instance_destroy(); 
 	audio_play_sound(snd_solado,0,false);
