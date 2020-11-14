@@ -6,7 +6,7 @@
     "children": [
         "41f75bba-1dba-4de7-bc35-f9d5bc804896",
         "fa09e023-8584-41fa-a501-da3d3546916d",
-        "a2c4c380-fc1d-492a-8ad6-535b38eba75d"
+        "733cb960-5dad-4f1b-a3fa-44906b60f6ba"
     ],
     "filterType": "GMScript",
     "folderName": "inimigos",

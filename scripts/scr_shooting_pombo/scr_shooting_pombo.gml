@@ -1,11 +1,14 @@
+ //Codigo desenvolvido por Miguel Lukas
+//criando tiro do objBossAurivam
 if cooldown <= 1
 {	
 	
     var bulletBoss = instance_create_depth(x,y,1,obj_cocozin);
 	audio_play_sound(snd_tiro,0,false);
-	cooldown = random_range(25,35);
+	sprite_index = spr_pombo_attack;
+	cooldown = random_range(50,100);
 	
-	with objShootBoss
+	with obj_cocozin
 	{
 		bulletBoss.direction = point_direction(bulletBoss.x,bulletBoss.y,obj_player.x,obj_player.y);
 		speed = 6;
@@ -18,3 +21,7 @@ if (alarm[0] == -1)
 {
 	alarm[0] = 300;
 }
+
+
+
+

@@ -1,8 +1,26 @@
- /// @description Insert description here
-// You can write your code in this editor
 
+switch (state)
+{
+	case Pombo_STATE.CUTSCENE: scr_cutscene_pombo(); break;
+	case Pombo_STATE.BOBBING: scr_shooting_pombo(); break;
+	case Pombo_STATE.SHOOTING: scr_shooting_pombo(); break;
+}
 
+if count < 2 
+{
+
+ if state = Pombo_STATE.CUTSCENE
+ {
+	 if (alarm[0] == -1)
+	 {
+		 alarm[0] = 300;
+	 }
+ }
+ 
+}
+
+// morte do boss
 if(hp_pombo < 0 || hp_pombo = 0){
 	instance_destroy(); 
 	audio_play_sound(snd_solado,0,false);
-} 
+}
