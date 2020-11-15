@@ -2895,6 +2895,14 @@
             }
         },
         {
+            "Key": "bed4d1d2-3457-4bce-a6b1-8ab47c0cbadd",
+            "Value": {
+                "id": "e8b42d9e-a19b-4dc2-9ba6-b8805ec6b31c",
+                "resourcePath": "sounds\\snd_fase02\\snd_fase02.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "bf33961b-197a-4b10-8f9a-1dbaea2146ab",
             "Value": {
                 "id": "6bc040b4-1384-4fdd-98ac-f3adc4f64a19",
