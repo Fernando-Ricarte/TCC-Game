@@ -6,7 +6,7 @@ switch(fase){
 
 	case 1:{
 		if(global.Fase_Destravada == 1) {
-			room_goto(Fase02);
+			room_goto(tutorial1);
 			audio_stop_all();
 		} 
 		else show_message("Está fase ainda não está disponivel");
@@ -15,7 +15,7 @@ switch(fase){
 
 	case 2:{
 		if(global.Fase_Destravada == 1) {
-			room_goto(FaseDefinitiva02);
+			room_goto(Fase02);
 			audio_stop_all();
 		} 
 		else show_message("Está fase ainda não está disponivel");
@@ -24,8 +24,7 @@ switch(fase){
 
 	case 3:{
 		if(global.Fase_Destravada == 1) {
-			//ta em falta room_goto();
-			show_message("indisponivel");
+			room_goto(FaseDefinitiva02);
 			audio_stop_all();
 		} 
 		else show_message("Está fase ainda não está disponivel");
