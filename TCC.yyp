@@ -122,7 +122,7 @@
             "Key": "077657fc-9d01-4545-b7f4-320e95735cb5",
             "Value": {
                 "id": "b3a29f40-c17f-4854-b414-5b068dad52cf",
-                "resourcePath": "sprites\\sprite159\\sprite159.yy",
+                "resourcePath": "sprites\\sprite_caixa\\sprite_caixa.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1927,6 +1927,14 @@
             }
         },
         {
+            "Key": "7f698b50-78f7-4c34-835b-60f03426422b",
+            "Value": {
+                "id": "a908b25d-2103-44af-a180-d3e4789f8e4b",
+                "resourcePath": "sprites\\spr_avisoMortePombo\\spr_avisoMortePombo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7fcbf575-b69a-4ea2-a77d-a14dfa81973f",
             "Value": {
                 "id": "e2db0831-bca8-4736-bcb0-623e50500d30",
@@ -2279,14 +2287,6 @@
             }
         },
         {
-            "Key": "9914112b-ba6d-4889-b215-2018e8618a00",
-            "Value": {
-                "id": "2f75753f-a14d-44af-ba42-474e9f95d390",
-                "resourcePath": "sprites\\spr_favelaReal\\spr_favelaReal.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "998e8d43-5d67-40b9-8dd0-f39fe5d0a5dd",
             "Value": {
                 "id": "3b344d3e-1ea0-458e-9e9e-577a74d0a256",
@@ -2324,14 +2324,6 @@
                 "id": "345a2239-b2f0-418b-9f87-80dd21b80f11",
                 "resourcePath": "sounds\\snd_erro_hit\\snd_erro_hit.yy",
                 "resourceType": "GMSound"
-            }
-        },
-        {
-            "Key": "9aee0e37-11a9-49ee-a8bb-c97b2deaba3b",
-            "Value": {
-                "id": "1a45baa9-1c05-4bf2-86b5-4103d2c0a25a",
-                "resourcePath": "tilesets\\tile_favelaReal\\tile_favelaReal.yy",
-                "resourceType": "GMTileSet"
             }
         },
         {
@@ -2967,6 +2959,14 @@
             }
         },
         {
+            "Key": "c0fcee08-b3cf-44d9-9212-b562ea2ed6b9",
+            "Value": {
+                "id": "fbd8e1b5-72fd-4a0c-9ee2-02fceb453927",
+                "resourcePath": "sprites\\spr_favelaReal\\spr_favelaReal.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c1166866-eb0c-4e31-b754-bdcef923091f",
             "Value": {
                 "id": "573f9064-f9b7-4c0e-b878-0ae346210853",
@@ -3060,6 +3060,14 @@
                 "id": "884522e9-a939-4329-80c6-6b6cd323271d",
                 "resourcePath": "views\\ca0d2e33-dcff-42d2-a37b-9ceac1888045.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "caca7444-4d45-4766-9001-464543936143",
+            "Value": {
+                "id": "3e518666-240c-4c48-b8eb-e7ef27216b6b",
+                "resourcePath": "tilesets\\tile_favelaReal\\tile_favelaReal.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -3431,6 +3439,14 @@
             }
         },
         {
+            "Key": "e5edf0cc-335b-492d-98a4-cea29a853d34",
+            "Value": {
+                "id": "7fac21fd-d9b7-4d4b-b2bf-747b195d1939",
+                "resourcePath": "sprites\\sprite_van\\sprite_van.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e644d587-a8ff-4223-a88d-eb10e6949f5f",
             "Value": {
                 "id": "ad5b9f3b-983d-47fb-9488-9eac7fcbc53b",
@@ -3540,6 +3556,14 @@
                 "id": "46732a00-974a-418b-80e7-cb3ec51730d6",
                 "resourcePath": "views\\f14b7239-5a02-4186-bf99-55476c74fd55.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f159b411-6d9d-43c7-8d45-04eceb3cca4e",
+            "Value": {
+                "id": "5f4ddb52-88d5-4172-aaeb-15de4fd6bf93",
+                "resourcePath": "sprites\\spr_lixo\\spr_lixo.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

@@ -10,9 +10,9 @@
         "7c27bbeb-64c6-48d4-8e1b-0ed04ed05295",
         "76e0ef7d-f537-499d-9c6f-6d0d352e63c1",
         "0a07cc0b-c830-4f51-b0b6-7cb2eecc698d",
-        "9aee0e37-11a9-49ee-a8bb-c97b2deaba3b",
         "a018a997-eb14-476a-ac44-19b7b26ee2bb",
-        "5ba8dd00-eb25-4fb7-8fa2-1b073a56fb01"
+        "5ba8dd00-eb25-4fb7-8fa2-1b073a56fb01",
+        "caca7444-4d45-4766-9001-464543936143"
     ],
     "filterType": "GMTileSet",
     "folderName": "Construção",
