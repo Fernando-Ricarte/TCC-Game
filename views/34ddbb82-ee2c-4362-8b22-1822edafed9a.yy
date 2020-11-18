@@ -10,7 +10,7 @@
         "4d53648a-76ea-4909-adf1-3d28e80b35b2"
     ],
     "filterType": "GMObject",
-    "folderName": "gameover",
+    "folderName": "Telas de Finalizações",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

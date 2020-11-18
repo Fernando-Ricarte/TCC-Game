@@ -447,6 +447,14 @@
             }
         },
         {
+            "Key": "214d6247-65b0-4efd-8d97-6cac40892e21",
+            "Value": {
+                "id": "a6897743-be1a-4af8-b5e4-390c2a162ac8",
+                "resourcePath": "sounds\\snd_HolyDiver\\snd_HolyDiver.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "215895b9-0331-49a1-b25a-f23c4716074e",
             "Value": {
                 "id": "7be7995f-4e65-4005-94de-9c5678949ff8",

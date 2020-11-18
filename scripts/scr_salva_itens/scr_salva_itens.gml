@@ -1,4 +1,4 @@
-
+/*
 for (var w = 0; w <= 9; w++)
 {	
 	var iid = global.inventory[# w, 0];
