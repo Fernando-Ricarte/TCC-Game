@@ -559,6 +559,14 @@
             }
         },
         {
+            "Key": "276c029a-b398-4ca1-838a-41a6aed8cef2",
+            "Value": {
+                "id": "3070f150-3d7d-4a9c-b6b8-17eadf892399",
+                "resourcePath": "sprites\\spr_vitoria\\spr_vitoria.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "277c6987-9ca9-4497-95f2-e849fe0f40f7",
             "Value": {
                 "id": "e8b6ffce-d738-4d72-a55a-51429520eabc",
@@ -1219,6 +1227,14 @@
             "Value": {
                 "id": "464660e8-07f5-4c6f-8c79-5ae3e5db6999",
                 "resourcePath": "objects\\obj_salva_itens\\obj_salva_itens.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4d53648a-76ea-4909-adf1-3d28e80b35b2",
+            "Value": {
+                "id": "d2bfb59f-d0ea-4e5b-ad88-9aaebec50ed7",
+                "resourcePath": "objects\\obj_vitoria\\obj_vitoria.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2156,6 +2172,14 @@
                 "id": "b3d4041e-3269-4c31-afa2-878fca4bb6b4",
                 "resourcePath": "views\\8bdddc80-390e-4fa2-8cca-d5fae7d91ca8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8c24afd4-c8c3-48c2-8a2e-aed7abc72fb4",
+            "Value": {
+                "id": "86dcfdd1-d16e-42b0-95f6-be300b913914",
+                "resourcePath": "rooms\\VITORIA\\VITORIA.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
