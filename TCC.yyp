@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "0f4bb22a-b6f9-4f10-92c2-e6e39e762507",
+            "Value": {
+                "id": "f7d5a435-32d7-4110-8019-9f3c492c70d2",
+                "resourcePath": "sprites\\sprite_fusca\\sprite_fusca.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "10156d6a-e69c-477b-bcce-e9274ed194b8",
             "Value": {
                 "id": "6e09bf3d-59dd-4f1c-848f-b45575316c15",
