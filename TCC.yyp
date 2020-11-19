@@ -2583,6 +2583,14 @@
             }
         },
         {
+            "Key": "a82121de-6e27-41fc-bf78-ebce2d6a6fca",
+            "Value": {
+                "id": "a99e03bd-4984-49f8-a68c-98125433700b",
+                "resourcePath": "sounds\\snd_parabens_shinji\\snd_parabens_shinji.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "a84aaf73-f681-4623-8266-c95fdfcdd8bc",
             "Value": {
                 "id": "71f80c1c-0e2e-43d0-a753-e882dbdea892",
@@ -3531,6 +3539,14 @@
             "Value": {
                 "id": "5c718e20-df53-4188-98ff-1c1da199cb62",
                 "resourcePath": "objects\\obj_gain_desc\\obj_gain_desc.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e78cf5b3-52bf-43c6-aa67-e2352c8caea4",
+            "Value": {
+                "id": "916a94c7-531b-4ba7-b56b-da6eed8e1b91",
+                "resourcePath": "objects\\obj_fusca_azul\\obj_fusca_azul.yy",
                 "resourceType": "GMObject"
             }
         },

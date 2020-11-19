@@ -2,7 +2,7 @@
 {
     "name": "Zerado",
     "id": "f1dce9d0-3efc-4111-8a92-a5b1b61fd229",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
