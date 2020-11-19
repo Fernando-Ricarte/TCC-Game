@@ -6,7 +6,8 @@
     "children": [
         "4f1daeb6-3efa-4261-8fc6-95f5635904a2",
         "e141cf60-8717-4a63-b8a9-885026e9ac51",
-        "65c187a2-2609-44b0-9050-6845310d87c9"
+        "65c187a2-2609-44b0-9050-6845310d87c9",
+        "c930c5db-c89b-4169-bd67-2591bbb9832a"
     ],
     "filterType": "GMObject",
     "folderName": "redirecionadores",

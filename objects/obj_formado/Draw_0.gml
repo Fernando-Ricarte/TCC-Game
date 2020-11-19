@@ -1,4 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-y-=40;
+if(instance_exists(obj_aurivam) == false){
+	draw_self();
+} 

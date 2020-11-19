@@ -11,7 +11,8 @@
         "bbe7d6e1-9e7d-4147-87c8-db6f951c51f0",
         "30c75095-2819-44bc-8f08-4045b5d72196",
         "c7d96287-ffae-4213-874c-28d9452d90ac",
-        "bed4d1d2-3457-4bce-a6b1-8ab47c0cbadd"
+        "bed4d1d2-3457-4bce-a6b1-8ab47c0cbadd",
+        "214d6247-65b0-4efd-8d97-6cac40892e21"
     ],
     "filterType": "GMSound",
     "folderName": "MUSICAS\/AMBIENTAÇÃO",
