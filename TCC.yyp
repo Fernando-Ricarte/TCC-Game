@@ -3191,6 +3191,14 @@
             }
         },
         {
+            "Key": "cf8878b3-e74c-44e8-8335-4e98e63c0bbe",
+            "Value": {
+                "id": "0e6de961-901f-41fd-bbaf-b20d1419f57d",
+                "resourcePath": "sprites\\spr_zerado\\spr_zerado.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d0697cfd-d5fb-4230-83e8-36a3708c18fe",
             "Value": {
                 "id": "9142c836-40e2-4d90-bd71-0df2873f89f1",
@@ -3668,6 +3676,14 @@
                 "id": "21a78225-9030-49c0-94a6-b688c4e7da47",
                 "resourcePath": "sprites\\sprite57\\sprite57.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f1dce9d0-3efc-4111-8a92-a5b1b61fd229",
+            "Value": {
+                "id": "4cc0b9d7-ccfc-456d-8164-95f1023c1570",
+                "resourcePath": "rooms\\Zerado\\Zerado.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
