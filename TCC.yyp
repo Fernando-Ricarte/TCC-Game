@@ -951,6 +951,14 @@
             }
         },
         {
+            "Key": "3e9067ed-a700-4ec5-9e53-2a1f99ba378f",
+            "Value": {
+                "id": "eb4dd1f9-abde-4a5d-a22d-de32428cc15a",
+                "resourcePath": "sounds\\sound_buzina\\sound_buzina.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "3f6b6ea6-b83c-48b4-978e-f2674c577ce2",
             "Value": {
                 "id": "6d74e23c-3436-4dab-b895-10abc6216fb9",
