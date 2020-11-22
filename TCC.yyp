@@ -2551,6 +2551,14 @@
             }
         },
         {
+            "Key": "a369fd4e-b9bf-4566-9e6e-9788c8f0c954",
+            "Value": {
+                "id": "33e3a8f4-b3e8-49d3-9c1c-83c36008a31e",
+                "resourcePath": "sprites\\spr_avisoChao\\spr_avisoChao.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a3a2b8be-80b6-4173-8029-05c04a8f986d",
             "Value": {
                 "id": "ebcfcf6d-8db7-4fe1-a0be-6b7966379ab3",
@@ -2695,6 +2703,14 @@
             }
         },
         {
+            "Key": "ab115681-ae1e-4fc4-bfcc-cf63ea3168ac",
+            "Value": {
+                "id": "fb1e77b6-33d9-4607-b635-d8878f6049db",
+                "resourcePath": "sprites\\sprite_ruaFalso\\sprite_ruaFalso.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ab7bcd5e-a459-4033-8bf7-1726c21c988d",
             "Value": {
                 "id": "b1f3d33c-c452-4305-9ce6-34091936bbac",
@@ -2708,6 +2724,14 @@
                 "id": "56474ac3-6c5f-4eb9-9093-17aef16dec01",
                 "resourcePath": "sprites\\spr_terreno\\spr_terreno.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ac3277c0-1972-42f1-bdcb-43e4a873420d",
+            "Value": {
+                "id": "794192b6-39f1-4b98-b9a5-1a61c632e5b0",
+                "resourcePath": "objects\\obj_chaoFalso\\obj_chaoFalso.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2995,6 +3019,14 @@
             "Value": {
                 "id": "de5ad2c9-66aa-4978-bb54-4fc99205021c",
                 "resourcePath": "sprites\\spr_errorIdle\\spr_errorIdle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bc7e365c-2a66-4e1e-8e5a-93d6e60d7f02",
+            "Value": {
+                "id": "560b4269-fa05-49ca-8ec0-73aa3de8ac95",
+                "resourcePath": "sprites\\sprite_vigaFalsa\\sprite_vigaFalsa.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -3479,6 +3511,14 @@
             }
         },
         {
+            "Key": "e3a737f1-b2aa-46b9-9a03-f6d18e8907d1",
+            "Value": {
+                "id": "0ab84ffa-5079-44e6-a03e-46ca5ec43aa5",
+                "resourcePath": "sprites\\sprite_vigaDupla\\sprite_vigaDupla.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e3caf5cc-3f1b-4a37-920e-631f477a2f5c",
             "Value": {
                 "id": "a70e1666-e33b-4dd7-8500-b5a1798d0f5a",
@@ -3652,6 +3692,14 @@
                 "id": "84ea1c8e-2cfd-40da-a39e-28917d0098c7",
                 "resourcePath": "sprites\\gun01\\gun01.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f0361dc0-117d-44b4-ae00-7805d8472cc5",
+            "Value": {
+                "id": "36732454-591c-4052-9aa1-4ef425d42c32",
+                "resourcePath": "objects\\obj_vigaFalsa\\obj_vigaFalsa.yy",
+                "resourceType": "GMObject"
             }
         },
         {

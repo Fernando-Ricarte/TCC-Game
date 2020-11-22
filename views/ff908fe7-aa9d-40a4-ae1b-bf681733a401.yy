@@ -14,11 +14,13 @@
         "f5ed7658-97c2-4c0f-891e-d203a0d93b79",
         "d072969e-0ba6-4d18-be9e-7ad9c916b39b",
         "24733fd2-5108-451b-87b7-d98ea591c78c",
+        "ab115681-ae1e-4fc4-bfcc-cf63ea3168ac",
         "077657fc-9d01-4545-b7f4-320e95735cb5",
         "7f698b50-78f7-4c34-835b-60f03426422b",
         "e5edf0cc-335b-492d-98a4-cea29a853d34",
         "0f4bb22a-b6f9-4f10-92c2-e6e39e762507",
-        "2562421b-a905-42fa-a689-82a4fdd3839b"
+        "2562421b-a905-42fa-a689-82a4fdd3839b",
+        "a369fd4e-b9bf-4566-9e6e-9788c8f0c954"
     ],
     "filterType": "GMSprite",
     "folderName": "Fase02",

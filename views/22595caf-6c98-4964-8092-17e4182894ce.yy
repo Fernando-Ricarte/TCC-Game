@@ -14,7 +14,9 @@
         "5c77b87d-af81-4543-807d-9d5133047790",
         "743d6886-4646-4cb9-9dbd-ff001e729f0d",
         "f1b1fcd4-54b4-42f9-b93a-5d8cf4e769a5",
-        "f04cea14-1998-4614-a687-2cc7ffa20dc3"
+        "f04cea14-1998-4614-a687-2cc7ffa20dc3",
+        "bc7e365c-2a66-4e1e-8e5a-93d6e60d7f02",
+        "e3a737f1-b2aa-46b9-9a03-f6d18e8907d1"
     ],
     "filterType": "GMSprite",
     "folderName": "Blocos",
