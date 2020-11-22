@@ -551,6 +551,14 @@
             }
         },
         {
+            "Key": "2562421b-a905-42fa-a689-82a4fdd3839b",
+            "Value": {
+                "id": "3e2ac9fb-dc51-4ebc-81ed-37a4b1e066ca",
+                "resourcePath": "sprites\\sprite_caminhao\\sprite_caminhao.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "25e91b04-383c-4ad5-8bca-e8c66afcc9a5",
             "Value": {
                 "id": "5e30edb3-da8f-410a-985e-c370611870bb",
@@ -2188,6 +2196,14 @@
                 "id": "2ba19423-3755-49f3-a647-93c8c5e11a01",
                 "resourcePath": "sprites\\spr_bazucao\\spr_bazucao.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8b7ebc14-3f27-432b-9828-979cd0c19295",
+            "Value": {
+                "id": "7d7e0947-f324-40ff-ad31-28f37bfa6921",
+                "resourcePath": "sounds\\snd_pombo_hit\\snd_pombo_hit.yy",
+                "resourceType": "GMSound"
             }
         },
         {

@@ -9,7 +9,8 @@
         "9a87d1a6-e410-4556-90a3-8d749c1fbddc",
         "e9fc4023-e1d6-42bc-80be-a31e8bb93cf3",
         "e224eaaa-6ffa-4574-b8ce-1368c2b3e800",
-        "fcdc5977-056d-467e-8755-fc692b34e903"
+        "fcdc5977-056d-467e-8755-fc692b34e903",
+        "8b7ebc14-3f27-432b-9828-979cd0c19295"
     ],
     "filterType": "GMSound",
     "folderName": "HIT",

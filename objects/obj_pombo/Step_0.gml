@@ -21,6 +21,6 @@ if count < 2
 // morte do pombo
 if(hp_pombo < 0 || hp_pombo = 0){
 	instance_destroy();
-	global.hp = global.hp - 10;
+	global.hp = global.hp - 20;
 	audio_play_sound(snd_solado,0,false);
 }

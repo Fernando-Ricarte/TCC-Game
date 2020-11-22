@@ -1,8 +1,8 @@
 {
-    "id": "3e9067ed-a700-4ec5-9e53-2a1f99ba378f",
+    "id": "8b7ebc14-3f27-432b-9828-979cd0c19295",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "sound_buzina",
+    "name": "snd_pombo_hit",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,
@@ -10,5 +10,5 @@
     "preload": false,
     "sampleRate": 44100,
     "type": 0,
-    "volume": 0.4
+    "volume": 0.71
 }

@@ -17,7 +17,8 @@
         "077657fc-9d01-4545-b7f4-320e95735cb5",
         "7f698b50-78f7-4c34-835b-60f03426422b",
         "e5edf0cc-335b-492d-98a4-cea29a853d34",
-        "0f4bb22a-b6f9-4f10-92c2-e6e39e762507"
+        "0f4bb22a-b6f9-4f10-92c2-e6e39e762507",
+        "2562421b-a905-42fa-a689-82a4fdd3839b"
     ],
     "filterType": "GMSprite",
     "folderName": "Fase02",
