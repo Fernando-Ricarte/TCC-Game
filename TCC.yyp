@@ -31,14 +31,6 @@
     },
     "resources": [
         {
-            "Key": "00626759-36b3-4ede-8411-4b3f3cfdec48",
-            "Value": {
-                "id": "dfe0fbb1-6c95-40b9-8c59-85b644adc8b8",
-                "resourcePath": "sounds\\fase_definitiva1\\fase_definitiva1.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "007ba939-3a8c-4984-b6c3-1ac78bf24815",
             "Value": {
                 "id": "61e783c6-ef25-4037-a7d9-a97c788f8003",
@@ -1356,6 +1348,14 @@
                 "id": "4b2543b1-383a-4c31-9fca-28afdb9c9943",
                 "resourcePath": "objects\\GAME_CONTROLLER\\GAME_CONTROLLER.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "54587ada-e75d-4354-9305-f5ee338b2ca7",
+            "Value": {
+                "id": "c2a4540b-9a72-453f-a1bb-11c878e259fd",
+                "resourcePath": "sounds\\snd_hai_yo\\snd_hai_yo.yy",
+                "resourceType": "GMSound"
             }
         },
         {
