@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "0e7911c9-2b58-4750-b48e-41e316b64f26",
+            "Value": {
+                "id": "fc308b22-2352-4158-9f1b-bf875797f77c",
+                "resourcePath": "sounds\\snd_fase03\\snd_fase03.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "0f225f41-185e-4602-87e7-dd8a2e9a364e",
             "Value": {
                 "id": "2db3c01a-3c3b-49eb-8d25-5fb3da6189b6",
